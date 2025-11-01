@@ -1,0 +1,2902 @@
+[
+  {
+    "id": 2344374,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.13.3.369.jar",
+    "fileName": "jei_1.10.2-3.13.3.369.jar",
+    "releaseType": 1,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "3ffbb5e82ae9580bdd54e490b4551c815bce0223",
+        "algo": 1
+      },
+      {
+        "value": "cecbedbdc52544b8f144278eb2c33731",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-11-13T01:02:59.213Z",
+    "fileLength": 452001,
+    "downloadCount": 17957,
+    "downloadUrl": "https://edge.forgecdn.net/files/2344/374/jei_1.10.2-3.13.3.369.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 313195895,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 3962329437
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 1206283340
+      },
+      {
+        "name": "assets",
+        "fingerprint": 3727534617
+      }
+    ]
+  },
+  {
+    "id": 2344355,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.13.2.368.jar",
+    "fileName": "jei_1.10.2-3.13.2.368.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "3102000e7087e8936641f70673d7cb182db00b81",
+        "algo": 1
+      },
+      {
+        "value": "2ed41c6375d2d683a24c91d36ac005a8",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-11-13T00:06:37.493Z",
+    "fileLength": 452002,
+    "downloadCount": 7097,
+    "downloadUrl": "https://edge.forgecdn.net/files/2344/355/jei_1.10.2-3.13.2.368.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 334582299,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 1400912912
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 3380139571
+      },
+      {
+        "name": "assets",
+        "fingerprint": 3727534617
+      }
+    ]
+  },
+  {
+    "id": 2344117,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.13.2.367.jar",
+    "fileName": "jei_1.10.2-3.13.2.367.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "4885056d19967ef21d82ae0d1df68e14a5327f3e",
+        "algo": 1
+      },
+      {
+        "value": "e69c2c706eba83a76f0eacbfcfe8caa8",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-11-12T08:16:58.23Z",
+    "fileLength": 452008,
+    "downloadCount": 5450,
+    "downloadUrl": "https://edge.forgecdn.net/files/2344/117/jei_1.10.2-3.13.2.367.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 1454664826,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 2603356318
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 1123782824
+      },
+      {
+        "name": "assets",
+        "fingerprint": 3727534617
+      }
+    ]
+  },
+  {
+    "id": 2344115,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.13.2.366.jar",
+    "fileName": "jei_1.10.2-3.13.2.366.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "2dddfecf7894d1953cdb961a9914eef170dec635",
+        "algo": 1
+      },
+      {
+        "value": "3f550175f2af022a2367fe5b0bdb70d9",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-11-12T08:00:32.29Z",
+    "fileLength": 452076,
+    "downloadCount": 946,
+    "downloadUrl": "https://edge.forgecdn.net/files/2344/115/jei_1.10.2-3.13.2.366.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 966504633,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 277024718
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 683810659
+      },
+      {
+        "name": "assets",
+        "fingerprint": 15359644
+      }
+    ]
+  },
+  {
+    "id": 2344014,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.13.2.364.jar",
+    "fileName": "jei_1.10.2-3.13.2.364.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "cfd5bc42edd202c57af9c8435f5e51fe33a95fc7",
+        "algo": 1
+      },
+      {
+        "value": "4c39c6c25764baf0ed4794f498cb3123",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-11-11T21:22:24.113Z",
+    "fileLength": 451941,
+    "downloadCount": 3970,
+    "downloadUrl": "https://edge.forgecdn.net/files/2344/14/jei_1.10.2-3.13.2.364.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 2471860937,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 583807598
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 1553922536
+      },
+      {
+        "name": "assets",
+        "fingerprint": 15359644
+      }
+    ]
+  },
+  {
+    "id": 2343822,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.13.2.363.jar",
+    "fileName": "jei_1.10.2-3.13.2.363.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "8843f84a421261d317528ff3f850e0440fd2b5bb",
+        "algo": 1
+      },
+      {
+        "value": "77d41908fcdfe4b63d38dbf9bc1f402f",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-11-11T05:47:21.46Z",
+    "fileLength": 451940,
+    "downloadCount": 95812,
+    "downloadUrl": "https://edge.forgecdn.net/files/2343/822/jei_1.10.2-3.13.2.363.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 4002197304,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 1638919398
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 2702109630
+      },
+      {
+        "name": "assets",
+        "fingerprint": 15359644
+      }
+    ]
+  },
+  {
+    "id": 2343417,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.13.2.362.jar",
+    "fileName": "jei_1.10.2-3.13.2.362.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "3dbab0fe8b0303d02429e8539f0101fc4e0a360f",
+        "algo": 1
+      },
+      {
+        "value": "d39d639c0231a7a3ef407b8c7d4df191",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-11-10T22:31:55.827Z",
+    "fileLength": 449172,
+    "downloadCount": 1647,
+    "downloadUrl": "https://edge.forgecdn.net/files/2343/417/jei_1.10.2-3.13.2.362.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 1466472232,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 2850616245
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 2130233594
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1605099628
+      }
+    ]
+  },
+  {
+    "id": 2343313,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.13.2.361.jar",
+    "fileName": "jei_1.10.2-3.13.2.361.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "586a1a3bf2403b80e4872ea5b8d2af63b2e77a13",
+        "algo": 1
+      },
+      {
+        "value": "c8799691f08a8597dc88e68149436d7a",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-11-10T08:22:07.533Z",
+    "fileLength": 448879,
+    "downloadCount": 2408,
+    "downloadUrl": "https://edge.forgecdn.net/files/2343/313/jei_1.10.2-3.13.2.361.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 2848214042,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 3342224522
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 4015648048
+      },
+      {
+        "name": "assets",
+        "fingerprint": 2301305276
+      }
+    ]
+  },
+  {
+    "id": 2342621,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.13.2.360.jar",
+    "fileName": "jei_1.10.2-3.13.2.360.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "a51d2b4105236debf19a241a880b7613628b55fe",
+        "algo": 1
+      },
+      {
+        "value": "dedb64c59e91e21c4473d22236a8ee5d",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-11-07T10:07:00.633Z",
+    "fileLength": 447940,
+    "downloadCount": 63051,
+    "downloadUrl": "https://edge.forgecdn.net/files/2342/621/jei_1.10.2-3.13.2.360.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 2964996020,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 2794944307
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 2185198984
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1457311602
+      }
+    ]
+  },
+  {
+    "id": 2342357,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.13.2.359.jar",
+    "fileName": "jei_1.10.2-3.13.2.359.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "8e324f01947e017a59fa180ce09eb47e461e1729",
+        "algo": 1
+      },
+      {
+        "value": "c3f93814f8ce00255b3f1e00ccf6adff",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-11-06T06:19:17.79Z",
+    "fileLength": 442832,
+    "downloadCount": 11641,
+    "downloadUrl": "https://edge.forgecdn.net/files/2342/357/jei_1.10.2-3.13.2.359.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 1355348477,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 1759522467
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 2009459247
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1564235211
+      }
+    ]
+  },
+  {
+    "id": 2342350,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.13.2.358.jar",
+    "fileName": "jei_1.10.2-3.13.2.358.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "68dcfa698d0cda1b1efe49c3af592212f87901f1",
+        "algo": 1
+      },
+      {
+        "value": "f699c0320ea350a5fa64430fb8dc5407",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-11-06T05:31:56.773Z",
+    "fileLength": 442315,
+    "downloadCount": 1159,
+    "downloadUrl": "https://edge.forgecdn.net/files/2342/350/jei_1.10.2-3.13.2.358.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 2557229348,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 2591104903
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 1371345770
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1564235211
+      }
+    ]
+  },
+  {
+    "id": 2342185,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.13.2.357.jar",
+    "fileName": "jei_1.10.2-3.13.2.357.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "ef8639bb673f555b323fa34e116e5a420aafeccf",
+        "algo": 1
+      },
+      {
+        "value": "41a271aee042ea1c8399964125b06db5",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-11-05T20:41:59.703Z",
+    "fileLength": 441533,
+    "downloadCount": 10266,
+    "downloadUrl": "https://edge.forgecdn.net/files/2342/185/jei_1.10.2-3.13.2.357.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 1384426447,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 2066496961
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 34752655
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1564235211
+      }
+    ]
+  },
+  {
+    "id": 2342168,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.13.2.356.jar",
+    "fileName": "jei_1.10.2-3.13.2.356.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "79eecf82086b2f6edfd978692003aefa0c2a9a7f",
+        "algo": 1
+      },
+      {
+        "value": "25e71369f56dffc0da5faf2f961bd2c5",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-11-05T19:51:51.317Z",
+    "fileLength": 441627,
+    "downloadCount": 912,
+    "downloadUrl": "https://edge.forgecdn.net/files/2342/168/jei_1.10.2-3.13.2.356.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 591379632,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 130285503
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 1123273517
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1564235211
+      }
+    ]
+  },
+  {
+    "id": 2342164,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.13.2.355.jar",
+    "fileName": "jei_1.10.2-3.13.2.355.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "2c4d0e8fbeea441c4ca0aa4365b4838af080f667",
+        "algo": 1
+      },
+      {
+        "value": "76957b68d4f98fc14bcc42bf57cbb763",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-11-05T19:44:38.413Z",
+    "fileLength": 441440,
+    "downloadCount": 918,
+    "downloadUrl": "https://edge.forgecdn.net/files/2342/164/jei_1.10.2-3.13.2.355.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 694759589,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 131300961
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 2127490794
+      },
+      {
+        "name": "assets",
+        "fingerprint": 325076608
+      }
+    ]
+  },
+  {
+    "id": 2341932,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.13.2.354.jar",
+    "fileName": "jei_1.10.2-3.13.2.354.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "60b052a589c782bc7d4b166a912983a062229840",
+        "algo": 1
+      },
+      {
+        "value": "361471c0ad5146778b7441d520d1f23c",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-11-05T01:16:48.013Z",
+    "fileLength": 441294,
+    "downloadCount": 17131,
+    "downloadUrl": "https://edge.forgecdn.net/files/2341/932/jei_1.10.2-3.13.2.354.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 3950701138,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 3453165577
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 3066524840
+      },
+      {
+        "name": "assets",
+        "fingerprint": 325076608
+      }
+    ]
+  },
+  {
+    "id": 2341789,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.13.2.353.jar",
+    "fileName": "jei_1.10.2-3.13.2.353.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "f4c93332bec66e0eced47b04e69239159a28fe42",
+        "algo": 1
+      },
+      {
+        "value": "1a69f627e2e45ea0e778a9f595313344",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-11-04T17:30:27.537Z",
+    "fileLength": 441238,
+    "downloadCount": 12151,
+    "downloadUrl": "https://edge.forgecdn.net/files/2341/789/jei_1.10.2-3.13.2.353.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 604113163,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 3061120424
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 204384966
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1433500550
+      }
+    ]
+  },
+  {
+    "id": 2341787,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.13.2.352.jar",
+    "fileName": "jei_1.10.2-3.13.2.352.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "10fb1103a619400bb69f81d9d5096dbbf0bd7160",
+        "algo": 1
+      },
+      {
+        "value": "bf98058c867685f564b320c828193904",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-11-04T17:21:52.433Z",
+    "fileLength": 441225,
+    "downloadCount": 676,
+    "downloadUrl": "https://edge.forgecdn.net/files/2341/787/jei_1.10.2-3.13.2.352.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 1785347816,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 1295514403
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 2920727665
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1433500550
+      }
+    ]
+  },
+  {
+    "id": 2341777,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.13.2.351.jar",
+    "fileName": "jei_1.10.2-3.13.2.351.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "fc91ee88154d2fd71ec849e01d41783347a65be7",
+        "algo": 1
+      },
+      {
+        "value": "66a698c8e19ff9fee8e45020e3592d0f",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-11-04T16:56:48.14Z",
+    "fileLength": 441085,
+    "downloadCount": 820,
+    "downloadUrl": "https://edge.forgecdn.net/files/2341/777/jei_1.10.2-3.13.2.351.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 1650865051,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 2450790861
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 3406676779
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1433500550
+      }
+    ]
+  },
+  {
+    "id": 2341772,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.13.2.350.jar",
+    "fileName": "jei_1.10.2-3.13.2.350.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "13e871c86325a1e177bd89ba5455795b641d9534",
+        "algo": 1
+      },
+      {
+        "value": "292dc08095b2bce542bebb5c92323c54",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-11-04T16:41:23.783Z",
+    "fileLength": 441058,
+    "downloadCount": 4046,
+    "downloadUrl": "https://edge.forgecdn.net/files/2341/772/jei_1.10.2-3.13.2.350.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 4015394820,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 1016412007
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 964394618
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1433500550
+      }
+    ]
+  },
+  {
+    "id": 2341685,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.13.2.349.jar",
+    "fileName": "jei_1.10.2-3.13.2.349.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "1240924985e53d10d4b37767006da8bb8b43c948",
+        "algo": 1
+      },
+      {
+        "value": "5aa85fe592fb60a283723c2572ca5e72",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-11-04T04:49:00.45Z",
+    "fileLength": 440995,
+    "downloadCount": 2195,
+    "downloadUrl": "https://edge.forgecdn.net/files/2341/685/jei_1.10.2-3.13.2.349.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 749472810,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 3605229968
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 2346175568
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1433500550
+      }
+    ]
+  },
+  {
+    "id": 2341676,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.13.2.348.jar",
+    "fileName": "jei_1.10.2-3.13.2.348.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "1f6e9815c2ded2267039047c2281a735d1fcc1a0",
+        "algo": 1
+      },
+      {
+        "value": "e2b2ac4fdacd1a8df18a933db9e2484a",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-11-04T04:01:03.143Z",
+    "fileLength": 441002,
+    "downloadCount": 12404,
+    "downloadUrl": "https://edge.forgecdn.net/files/2341/676/jei_1.10.2-3.13.2.348.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 179646429,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 3375282881
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 2772413989
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1433500550
+      }
+    ]
+  },
+  {
+    "id": 2341520,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.13.1.346.jar",
+    "fileName": "jei_1.10.2-3.13.1.346.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "42e3f9b7d1804f7b3cbcd307cdff0a9d79ac1be1",
+        "algo": 1
+      },
+      {
+        "value": "616980908b1e63e03ba40f70a5146b86",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-11-03T17:26:51.62Z",
+    "fileLength": 432833,
+    "downloadCount": 49425,
+    "downloadUrl": "https://edge.forgecdn.net/files/2341/520/jei_1.10.2-3.13.1.346.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 1383174491,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 2588980916
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 2311172927
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1433500550
+      }
+    ]
+  },
+  {
+    "id": 2341501,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.13.1.345.jar",
+    "fileName": "jei_1.10.2-3.13.1.345.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "c0edca067882f304b056513a163f88feb4643ab5",
+        "algo": 1
+      },
+      {
+        "value": "1051569c3f0b89dac7b14fb6a8c501f8",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-11-03T16:17:41.08Z",
+    "fileLength": 432843,
+    "downloadCount": 3936,
+    "downloadUrl": "https://edge.forgecdn.net/files/2341/501/jei_1.10.2-3.13.1.345.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 763377863,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 3322410830
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 167254194
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1433500550
+      }
+    ]
+  },
+  {
+    "id": 2341408,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.13.0.342.jar",
+    "fileName": "jei_1.10.2-3.13.0.342.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "40325dd84161c5a104211235183db1addc57461f",
+        "algo": 1
+      },
+      {
+        "value": "2714cd49d2747341e0d04f406ff59570",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-11-03T04:42:07.637Z",
+    "fileLength": 422993,
+    "downloadCount": 809,
+    "downloadUrl": "https://edge.forgecdn.net/files/2341/408/jei_1.10.2-3.13.0.342.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 3632805506,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 1427715360
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 4289557022
+      },
+      {
+        "name": "assets",
+        "fingerprint": 311889354
+      }
+    ]
+  },
+  {
+    "id": 2341139,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.13.0.341.jar",
+    "fileName": "jei_1.10.2-3.13.0.341.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "261d2d31074aa4c980a643d69be404f572ef4534",
+        "algo": 1
+      },
+      {
+        "value": "3e1a0620a4f6f237ef670521dc1b5b6d",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-11-02T03:57:37.443Z",
+    "fileLength": 422893,
+    "downloadCount": 4727,
+    "downloadUrl": "https://edge.forgecdn.net/files/2341/139/jei_1.10.2-3.13.0.341.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 2097000571,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 214911971
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 3386799183
+      },
+      {
+        "name": "assets",
+        "fingerprint": 311889354
+      }
+    ]
+  },
+  {
+    "id": 2341133,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.13.0.340.jar",
+    "fileName": "jei_1.10.2-3.13.0.340.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "f6fd23b2223caf450896c8f88ed8f5ae04c90e42",
+        "algo": 1
+      },
+      {
+        "value": "412a44ba5c31ef21eb93e41c4f0fd5f6",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-11-02T03:33:27.297Z",
+    "fileLength": 422882,
+    "downloadCount": 694,
+    "downloadUrl": "https://edge.forgecdn.net/files/2341/133/jei_1.10.2-3.13.0.340.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 1015606883,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 1936371504
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 317101510
+      },
+      {
+        "name": "assets",
+        "fingerprint": 311889354
+      }
+    ]
+  },
+  {
+    "id": 2341086,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.13.0.339.jar",
+    "fileName": "jei_1.10.2-3.13.0.339.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "899de7031240d1adbd77450425ab6d30af81f561",
+        "algo": 1
+      },
+      {
+        "value": "9a62cd533eb8cee0dbdf441a8dbf6f34",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-11-01T22:28:14.56Z",
+    "fileLength": 422759,
+    "downloadCount": 1101,
+    "downloadUrl": "https://edge.forgecdn.net/files/2341/86/jei_1.10.2-3.13.0.339.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 1345553028,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 12679824
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 2512344135
+      },
+      {
+        "name": "assets",
+        "fingerprint": 311889354
+      }
+    ]
+  },
+  {
+    "id": 2340686,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.13.0.338.jar",
+    "fileName": "jei_1.10.2-3.13.0.338.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "67da5a303af47b768c24beba0320df84ec35ee71",
+        "algo": 1
+      },
+      {
+        "value": "5bb4ceee9f7cd3877450a8eba9366f93",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-10-31T02:09:22.457Z",
+    "fileLength": 425533,
+    "downloadCount": 17553,
+    "downloadUrl": "https://edge.forgecdn.net/files/2340/686/jei_1.10.2-3.13.0.338.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 258721440,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 2240846037
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 816766912
+      },
+      {
+        "name": "assets",
+        "fingerprint": 311889354
+      }
+    ]
+  },
+  {
+    "id": 2340647,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.13.0.337.jar",
+    "fileName": "jei_1.10.2-3.13.0.337.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "973781542cc879db80db3d6a78718d661bc2612e",
+        "algo": 1
+      },
+      {
+        "value": "d248f124dc1cb8866b2f002421e2c416",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-10-30T23:17:11.97Z",
+    "fileLength": 421881,
+    "downloadCount": 1064,
+    "downloadUrl": "https://edge.forgecdn.net/files/2340/647/jei_1.10.2-3.13.0.337.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 3270008213,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 379123633
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 3105602137
+      },
+      {
+        "name": "assets",
+        "fingerprint": 311889354
+      }
+    ]
+  },
+  {
+    "id": 2340609,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.13.0.336.jar",
+    "fileName": "jei_1.10.2-3.13.0.336.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "0b9f4d6b47012764db84c7bd6a56ae52f2414bec",
+        "algo": 1
+      },
+      {
+        "value": "010e254bb97ad7a99cee62f39636c08c",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-10-30T20:47:04.74Z",
+    "fileLength": 424752,
+    "downloadCount": 942,
+    "downloadUrl": "https://edge.forgecdn.net/files/2340/609/jei_1.10.2-3.13.0.336.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 80426127,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 3515754138
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 1476661096
+      },
+      {
+        "name": "assets",
+        "fingerprint": 311889354
+      }
+    ]
+  },
+  {
+    "id": 2340034,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.13.0.335.jar",
+    "fileName": "jei_1.10.2-3.13.0.335.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "abf8592f31be78fcbad02fdff1d26f082aab18b1",
+        "algo": 1
+      },
+      {
+        "value": "cc49b2747ab40737bd9f9d9b8f156b2d",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-10-28T21:38:49.473Z",
+    "fileLength": 424812,
+    "downloadCount": 24494,
+    "downloadUrl": "https://edge.forgecdn.net/files/2340/34/jei_1.10.2-3.13.0.335.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 3737648589,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 3431271105
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 805958882
+      },
+      {
+        "name": "assets",
+        "fingerprint": 311889354
+      }
+    ]
+  },
+  {
+    "id": 2339732,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.13.0.334.jar",
+    "fileName": "jei_1.10.2-3.13.0.334.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "a2aaff202397c815806c0c5ea8993711f61ec5c1",
+        "algo": 1
+      },
+      {
+        "value": "0445b0bd82a100f56735b046e2d5461a",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-10-27T05:57:01.287Z",
+    "fileLength": 424978,
+    "downloadCount": 12802,
+    "downloadUrl": "https://edge.forgecdn.net/files/2339/732/jei_1.10.2-3.13.0.334.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 112597668,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 262372357
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 2978620150
+      },
+      {
+        "name": "assets",
+        "fingerprint": 311889354
+      }
+    ]
+  },
+  {
+    "id": 2339684,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.13.0.333.jar",
+    "fileName": "jei_1.10.2-3.13.0.333.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "b2b71aed354fdb8ec7936a31b09fccc7be44a307",
+        "algo": 1
+      },
+      {
+        "value": "f8a27899cb8f3f677ed3fb8a7d290139",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-10-26T23:17:19.62Z",
+    "fileLength": 422739,
+    "downloadCount": 2296,
+    "downloadUrl": "https://edge.forgecdn.net/files/2339/684/jei_1.10.2-3.13.0.333.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 1801360747,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 2332850179
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 3594766713
+      },
+      {
+        "name": "assets",
+        "fingerprint": 364582056
+      }
+    ]
+  },
+  {
+    "id": 2339627,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.13.0.332.jar",
+    "fileName": "jei_1.10.2-3.13.0.332.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "293c7201af0f882cf3bf76035427e4be39d1c9bf",
+        "algo": 1
+      },
+      {
+        "value": "465e6d82a38498640c420e7b1c0548a2",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-10-26T19:00:57.74Z",
+    "fileLength": 418321,
+    "downloadCount": 1263,
+    "downloadUrl": "https://edge.forgecdn.net/files/2339/627/jei_1.10.2-3.13.0.332.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 1916657654,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 1345169670
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 918613093
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1556450009
+      }
+    ]
+  },
+  {
+    "id": 2338722,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.12.8.328.jar",
+    "fileName": "jei_1.10.2-3.12.8.328.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "74f79d0911e99c7ba5ad09b15826cff85d0e3783",
+        "algo": 1
+      },
+      {
+        "value": "870ee8e322b7360e7811f4cc008003c8",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-10-23T06:17:12.217Z",
+    "fileLength": 417326,
+    "downloadCount": 17531,
+    "downloadUrl": "https://edge.forgecdn.net/files/2338/722/jei_1.10.2-3.12.8.328.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 1062924260,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 2457389148
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 206660503
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1556450009
+      }
+    ]
+  },
+  {
+    "id": 2338629,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.12.8.327.jar",
+    "fileName": "jei_1.10.2-3.12.8.327.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "87c27401cce540a069c421494e061e484b4dc019",
+        "algo": 1
+      },
+      {
+        "value": "8034c7ec9cb1b6e274aebaa54f7ec4c5",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-10-22T21:51:54.943Z",
+    "fileLength": 421384,
+    "downloadCount": 12514,
+    "downloadUrl": "https://edge.forgecdn.net/files/2338/629/jei_1.10.2-3.12.8.327.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 958444253,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 987279174
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 447048485
+      },
+      {
+        "name": "assets",
+        "fingerprint": 3075882559
+      }
+    ]
+  },
+  {
+    "id": 2338201,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.12.8.326.jar",
+    "fileName": "jei_1.10.2-3.12.8.326.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "3523363e74ffe47be0b7764362646a12ba11996c",
+        "algo": 1
+      },
+      {
+        "value": "41813ce211381190933a06cba511c225",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-10-21T02:47:58.963Z",
+    "fileLength": 421383,
+    "downloadCount": 17099,
+    "downloadUrl": "https://edge.forgecdn.net/files/2338/201/jei_1.10.2-3.12.8.326.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 1977401238,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 3954509884
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 3339658853
+      },
+      {
+        "name": "assets",
+        "fingerprint": 3075882559
+      }
+    ]
+  },
+  {
+    "id": 2337399,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.12.8.325.jar",
+    "fileName": "jei_1.10.2-3.12.8.325.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "0e1224c1fb8e5e775c6a4965507555ada6ea6e8b",
+        "algo": 1
+      },
+      {
+        "value": "f435f763e0d788fbe189300298fb7de6",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-10-17T04:06:52.65Z",
+    "fileLength": 421297,
+    "downloadCount": 41876,
+    "downloadUrl": "https://edge.forgecdn.net/files/2337/399/jei_1.10.2-3.12.8.325.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 192118939,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 3343661605
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 3393313304
+      },
+      {
+        "name": "assets",
+        "fingerprint": 3075882559
+      }
+    ]
+  },
+  {
+    "id": 2337334,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.12.8.324.jar",
+    "fileName": "jei_1.10.2-3.12.8.324.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "48ba1e66da7a37c46b6986f51681490368468807",
+        "algo": 1
+      },
+      {
+        "value": "a5360be5a3c770a6682df2c3e914dcd9",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-10-16T21:47:56.45Z",
+    "fileLength": 421303,
+    "downloadCount": 2161,
+    "downloadUrl": "https://edge.forgecdn.net/files/2337/334/jei_1.10.2-3.12.8.324.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 392851181,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 3831201060
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 169169468
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1335366952
+      }
+    ]
+  },
+  {
+    "id": 2336996,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.12.8.323.jar",
+    "fileName": "jei_1.10.2-3.12.8.323.jar",
+    "releaseType": 1,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "59d545233e5cf40269c7798240c9f00b8bb7a4ea",
+        "algo": 1
+      },
+      {
+        "value": "bb9295e3bef3b4878f0a05a51f81a03a",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-10-15T21:51:48.753Z",
+    "fileLength": 421325,
+    "downloadCount": 152457,
+    "downloadUrl": "https://edge.forgecdn.net/files/2336/996/jei_1.10.2-3.12.8.323.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 3269712866,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 2188180904
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 792798370
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1335366952
+      }
+    ]
+  },
+  {
+    "id": 2336995,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.12.7.322.jar",
+    "fileName": "jei_1.10.2-3.12.7.322.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "8cfa651272d88efa226e24518ab38f14f03a520e",
+        "algo": 1
+      },
+      {
+        "value": "b84c4c7a2342121c611f3c4b6ce74dc1",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-10-15T21:46:54.503Z",
+    "fileLength": 421324,
+    "downloadCount": 680,
+    "downloadUrl": "https://edge.forgecdn.net/files/2336/995/jei_1.10.2-3.12.7.322.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 3367215454,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 3685766826
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 3257535798
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1335366952
+      }
+    ]
+  },
+  {
+    "id": 2336783,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.12.7.321.jar",
+    "fileName": "jei_1.10.2-3.12.7.321.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "46af3d9d035d046e9e24ce667a02683a36d17550",
+        "algo": 1
+      },
+      {
+        "value": "e62bd1635f3be640283971a7b424d35f",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-10-15T04:46:50.333Z",
+    "fileLength": 419031,
+    "downloadCount": 5333,
+    "downloadUrl": "https://edge.forgecdn.net/files/2336/783/jei_1.10.2-3.12.7.321.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 861136200,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 1514639572
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 191294971
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1687405285
+      }
+    ]
+  },
+  {
+    "id": 2336718,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.12.7.320.jar",
+    "fileName": "jei_1.10.2-3.12.7.320.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "817a14366a11250f2f22d2bbd58d20eb617b0a76",
+        "algo": 1
+      },
+      {
+        "value": "1f1f4cf8b3e7c6b2afca7f6cf97f9eff",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-10-14T23:18:48.58Z",
+    "fileLength": 418989,
+    "downloadCount": 5715,
+    "downloadUrl": "https://edge.forgecdn.net/files/2336/718/jei_1.10.2-3.12.7.320.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 78161670,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 1023233658
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 4277275111
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1687405285
+      }
+    ]
+  },
+  {
+    "id": 2336700,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.12.7.319.jar",
+    "fileName": "jei_1.10.2-3.12.7.319.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "80fa98438cca38a1003e067f4e45f48728e95b88",
+        "algo": 1
+      },
+      {
+        "value": "e862f2e99da69301dc25d017b8643f73",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-10-14T22:12:05.01Z",
+    "fileLength": 418865,
+    "downloadCount": 709,
+    "downloadUrl": "https://edge.forgecdn.net/files/2336/700/jei_1.10.2-3.12.7.319.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 591570829,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 464792648
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 125976464
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1687405285
+      }
+    ]
+  },
+  {
+    "id": 2336208,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.12.7.315.jar",
+    "fileName": "jei_1.10.2-3.12.7.315.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "cb5277e3ff5f08663b5c40737fb67f2ea8bfbb47",
+        "algo": 1
+      },
+      {
+        "value": "289ff6a2f9fd4eea45bdcc3a30c0e660",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-10-12T22:17:43.647Z",
+    "fileLength": 416817,
+    "downloadCount": 8604,
+    "downloadUrl": "https://edge.forgecdn.net/files/2336/208/jei_1.10.2-3.12.7.315.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 2003719949,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 3137472245
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 73682890
+      },
+      {
+        "name": "assets",
+        "fingerprint": 380576741
+      }
+    ]
+  },
+  {
+    "id": 2336025,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.12.7.314.jar",
+    "fileName": "jei_1.10.2-3.12.7.314.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "fbcb3a0413b90a08913bebaae4c2c9b7f0ddb0b5",
+        "algo": 1
+      },
+      {
+        "value": "ca5fa592d199f30a7730b452158d1495",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-10-12T01:20:02.14Z",
+    "fileLength": 416817,
+    "downloadCount": 3218,
+    "downloadUrl": "https://edge.forgecdn.net/files/2336/25/jei_1.10.2-3.12.7.314.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 95230113,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 3023257231
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 1412559246
+      },
+      {
+        "name": "assets",
+        "fingerprint": 380576741
+      }
+    ]
+  },
+  {
+    "id": 2335961,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.12.7.313.jar",
+    "fileName": "jei_1.10.2-3.12.7.313.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "b4501443a73511c611d5d959a6231224b7fdf324",
+        "algo": 1
+      },
+      {
+        "value": "102312025cae1a086abc74c391cefd38",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-10-11T19:44:55.72Z",
+    "fileLength": 416470,
+    "downloadCount": 1385,
+    "downloadUrl": "https://edge.forgecdn.net/files/2335/961/jei_1.10.2-3.12.7.313.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 1948594480,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 1317906776
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 1346092173
+      },
+      {
+        "name": "assets",
+        "fingerprint": 26438610
+      }
+    ]
+  },
+  {
+    "id": 2335770,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.12.7.312.jar",
+    "fileName": "jei_1.10.2-3.12.7.312.jar",
+    "releaseType": 1,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "22f14237dc9332396103393f0ea81c6d789b1442",
+        "algo": 1
+      },
+      {
+        "value": "02c5a7ae7be81098e1f9760c5e1d34fa",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-10-11T00:00:15.017Z",
+    "fileLength": 413785,
+    "downloadCount": 57300,
+    "downloadUrl": "https://edge.forgecdn.net/files/2335/770/jei_1.10.2-3.12.7.312.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 2322355989,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 2865636641
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 3661757453
+      },
+      {
+        "name": "assets",
+        "fingerprint": 349713819
+      }
+    ]
+  },
+  {
+    "id": 2335748,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.12.6.311.jar",
+    "fileName": "jei_1.10.2-3.12.6.311.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "0fb4b011e3835414eb297cb1b7f0314999ee2e57",
+        "algo": 1
+      },
+      {
+        "value": "02d21656725b68a680d1b37bb3365426",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-10-10T21:40:44.33Z",
+    "fileLength": 413640,
+    "downloadCount": 893,
+    "downloadUrl": "https://edge.forgecdn.net/files/2335/748/jei_1.10.2-3.12.6.311.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 872811526,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 4024927978
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 1563601932
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1302598216
+      }
+    ]
+  },
+  {
+    "id": 2335747,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei_1.10.2-3.12.6.310.jar",
+    "fileName": "jei_1.10.2-3.12.6.310.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "667fef10057fcc2881804ac2c4ee2a06a5d52617",
+        "algo": 1
+      },
+      {
+        "value": "2faf7d534a065f53cda48ecc492b95bb",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2016-10-10T21:35:24.107Z",
+    "fileLength": 411541,
+    "downloadCount": 704,
+    "downloadUrl": "https://edge.forgecdn.net/files/2335/747/jei_1.10.2-3.12.6.310.jar",
+    "gameVersions": [
+      "1.10.2"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.10.2",
+        "gameVersionPadded": "0000000001.0000000010.0000000002",
+        "gameVersion": "1.10.2",
+        "gameVersionReleaseDate": "2016-06-23T05:00:00Z",
+        "gameVersionTypeId": 572
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 1784792833,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3699777108
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 870945384
+      },
+      {
+        "name": "mcmod.info",
+        "fingerprint": 1539818285
+      },
+      {
+        "name": "assets",
+        "fingerprint": 716903866
+      }
+    ]
+  }
+]

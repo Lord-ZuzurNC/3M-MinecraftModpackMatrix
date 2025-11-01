@@ -1,0 +1,3770 @@
+[
+  {
+    "id": 5522052,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-neoforge-19.4.0.29.jar",
+    "fileName": "jei-1.21-neoforge-19.4.0.29.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "923158921858947237d8e4de27ef3a1791c97522",
+        "algo": 1
+      },
+      {
+        "value": "c81694bb4b35ffc32be85bc48bc951d5",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-11T02:28:25.35Z",
+    "fileLength": 1205341,
+    "downloadCount": 914,
+    "downloadUrl": "https://edge.forgecdn.net/files/5522/52/jei-1.21-neoforge-19.4.0.29.jar",
+    "gameVersions": [
+      "1.21",
+      "NeoForge"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "NeoForge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 2492495287,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3924438462
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 578068964
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "jei.mixins.json",
+        "fingerprint": 2121203290
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      },
+      {
+        "name": "assets",
+        "fingerprint": 2947655912
+      }
+    ]
+  },
+  {
+    "id": 5522051,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-forge-19.4.0.29.jar",
+    "fileName": "jei-1.21-forge-19.4.0.29.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "419b8b87a3d8ed1bbd259562d160dbc40300dd12",
+        "algo": 1
+      },
+      {
+        "value": "25481e2ccc98c246b1fd35d18b9816df",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-11T02:28:09.52Z",
+    "fileLength": 1205743,
+    "downloadCount": 2060,
+    "downloadUrl": "https://edge.forgecdn.net/files/5522/51/jei-1.21-forge-19.4.0.29.jar",
+    "gameVersions": [
+      "1.21",
+      "Forge"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "Forge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 3435247964,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 2461158960
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      },
+      {
+        "name": "assets",
+        "fingerprint": 2947655912
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 3236260268
+      }
+    ]
+  },
+  {
+    "id": 5522050,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-fabric-19.4.0.29.jar",
+    "fileName": "jei-1.21-fabric-19.4.0.29.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "d220b114e991869e389fd5032a65d264112e9765",
+        "algo": 1
+      },
+      {
+        "value": "904a7da40c35b9080546383551c210d0",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-11T02:27:55.093Z",
+    "fileLength": 1223718,
+    "downloadCount": 2208,
+    "downloadUrl": "https://edge.forgecdn.net/files/5522/50/jei-1.21-fabric-19.4.0.29.jar",
+    "gameVersions": [
+      "1.21",
+      "Fabric"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "Fabric",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-09-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 702288017,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 1444714998
+      },
+      {
+        "name": "assets",
+        "fingerprint": 2947655912
+      },
+      {
+        "name": "fabric.mod.json",
+        "fingerprint": 2463400428
+      },
+      {
+        "name": "jei-1.21-fabric-refmap.json",
+        "fingerprint": 148796946
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "jei.accesswidener",
+        "fingerprint": 1075519091
+      },
+      {
+        "name": "jei.mixins.json",
+        "fingerprint": 262545834
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 734281671
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      }
+    ]
+  },
+  {
+    "id": 5519368,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-neoforge-19.4.0.28.jar",
+    "fileName": "jei-1.21-neoforge-19.4.0.28.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "61faf6a0daf76a5a0eab4cf4e8fe4d7a281eeec0",
+        "algo": 1
+      },
+      {
+        "value": "d7a9f5d065456fc275a0d89980627982",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-10T06:47:04.627Z",
+    "fileLength": 1202723,
+    "downloadCount": 2854,
+    "downloadUrl": "https://edge.forgecdn.net/files/5519/368/jei-1.21-neoforge-19.4.0.28.jar",
+    "gameVersions": [
+      "1.21",
+      "NeoForge"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "NeoForge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 2975196450,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 1289144988
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 2701084229
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "jei.mixins.json",
+        "fingerprint": 2121203290
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      },
+      {
+        "name": "assets",
+        "fingerprint": 2341603187
+      }
+    ]
+  },
+  {
+    "id": 5519367,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-forge-19.4.0.28.jar",
+    "fileName": "jei-1.21-forge-19.4.0.28.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "46e2335bb278fe829b58cc50f45bfdc5f5b39353",
+        "algo": 1
+      },
+      {
+        "value": "cc93bafb2580db18868911e3062a9246",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-10T06:46:48.99Z",
+    "fileLength": 1203140,
+    "downloadCount": 8360,
+    "downloadUrl": "https://edge.forgecdn.net/files/5519/367/jei-1.21-forge-19.4.0.28.jar",
+    "gameVersions": [
+      "1.21",
+      "Forge"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "Forge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 809691576,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 2426474987
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      },
+      {
+        "name": "assets",
+        "fingerprint": 2341603187
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 3164861341
+      }
+    ]
+  },
+  {
+    "id": 5519366,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-fabric-19.4.0.28.jar",
+    "fileName": "jei-1.21-fabric-19.4.0.28.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "661d503c8e294af5108f2909bba100ffc73ce7f5",
+        "algo": 1
+      },
+      {
+        "value": "941612eaa3ff9be43589ecb50a1a2173",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-10T06:46:34.393Z",
+    "fileLength": 1221530,
+    "downloadCount": 8830,
+    "downloadUrl": "https://edge.forgecdn.net/files/5519/366/jei-1.21-fabric-19.4.0.28.jar",
+    "gameVersions": [
+      "1.21",
+      "Fabric"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "Fabric",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-09-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 3547732659,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 4232614641
+      },
+      {
+        "name": "assets",
+        "fingerprint": 2341603187
+      },
+      {
+        "name": "fabric.mod.json",
+        "fingerprint": 2881544172
+      },
+      {
+        "name": "jei-1.21-fabric-refmap.json",
+        "fingerprint": 148796946
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "jei.accesswidener",
+        "fingerprint": 1075519091
+      },
+      {
+        "name": "jei.mixins.json",
+        "fingerprint": 262545834
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 183522917
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      }
+    ]
+  },
+  {
+    "id": 5519309,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-neoforge-19.4.0.27.jar",
+    "fileName": "jei-1.21-neoforge-19.4.0.27.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "3d5828966cea0b99e52439f03bfe00b11fad714a",
+        "algo": 1
+      },
+      {
+        "value": "336c019cc153f74fb45d4d53a6000a2b",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-10T06:05:41.063Z",
+    "fileLength": 1202725,
+    "downloadCount": 150,
+    "downloadUrl": "https://edge.forgecdn.net/files/5519/309/jei-1.21-neoforge-19.4.0.27.jar",
+    "gameVersions": [
+      "1.21",
+      "NeoForge"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "NeoForge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 2344761512,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 2302216068
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 2701084229
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "jei.mixins.json",
+        "fingerprint": 2121203290
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      },
+      {
+        "name": "assets",
+        "fingerprint": 4232076194
+      }
+    ]
+  },
+  {
+    "id": 5519308,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-forge-19.4.0.27.jar",
+    "fileName": "jei-1.21-forge-19.4.0.27.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "7be004be1de3fa6757e934a12a3f98ebba8f5146",
+        "algo": 1
+      },
+      {
+        "value": "84fe1549f3e5c449ba07e3ae4bfcde04",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-10T06:05:26.16Z",
+    "fileLength": 1203142,
+    "downloadCount": 302,
+    "downloadUrl": "https://edge.forgecdn.net/files/5519/308/jei-1.21-forge-19.4.0.27.jar",
+    "gameVersions": [
+      "1.21",
+      "Forge"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "Forge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 2971008724,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 2102798044
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      },
+      {
+        "name": "assets",
+        "fingerprint": 4232076194
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 3164861341
+      }
+    ]
+  },
+  {
+    "id": 5519306,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-fabric-19.4.0.27.jar",
+    "fileName": "jei-1.21-fabric-19.4.0.27.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "84ff9fe82ef39a87fe394e213927e9f858acf6ca",
+        "algo": 1
+      },
+      {
+        "value": "7a37077b8ee1a8a60733129e94868f42",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-10T06:05:11.893Z",
+    "fileLength": 1221532,
+    "downloadCount": 311,
+    "downloadUrl": "https://edge.forgecdn.net/files/5519/306/jei-1.21-fabric-19.4.0.27.jar",
+    "gameVersions": [
+      "1.21",
+      "Fabric"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "Fabric",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-09-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 4250360278,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 4153294904
+      },
+      {
+        "name": "assets",
+        "fingerprint": 4232076194
+      },
+      {
+        "name": "fabric.mod.json",
+        "fingerprint": 3075528062
+      },
+      {
+        "name": "jei-1.21-fabric-refmap.json",
+        "fingerprint": 148796946
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "jei.accesswidener",
+        "fingerprint": 1075519091
+      },
+      {
+        "name": "jei.mixins.json",
+        "fingerprint": 262545834
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 183522917
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      }
+    ]
+  },
+  {
+    "id": 5519227,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-neoforge-19.3.1.26.jar",
+    "fileName": "jei-1.21-neoforge-19.3.1.26.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "c8a56b93db68856c229dc0b38b77e3520bef2d5e",
+        "algo": 1
+      },
+      {
+        "value": "68280f0c02e38f1b630b69f80da503b6",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-10T05:21:06.393Z",
+    "fileLength": 1185488,
+    "downloadCount": 192,
+    "downloadUrl": "https://edge.forgecdn.net/files/5519/227/jei-1.21-neoforge-19.3.1.26.jar",
+    "gameVersions": [
+      "1.21",
+      "NeoForge"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "NeoForge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 1712478170,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 1220601888
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 3822027909
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1399095323
+      }
+    ]
+  },
+  {
+    "id": 5519224,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-forge-19.3.1.26.jar",
+    "fileName": "jei-1.21-forge-19.3.1.26.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "e0d7b7ceed7e5350fb9d3ba23b53eb93d32e7416",
+        "algo": 1
+      },
+      {
+        "value": "9e5bb7cdad42660cb879fe7148561db9",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-10T05:20:50.493Z",
+    "fileLength": 1186856,
+    "downloadCount": 298,
+    "downloadUrl": "https://edge.forgecdn.net/files/5519/224/jei-1.21-forge-19.3.1.26.jar",
+    "gameVersions": [
+      "1.21",
+      "Forge"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "Forge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 1800661716,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 2671574192
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1399095323
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 3788150372
+      }
+    ]
+  },
+  {
+    "id": 5519223,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-fabric-19.3.1.26.jar",
+    "fileName": "jei-1.21-fabric-19.3.1.26.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "105860036c4be595bbb9b8d642d35a9af0df696d",
+        "algo": 1
+      },
+      {
+        "value": "b2fffae3e221df2781a261e8ddb7636d",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-10T05:20:35.003Z",
+    "fileLength": 1205454,
+    "downloadCount": 355,
+    "downloadUrl": "https://edge.forgecdn.net/files/5519/223/jei-1.21-fabric-19.3.1.26.jar",
+    "gameVersions": [
+      "1.21",
+      "Fabric"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "Fabric",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-09-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 1199104671,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 1654764918
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1399095323
+      },
+      {
+        "name": "fabric.mod.json",
+        "fingerprint": 1715780212
+      },
+      {
+        "name": "jei-1.21-fabric-refmap.json",
+        "fingerprint": 148796946
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "jei.accesswidener",
+        "fingerprint": 1986265831
+      },
+      {
+        "name": "jei.mixins.json",
+        "fingerprint": 262545834
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 667091327
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      }
+    ]
+  },
+  {
+    "id": 5516853,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-neoforge-19.3.1.25.jar",
+    "fileName": "jei-1.21-neoforge-19.3.1.25.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "0b72eaea770db95aae6879b8f519897f46c36393",
+        "algo": 1
+      },
+      {
+        "value": "4f84c6ca0847eb6b0cd445c85f14eab7",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-09T14:10:19.087Z",
+    "fileLength": 1185634,
+    "downloadCount": 2127,
+    "downloadUrl": "https://edge.forgecdn.net/files/5516/853/jei-1.21-neoforge-19.3.1.25.jar",
+    "gameVersions": [
+      "1.21",
+      "NeoForge"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "NeoForge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 1216559020,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3285319992
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 1550524741
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1399095323
+      }
+    ]
+  },
+  {
+    "id": 5516852,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-forge-19.3.1.25.jar",
+    "fileName": "jei-1.21-forge-19.3.1.25.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "710a4b96c8acaa38eb85bda1b3d6cc8d61608f09",
+        "algo": 1
+      },
+      {
+        "value": "7279c12b365d1ed247a47eabf8360d07",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-09T14:10:03.567Z",
+    "fileLength": 1187002,
+    "downloadCount": 7669,
+    "downloadUrl": "https://edge.forgecdn.net/files/5516/852/jei-1.21-forge-19.3.1.25.jar",
+    "gameVersions": [
+      "1.21",
+      "Forge"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "Forge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 699785487,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 4219560529
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1399095323
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 2269862569
+      }
+    ]
+  },
+  {
+    "id": 5516851,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-fabric-19.3.1.25.jar",
+    "fileName": "jei-1.21-fabric-19.3.1.25.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "1c7946cc1bc26d03c706b255be8d920aa0b0a99c",
+        "algo": 1
+      },
+      {
+        "value": "07c3c5ca9eb427774ce5e698b3b25b44",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-09T14:09:49.75Z",
+    "fileLength": 1205600,
+    "downloadCount": 7312,
+    "downloadUrl": "https://edge.forgecdn.net/files/5516/851/jei-1.21-fabric-19.3.1.25.jar",
+    "gameVersions": [
+      "1.21",
+      "Fabric"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "Fabric",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-09-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 3545958143,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 1533967589
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1399095323
+      },
+      {
+        "name": "fabric.mod.json",
+        "fingerprint": 91562988
+      },
+      {
+        "name": "jei-1.21-fabric-refmap.json",
+        "fingerprint": 148796946
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "jei.accesswidener",
+        "fingerprint": 1986265831
+      },
+      {
+        "name": "jei.mixins.json",
+        "fingerprint": 262545834
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 3640540868
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      }
+    ]
+  },
+  {
+    "id": 5513346,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-neoforge-19.3.1.24.jar",
+    "fileName": "jei-1.21-neoforge-19.3.1.24.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "720c41d5988bb4b0e3db3fdbfc3d6fe3ad6bf4d2",
+        "algo": 1
+      },
+      {
+        "value": "1fa83a78f6b9526a06c6355070e3f9ff",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-08T10:38:30.577Z",
+    "fileLength": 1170180,
+    "downloadCount": 4643,
+    "downloadUrl": "https://edge.forgecdn.net/files/5513/346/jei-1.21-neoforge-19.3.1.24.jar",
+    "gameVersions": [
+      "1.21",
+      "NeoForge"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "NeoForge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 3654340069,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 1969334367
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 3456340526
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1399095323
+      }
+    ]
+  },
+  {
+    "id": 5513345,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-forge-19.3.1.24.jar",
+    "fileName": "jei-1.21-forge-19.3.1.24.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "60a604421e12bf39f9e6cee7f1452db488d8abba",
+        "algo": 1
+      },
+      {
+        "value": "85af0a336043209c1e2f47d5baaf1353",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-08T10:38:15.38Z",
+    "fileLength": 1171548,
+    "downloadCount": 11755,
+    "downloadUrl": "https://edge.forgecdn.net/files/5513/345/jei-1.21-forge-19.3.1.24.jar",
+    "gameVersions": [
+      "1.21",
+      "Forge"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "Forge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 2504417995,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 58813884
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1399095323
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 1940904035
+      }
+    ]
+  },
+  {
+    "id": 5513344,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-fabric-19.3.1.24.jar",
+    "fileName": "jei-1.21-fabric-19.3.1.24.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "d2a8e8c4b5b1d33384f08fcc0ec757cf51c139b5",
+        "algo": 1
+      },
+      {
+        "value": "65bd126900d053d1baf044ae3967b744",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-08T10:38:01.273Z",
+    "fileLength": 1189915,
+    "downloadCount": 12389,
+    "downloadUrl": "https://edge.forgecdn.net/files/5513/344/jei-1.21-fabric-19.3.1.24.jar",
+    "gameVersions": [
+      "1.21",
+      "Fabric"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "Fabric",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-09-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 404271924,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 579899700
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1399095323
+      },
+      {
+        "name": "fabric.mod.json",
+        "fingerprint": 403241802
+      },
+      {
+        "name": "jei-1.21-fabric-refmap.json",
+        "fingerprint": 148796946
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "jei.accesswidener",
+        "fingerprint": 1986265831
+      },
+      {
+        "name": "jei.mixins.json",
+        "fingerprint": 262545834
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 1740192914
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      }
+    ]
+  },
+  {
+    "id": 5513199,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-neoforge-19.3.1.23.jar",
+    "fileName": "jei-1.21-neoforge-19.3.1.23.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "d6b082c41769523185d57860fe48161b316895e3",
+        "algo": 1
+      },
+      {
+        "value": "0155638ff70c1a56be94917914ec42ee",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-08T09:20:58.763Z",
+    "fileLength": 1166780,
+    "downloadCount": 210,
+    "downloadUrl": "https://edge.forgecdn.net/files/5513/199/jei-1.21-neoforge-19.3.1.23.jar",
+    "gameVersions": [
+      "1.21",
+      "NeoForge"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "NeoForge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 1090946314,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 2506086472
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 3853458340
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1399095323
+      }
+    ]
+  },
+  {
+    "id": 5513198,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-forge-19.3.1.23.jar",
+    "fileName": "jei-1.21-forge-19.3.1.23.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "2f81492993cb87380eef143741a3f0a678541a89",
+        "algo": 1
+      },
+      {
+        "value": "d5394423c6a9957e7cadf9920bdd7565",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-08T09:20:42.893Z",
+    "fileLength": 1168148,
+    "downloadCount": 496,
+    "downloadUrl": "https://edge.forgecdn.net/files/5513/198/jei-1.21-forge-19.3.1.23.jar",
+    "gameVersions": [
+      "1.21",
+      "Forge"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "Forge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 1814099403,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 1594273569
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1399095323
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 3924625023
+      }
+    ]
+  },
+  {
+    "id": 5513197,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-fabric-19.3.1.23.jar",
+    "fileName": "jei-1.21-fabric-19.3.1.23.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "577736a02dfd91def1d157538e8d189726df4c9c",
+        "algo": 1
+      },
+      {
+        "value": "cb4c276b481867c41e651f21a7045912",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-08T09:20:28.347Z",
+    "fileLength": 1186552,
+    "downloadCount": 615,
+    "downloadUrl": "https://edge.forgecdn.net/files/5513/197/jei-1.21-fabric-19.3.1.23.jar",
+    "gameVersions": [
+      "1.21",
+      "Fabric"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "Fabric",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-09-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 3955720494,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3796680962
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1399095323
+      },
+      {
+        "name": "fabric.mod.json",
+        "fingerprint": 3894081624
+      },
+      {
+        "name": "jei-1.21-fabric-refmap.json",
+        "fingerprint": 148796946
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "jei.accesswidener",
+        "fingerprint": 1986265831
+      },
+      {
+        "name": "jei.mixins.json",
+        "fingerprint": 262545834
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 4230138328
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      }
+    ]
+  },
+  {
+    "id": 5513009,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-neoforge-19.3.1.22.jar",
+    "fileName": "jei-1.21-neoforge-19.3.1.22.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "d9dbb7b5e5df67892647a6404f37d891ea5a1b14",
+        "algo": 1
+      },
+      {
+        "value": "86c620b6c4c23cdc1363cdacb3b13a9a",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-08T07:30:33.13Z",
+    "fileLength": 1166722,
+    "downloadCount": 284,
+    "downloadUrl": "https://edge.forgecdn.net/files/5513/9/jei-1.21-neoforge-19.3.1.22.jar",
+    "gameVersions": [
+      "1.21",
+      "NeoForge"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "NeoForge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 1725010125,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3562317458
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 4180543559
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1399095323
+      }
+    ]
+  },
+  {
+    "id": 5513008,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-forge-19.3.1.22.jar",
+    "fileName": "jei-1.21-forge-19.3.1.22.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "3d3d16bdc4f92963e2d8ebee9ccc7768397213d4",
+        "algo": 1
+      },
+      {
+        "value": "bf7ed4710892f0fb2f0332f07b111a81",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-08T07:30:17.743Z",
+    "fileLength": 1168090,
+    "downloadCount": 664,
+    "downloadUrl": "https://edge.forgecdn.net/files/5513/8/jei-1.21-forge-19.3.1.22.jar",
+    "gameVersions": [
+      "1.21",
+      "Forge"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "Forge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 3855181861,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 63993883
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1399095323
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 513337747
+      }
+    ]
+  },
+  {
+    "id": 5513007,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-fabric-19.3.1.22.jar",
+    "fileName": "jei-1.21-fabric-19.3.1.22.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "6a958429f4291be219bbb59d34066958eb56c876",
+        "algo": 1
+      },
+      {
+        "value": "d23d28fa782717c25e9a451e50abf69a",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-08T07:30:03.027Z",
+    "fileLength": 1186479,
+    "downloadCount": 995,
+    "downloadUrl": "https://edge.forgecdn.net/files/5513/7/jei-1.21-fabric-19.3.1.22.jar",
+    "gameVersions": [
+      "1.21",
+      "Fabric"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "Fabric",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-09-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 1729256941,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 710550618
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1399095323
+      },
+      {
+        "name": "fabric.mod.json",
+        "fingerprint": 3104609157
+      },
+      {
+        "name": "jei-1.21-fabric-refmap.json",
+        "fingerprint": 148796946
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "jei.accesswidener",
+        "fingerprint": 1986265831
+      },
+      {
+        "name": "jei.mixins.json",
+        "fingerprint": 262545834
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 1458175842
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      }
+    ]
+  },
+  {
+    "id": 5509528,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-neoforge-19.2.0.21.jar",
+    "fileName": "jei-1.21-neoforge-19.2.0.21.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "25f5a0941e2e08665c810c3fa9202be02a8a56f0",
+        "algo": 1
+      },
+      {
+        "value": "b3348abb2c3861a1fdf07528113fdfb0",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-07T04:23:44.75Z",
+    "fileLength": 1164449,
+    "downloadCount": 3312,
+    "downloadUrl": "https://edge.forgecdn.net/files/5509/528/jei-1.21-neoforge-19.2.0.21.jar",
+    "gameVersions": [
+      "1.21",
+      "NeoForge"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "NeoForge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 951089769,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 1052462077
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 2713833817
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1399095323
+      }
+    ]
+  },
+  {
+    "id": 5509527,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-forge-19.2.0.21.jar",
+    "fileName": "jei-1.21-forge-19.2.0.21.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "665de257d2bf6f39f61d12925b9b15b0339b4d4f",
+        "algo": 1
+      },
+      {
+        "value": "4de2acee4b729065631e2de3dfbad55a",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-07T04:23:29.207Z",
+    "fileLength": 1165833,
+    "downloadCount": 10035,
+    "downloadUrl": "https://edge.forgecdn.net/files/5509/527/jei-1.21-forge-19.2.0.21.jar",
+    "gameVersions": [
+      "1.21",
+      "Forge"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "Forge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 95078116,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 4201481887
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1399095323
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 400946694
+      }
+    ]
+  },
+  {
+    "id": 5509526,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-fabric-19.2.0.21.jar",
+    "fileName": "jei-1.21-fabric-19.2.0.21.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "a512db73f92d9c2859f4db8074823405e61b45b2",
+        "algo": 1
+      },
+      {
+        "value": "65ed58f0e3516a5e9cf3c5906d3845e0",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-07T04:23:14.503Z",
+    "fileLength": 1184291,
+    "downloadCount": 10446,
+    "downloadUrl": "https://edge.forgecdn.net/files/5509/526/jei-1.21-fabric-19.2.0.21.jar",
+    "gameVersions": [
+      "1.21",
+      "Fabric"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "Fabric",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-09-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 4063261788,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 895348336
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1399095323
+      },
+      {
+        "name": "fabric.mod.json",
+        "fingerprint": 2146656170
+      },
+      {
+        "name": "jei-1.21-fabric-refmap.json",
+        "fingerprint": 148796946
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "jei.accesswidener",
+        "fingerprint": 1986265831
+      },
+      {
+        "name": "jei.mixins.json",
+        "fingerprint": 262545834
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 314056285
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      }
+    ]
+  },
+  {
+    "id": 5509520,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-neoforge-19.2.0.20.jar",
+    "fileName": "jei-1.21-neoforge-19.2.0.20.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "912ea92af55c4a8614734c67808f6b991b9add75",
+        "algo": 1
+      },
+      {
+        "value": "862a19d8fd4c92c794df753bb08f98d1",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-07T04:16:32.597Z",
+    "fileLength": 1165334,
+    "downloadCount": 104,
+    "downloadUrl": "https://edge.forgecdn.net/files/5509/520/jei-1.21-neoforge-19.2.0.20.jar",
+    "gameVersions": [
+      "1.21",
+      "NeoForge"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "NeoForge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 3549730587,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 1598892416
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 755781214
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1399095323
+      }
+    ]
+  },
+  {
+    "id": 5509519,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-forge-19.2.0.20.jar",
+    "fileName": "jei-1.21-forge-19.2.0.20.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "07f745258fbe90aeeb1a32f98f1f172d93f03d2d",
+        "algo": 1
+      },
+      {
+        "value": "06e2edd142363e4e1217484c6f28a92f",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-07T04:16:16.737Z",
+    "fileLength": 1166722,
+    "downloadCount": 160,
+    "downloadUrl": "https://edge.forgecdn.net/files/5509/519/jei-1.21-forge-19.2.0.20.jar",
+    "gameVersions": [
+      "1.21",
+      "Forge"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "Forge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 3665584535,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 2524510686
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1399095323
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 1786990137
+      }
+    ]
+  },
+  {
+    "id": 5509518,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-fabric-19.2.0.20.jar",
+    "fileName": "jei-1.21-fabric-19.2.0.20.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "3f19018f73aea73d7afcd29c659877483e80328e",
+        "algo": 1
+      },
+      {
+        "value": "93f8396d784668e15abc05395e327267",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-07T04:16:02.22Z",
+    "fileLength": 1187151,
+    "downloadCount": 283,
+    "downloadUrl": "https://edge.forgecdn.net/files/5509/518/jei-1.21-fabric-19.2.0.20.jar",
+    "gameVersions": [
+      "1.21",
+      "Fabric"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "Fabric",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-09-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 3537642378,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3501838817
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1399095323
+      },
+      {
+        "name": "fabric.mod.json",
+        "fingerprint": 1722942027
+      },
+      {
+        "name": "jei-1.21-fabric-refmap.json",
+        "fingerprint": 2382742678
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "jei.accesswidener",
+        "fingerprint": 1986265831
+      },
+      {
+        "name": "jei.mixins.json",
+        "fingerprint": 940927568
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 3866039315
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      }
+    ]
+  },
+  {
+    "id": 5503433,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-neoforge-19.1.1.19.jar",
+    "fileName": "jei-1.21-neoforge-19.1.1.19.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "e0b345db8eb07b5ac4dc3dd51cb2e0321502767d",
+        "algo": 1
+      },
+      {
+        "value": "3c357daddc9285b1f840bcd00a4d67c1",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-05T02:33:51.537Z",
+    "fileLength": 1148344,
+    "downloadCount": 14510,
+    "downloadUrl": "https://edge.forgecdn.net/files/5503/433/jei-1.21-neoforge-19.1.1.19.jar",
+    "gameVersions": [
+      "1.21",
+      "NeoForge"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "NeoForge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 1072244135,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 2878434578
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 311482209
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1194225110
+      }
+    ]
+  },
+  {
+    "id": 5503432,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-forge-19.1.1.19.jar",
+    "fileName": "jei-1.21-forge-19.1.1.19.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "0527ecb69d9125850e71162daa356a06f1d1bc56",
+        "algo": 1
+      },
+      {
+        "value": "501d2df02e8494dde5765e497fcade05",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-05T02:33:35.36Z",
+    "fileLength": 1149696,
+    "downloadCount": 21033,
+    "downloadUrl": "https://edge.forgecdn.net/files/5503/432/jei-1.21-forge-19.1.1.19.jar",
+    "gameVersions": [
+      "1.21",
+      "Forge"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "Forge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 2328750963,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 1538230886
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1194225110
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 2288557482
+      }
+    ]
+  },
+  {
+    "id": 5503431,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-fabric-19.1.1.19.jar",
+    "fileName": "jei-1.21-fabric-19.1.1.19.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "a99aee6f34d4266db180cac3c75d7bfde3f2dc15",
+        "algo": 1
+      },
+      {
+        "value": "f0572fe48b31d0a7a46173d51a1832fc",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-05T02:33:21.26Z",
+    "fileLength": 1170016,
+    "downloadCount": 210114,
+    "downloadUrl": "https://edge.forgecdn.net/files/5503/431/jei-1.21-fabric-19.1.1.19.jar",
+    "gameVersions": [
+      "1.21",
+      "Fabric"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "Fabric",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-09-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 770274941,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 215443212
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1194225110
+      },
+      {
+        "name": "fabric.mod.json",
+        "fingerprint": 281140286
+      },
+      {
+        "name": "jei-1.21-fabric-refmap.json",
+        "fingerprint": 2382742678
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "jei.accesswidener",
+        "fingerprint": 1986265831
+      },
+      {
+        "name": "jei.mixins.json",
+        "fingerprint": 940927568
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 3120439542
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      }
+    ]
+  },
+  {
+    "id": 5501833,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-neoforge-19.1.1.18.jar",
+    "fileName": "jei-1.21-neoforge-19.1.1.18.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "98529e2c1968653e02ee60651537233868abb998",
+        "algo": 1
+      },
+      {
+        "value": "a3192d79f2cca74bd2929b61e0ba3ec2",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-04T15:12:32.267Z",
+    "fileLength": 1148345,
+    "downloadCount": 1905,
+    "downloadUrl": "https://edge.forgecdn.net/files/5501/833/jei-1.21-neoforge-19.1.1.18.jar",
+    "gameVersions": [
+      "1.21",
+      "NeoForge"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "NeoForge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 1025283410,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 4272961596
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 311482209
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1194225110
+      }
+    ]
+  },
+  {
+    "id": 5501832,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-forge-19.1.1.18.jar",
+    "fileName": "jei-1.21-forge-19.1.1.18.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "4de935aaab5cbef30133a32acd1bb8b3442778cf",
+        "algo": 1
+      },
+      {
+        "value": "cdd4e87669cfddffefa604f9a9ad4648",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-04T15:12:16.657Z",
+    "fileLength": 1149696,
+    "downloadCount": 5014,
+    "downloadUrl": "https://edge.forgecdn.net/files/5501/832/jei-1.21-forge-19.1.1.18.jar",
+    "gameVersions": [
+      "1.21",
+      "Forge"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "Forge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 2702845362,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 2673425470
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1194225110
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 2288557482
+      }
+    ]
+  },
+  {
+    "id": 5501831,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-fabric-19.1.1.18.jar",
+    "fileName": "jei-1.21-fabric-19.1.1.18.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "31d235104935ed234cf377159f9ac83afe4a2851",
+        "algo": 1
+      },
+      {
+        "value": "02a5006dc808ef7aebbc2d1b76e6169a",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-04T15:12:02.597Z",
+    "fileLength": 1169338,
+    "downloadCount": 5837,
+    "downloadUrl": "https://edge.forgecdn.net/files/5501/831/jei-1.21-fabric-19.1.1.18.jar",
+    "gameVersions": [
+      "1.21",
+      "Fabric"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "Fabric",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-09-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 3421900690,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 2921410310
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1194225110
+      },
+      {
+        "name": "fabric.mod.json",
+        "fingerprint": 866506545
+      },
+      {
+        "name": "jei-1.21-fabric-refmap.json",
+        "fingerprint": 2382742678
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "jei.accesswidener",
+        "fingerprint": 1986265831
+      },
+      {
+        "name": "jei.mixins.json",
+        "fingerprint": 940927568
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 2156238955
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      }
+    ]
+  },
+  {
+    "id": 5500339,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-neoforge-19.1.0.17.jar",
+    "fileName": "jei-1.21-neoforge-19.1.0.17.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "94dbd456d89f5bcaf46396c0d6ed2b3051162e1c",
+        "algo": 1
+      },
+      {
+        "value": "ce0a495d610d45bd9a1f9c5ce263cee8",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-04T02:11:52.73Z",
+    "fileLength": 1145839,
+    "downloadCount": 1644,
+    "downloadUrl": "https://edge.forgecdn.net/files/5500/339/jei-1.21-neoforge-19.1.0.17.jar",
+    "gameVersions": [
+      "1.21",
+      "NeoForge"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "NeoForge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 3813557320,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 4187074066
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 4188468507
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1194225110
+      }
+    ]
+  },
+  {
+    "id": 5500338,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-forge-19.1.0.17.jar",
+    "fileName": "jei-1.21-forge-19.1.0.17.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "a32c5167115444f7798584685156cdec390f2dc5",
+        "algo": 1
+      },
+      {
+        "value": "9dfb1d6ffff22b434a10c52ccd0664fe",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-04T02:11:36.977Z",
+    "fileLength": 1147192,
+    "downloadCount": 4336,
+    "downloadUrl": "https://edge.forgecdn.net/files/5500/338/jei-1.21-forge-19.1.0.17.jar",
+    "gameVersions": [
+      "1.21",
+      "Forge"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "Forge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 1032152177,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 1303286323
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1194225110
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 2233796998
+      }
+    ]
+  },
+  {
+    "id": 5500336,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-fabric-19.1.0.17.jar",
+    "fileName": "jei-1.21-fabric-19.1.0.17.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "0930a3a2e684f05187d0d9de0b7649a2d2b3c21f",
+        "algo": 1
+      },
+      {
+        "value": "e7fd906ef00481a53964de5dc068e693",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-04T02:11:22.743Z",
+    "fileLength": 1166668,
+    "downloadCount": 4858,
+    "downloadUrl": "https://edge.forgecdn.net/files/5500/336/jei-1.21-fabric-19.1.0.17.jar",
+    "gameVersions": [
+      "1.21",
+      "Fabric"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "Fabric",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-09-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 1820136642,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 2913323205
+      },
+      {
+        "name": "assets",
+        "fingerprint": 1194225110
+      },
+      {
+        "name": "fabric.mod.json",
+        "fingerprint": 3976252271
+      },
+      {
+        "name": "jei-1.21-fabric-refmap.json",
+        "fingerprint": 2382742678
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "jei.accesswidener",
+        "fingerprint": 1986265831
+      },
+      {
+        "name": "jei.mixins.json",
+        "fingerprint": 940927568
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 44554566
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      }
+    ]
+  },
+  {
+    "id": 5497837,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-neoforge-19.0.0.16.jar",
+    "fileName": "jei-1.21-neoforge-19.0.0.16.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "b0e0de9b6f6e10522a5fa27945a426d50d811d86",
+        "algo": 1
+      },
+      {
+        "value": "bd7a7871515f12fb85023c06e57a60f4",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-03T08:55:53.867Z",
+    "fileLength": 1108307,
+    "downloadCount": 2494,
+    "downloadUrl": "https://edge.forgecdn.net/files/5497/837/jei-1.21-neoforge-19.0.0.16.jar",
+    "gameVersions": [
+      "1.21",
+      "NeoForge"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "NeoForge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 3943161541,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3886750832
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 1664328259
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      },
+      {
+        "name": "assets",
+        "fingerprint": 3964967942
+      }
+    ]
+  },
+  {
+    "id": 5497835,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-forge-19.0.0.16.jar",
+    "fileName": "jei-1.21-forge-19.0.0.16.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "807b16cc0ac4a076034eea1a285a4b1f84b8d47f",
+        "algo": 1
+      },
+      {
+        "value": "fc400b9f4511ae11b3a6f13242d4df38",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-03T08:55:37.6Z",
+    "fileLength": 1109657,
+    "downloadCount": 7911,
+    "downloadUrl": "https://edge.forgecdn.net/files/5497/835/jei-1.21-forge-19.0.0.16.jar",
+    "gameVersions": [
+      "1.21",
+      "Forge"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "Forge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 2449519136,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 191578943
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      },
+      {
+        "name": "assets",
+        "fingerprint": 3964967942
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 936116871
+      }
+    ]
+  },
+  {
+    "id": 5497833,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-fabric-19.0.0.16.jar",
+    "fileName": "jei-1.21-fabric-19.0.0.16.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "2d44f49d9f6559660a1f24fa547617d6ff974ad2",
+        "algo": 1
+      },
+      {
+        "value": "be3e29ac2c101df1d1fb82d4370e5eb1",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-03T08:55:23.493Z",
+    "fileLength": 1128928,
+    "downloadCount": 8586,
+    "downloadUrl": "https://edge.forgecdn.net/files/5497/833/jei-1.21-fabric-19.0.0.16.jar",
+    "gameVersions": [
+      "1.21",
+      "Fabric"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "Fabric",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-09-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 2050421213,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 262475744
+      },
+      {
+        "name": "assets",
+        "fingerprint": 3964967942
+      },
+      {
+        "name": "fabric.mod.json",
+        "fingerprint": 1243422984
+      },
+      {
+        "name": "jei-1.21-fabric-refmap.json",
+        "fingerprint": 2382742678
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "jei.accesswidener",
+        "fingerprint": 1986265831
+      },
+      {
+        "name": "jei.mixins.json",
+        "fingerprint": 940927568
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 3286582526
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      }
+    ]
+  },
+  {
+    "id": 5497794,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-neoforge-19.0.0.15.jar",
+    "fileName": "jei-1.21-neoforge-19.0.0.15.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "869476f8c4c3d1b29183ab7f510b1d6a78c490ac",
+        "algo": 1
+      },
+      {
+        "value": "47dfb1882f729643ee1fd6548f88c9fa",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-03T08:34:33.207Z",
+    "fileLength": 1108165,
+    "downloadCount": 412,
+    "downloadUrl": "https://edge.forgecdn.net/files/5497/794/jei-1.21-neoforge-19.0.0.15.jar",
+    "gameVersions": [
+      "1.21",
+      "NeoForge"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "NeoForge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 87590581,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 1788984013
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 3826191477
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      },
+      {
+        "name": "assets",
+        "fingerprint": 3964967942
+      }
+    ]
+  },
+  {
+    "id": 5497793,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-forge-19.0.0.15.jar",
+    "fileName": "jei-1.21-forge-19.0.0.15.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "57f262e1db8bf212d683436103cabe171715fa51",
+        "algo": 1
+      },
+      {
+        "value": "afb97a5a0a5dd3e6476dd79fd3668e36",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-03T08:34:17.64Z",
+    "fileLength": 1109478,
+    "downloadCount": 250,
+    "downloadUrl": "https://edge.forgecdn.net/files/5497/793/jei-1.21-forge-19.0.0.15.jar",
+    "gameVersions": [
+      "1.21",
+      "Forge"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "Forge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 1332129704,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 1518521157
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      },
+      {
+        "name": "assets",
+        "fingerprint": 3964967942
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 1365057911
+      }
+    ]
+  },
+  {
+    "id": 5497790,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-fabric-19.0.0.15.jar",
+    "fileName": "jei-1.21-fabric-19.0.0.15.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "20681e1bc1fb53cf5b3a7aecec6688ed8db22a52",
+        "algo": 1
+      },
+      {
+        "value": "b08d8146937c7cb79e12876477e1a21e",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-03T08:34:04.16Z",
+    "fileLength": 1128789,
+    "downloadCount": 497,
+    "downloadUrl": "https://edge.forgecdn.net/files/5497/790/jei-1.21-fabric-19.0.0.15.jar",
+    "gameVersions": [
+      "1.21",
+      "Fabric"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "Fabric",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-09-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 1510801009,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 2509761515
+      },
+      {
+        "name": "assets",
+        "fingerprint": 3964967942
+      },
+      {
+        "name": "fabric.mod.json",
+        "fingerprint": 819484352
+      },
+      {
+        "name": "jei-1.21-fabric-refmap.json",
+        "fingerprint": 2382742678
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "jei.accesswidener",
+        "fingerprint": 1986265831
+      },
+      {
+        "name": "jei.mixins.json",
+        "fingerprint": 940927568
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 2701594034
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      }
+    ]
+  },
+  {
+    "id": 5493958,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-neoforge-19.0.0.14.jar",
+    "fileName": "jei-1.21-neoforge-19.0.0.14.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "71a2fcd83b24842703d70432130e6f8ab83704e3",
+        "algo": 1
+      },
+      {
+        "value": "5ccd807df413350c5470957ddd2a0254",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-02T00:05:11.75Z",
+    "fileLength": 1107464,
+    "downloadCount": 6956,
+    "downloadUrl": "https://edge.forgecdn.net/files/5493/958/jei-1.21-neoforge-19.0.0.14.jar",
+    "gameVersions": [
+      "1.21",
+      "NeoForge"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "NeoForge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 3991814295,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 2781767029
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 2969647956
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      },
+      {
+        "name": "assets",
+        "fingerprint": 884368853
+      }
+    ]
+  },
+  {
+    "id": 5493957,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-forge-19.0.0.14.jar",
+    "fileName": "jei-1.21-forge-19.0.0.14.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "5bbf896796bbf6225c26fd642d625716814ee7a7",
+        "algo": 1
+      },
+      {
+        "value": "9725ea7c158003e9ed4a41057dc840cc",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-02T00:04:55.893Z",
+    "fileLength": 1108777,
+    "downloadCount": 11676,
+    "downloadUrl": "https://edge.forgecdn.net/files/5493/957/jei-1.21-forge-19.0.0.14.jar",
+    "gameVersions": [
+      "1.21",
+      "Forge"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "Forge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 157305393,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 2548673388
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      },
+      {
+        "name": "assets",
+        "fingerprint": 884368853
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 761670619
+      }
+    ]
+  },
+  {
+    "id": 5493956,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-fabric-19.0.0.14.jar",
+    "fileName": "jei-1.21-fabric-19.0.0.14.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "aa52b860977ec62c504a5e9648dca2f48c1081c7",
+        "algo": 1
+      },
+      {
+        "value": "61983a9303f6183e76b6725a35574f23",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-02T00:04:41.173Z",
+    "fileLength": 1128048,
+    "downloadCount": 17368,
+    "downloadUrl": "https://edge.forgecdn.net/files/5493/956/jei-1.21-fabric-19.0.0.14.jar",
+    "gameVersions": [
+      "1.21",
+      "Fabric"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "Fabric",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-09-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 3205861038,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 348626408
+      },
+      {
+        "name": "assets",
+        "fingerprint": 884368853
+      },
+      {
+        "name": "fabric.mod.json",
+        "fingerprint": 601589560
+      },
+      {
+        "name": "jei-1.21-fabric-refmap.json",
+        "fingerprint": 2382742678
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "jei.accesswidener",
+        "fingerprint": 1986265831
+      },
+      {
+        "name": "jei.mixins.json",
+        "fingerprint": 940927568
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 3691457702
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      }
+    ]
+  },
+  {
+    "id": 5491340,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-neoforge-19.0.0.13.jar",
+    "fileName": "jei-1.21-neoforge-19.0.0.13.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "d824df6646963ad45e5087a49a801259911cb78a",
+        "algo": 1
+      },
+      {
+        "value": "a915e40f907fc6776efb1024da53450f",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-01T04:14:31.45Z",
+    "fileLength": 1107442,
+    "downloadCount": 3214,
+    "downloadUrl": "https://edge.forgecdn.net/files/5491/340/jei-1.21-neoforge-19.0.0.13.jar",
+    "gameVersions": [
+      "1.21",
+      "NeoForge"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "NeoForge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 1900412827,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3618206783
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 3144501255
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      },
+      {
+        "name": "assets",
+        "fingerprint": 884368853
+      }
+    ]
+  },
+  {
+    "id": 5491339,
+    "gameId": 432,
+    "modId": 238222,
+    "isAvailable": true,
+    "displayName": "jei-1.21-forge-19.0.0.13.jar",
+    "fileName": "jei-1.21-forge-19.0.0.13.jar",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "6ccd6b7ebc387647bb371f7924bbe6618408edc6",
+        "algo": 1
+      },
+      {
+        "value": "340f5672cef7ea840ad428288940bf95",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2024-07-01T04:14:15.377Z",
+    "fileLength": 1108755,
+    "downloadCount": 8759,
+    "downloadUrl": "https://edge.forgecdn.net/files/5491/339/jei-1.21-forge-19.0.0.13.jar",
+    "gameVersions": [
+      "1.21",
+      "Forge"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.21",
+        "gameVersionPadded": "0000000001.0000000021",
+        "gameVersion": "1.21",
+        "gameVersionReleaseDate": "2024-06-14T00:00:00Z",
+        "gameVersionTypeId": 77784
+      },
+      {
+        "gameVersionName": "Forge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 3984892281,
+    "modules": [
+      {
+        "name": "META-INF",
+        "fingerprint": 3596937214
+      },
+      {
+        "name": "jei-icon.png",
+        "fingerprint": 2007185424
+      },
+      {
+        "name": "pack.mcmeta",
+        "fingerprint": 2606738017
+      },
+      {
+        "name": "assets",
+        "fingerprint": 884368853
+      },
+      {
+        "name": "mezz",
+        "fingerprint": 2462922894
+      }
+    ]
+  }
+]

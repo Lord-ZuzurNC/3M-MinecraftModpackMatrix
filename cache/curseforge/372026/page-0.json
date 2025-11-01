@@ -1,0 +1,522 @@
+[
+  {
+    "id": 3515238,
+    "gameId": 432,
+    "modId": 372026,
+    "isAvailable": true,
+    "displayName": "Create V0.9.0",
+    "fileName": "Create-0.9.0.zip",
+    "releaseType": 2,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "5c41223514a6cb690e0082870d6286f506052dea",
+        "algo": 1
+      },
+      {
+        "value": "bb06cee8956fcf689b6332b2df25e6a1",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2021-11-04T13:58:21.33Z",
+    "fileLength": 26722,
+    "downloadCount": 9978,
+    "downloadUrl": "https://edge.forgecdn.net/files/3515/238/Create-0.9.0.zip",
+    "gameVersions": [
+      "1.16.5",
+      "Forge",
+      "1.16.4"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.16.5",
+        "gameVersionPadded": "0000000001.0000000016.0000000005",
+        "gameVersion": "1.16.5",
+        "gameVersionReleaseDate": "2021-01-15T14:14:48.91Z",
+        "gameVersionTypeId": 70886
+      },
+      {
+        "gameVersionName": "Forge",
+        "gameVersionPadded": "0",
+        "gameVersion": "",
+        "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+        "gameVersionTypeId": 68441
+      },
+      {
+        "gameVersionName": "1.16.4",
+        "gameVersionPadded": "0000000001.0000000016.0000000004",
+        "gameVersion": "1.16.4",
+        "gameVersionReleaseDate": "2020-11-02T18:40:51.49Z",
+        "gameVersionTypeId": 70886
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 1698959251,
+    "modules": [
+      {
+        "name": "manifest.json",
+        "fingerprint": 285402914
+      }
+    ]
+  },
+  {
+    "id": 3413233,
+    "gameId": 432,
+    "modId": 372026,
+    "isAvailable": true,
+    "displayName": "Create V0.8.1",
+    "fileName": "Create-0.8.1.zip",
+    "releaseType": 1,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "843130c6eb677710e81170eb0f996d76f815c459",
+        "algo": 1
+      },
+      {
+        "value": "8554a45d768e4f68fd62f78035697cc7",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2021-08-04T20:08:51.5Z",
+    "fileLength": 1481,
+    "downloadCount": 79008,
+    "downloadUrl": "https://edge.forgecdn.net/files/3413/233/Create-0.8.1.zip",
+    "gameVersions": [
+      "1.16.5",
+      "1.16.4"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.16.5",
+        "gameVersionPadded": "0000000001.0000000016.0000000005",
+        "gameVersion": "1.16.5",
+        "gameVersionReleaseDate": "2021-01-15T14:14:48.91Z",
+        "gameVersionTypeId": 70886
+      },
+      {
+        "gameVersionName": "1.16.4",
+        "gameVersionPadded": "0000000001.0000000016.0000000004",
+        "gameVersion": "1.16.4",
+        "gameVersionReleaseDate": "2020-11-02T18:40:51.49Z",
+        "gameVersionTypeId": 70886
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 3414132,
+    "isServerPack": false,
+    "serverPackFileId": 3414132,
+    "fileFingerprint": 2185998041,
+    "modules": [
+      {
+        "name": "manifest.json",
+        "fingerprint": 3930556742
+      }
+    ]
+  },
+  {
+    "id": 3274217,
+    "gameId": 432,
+    "modId": 372026,
+    "isAvailable": true,
+    "displayName": "Create V0.7.2",
+    "fileName": "Create+0.7.2.zip",
+    "releaseType": 1,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "74a762e4f70d133999300cb182255f02332d875d",
+        "algo": 1
+      },
+      {
+        "value": "d21fc82cf769fd992fe0ce442920cb1d",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2021-04-12T22:44:37.57Z",
+    "fileLength": 1184,
+    "downloadCount": 39119,
+    "downloadUrl": "https://edge.forgecdn.net/files/3274/217/Create%2b0.7.2.zip",
+    "gameVersions": [
+      "1.16.5",
+      "1.16.4"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.16.5",
+        "gameVersionPadded": "0000000001.0000000016.0000000005",
+        "gameVersion": "1.16.5",
+        "gameVersionReleaseDate": "2021-01-15T14:14:48.91Z",
+        "gameVersionTypeId": 70886
+      },
+      {
+        "gameVersionName": "1.16.4",
+        "gameVersionPadded": "0000000001.0000000016.0000000004",
+        "gameVersion": "1.16.4",
+        "gameVersionReleaseDate": "2020-11-02T18:40:51.49Z",
+        "gameVersionTypeId": 70886
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 3274234,
+    "isServerPack": false,
+    "serverPackFileId": 3274234,
+    "fileFingerprint": 563128573,
+    "modules": [
+      {
+        "name": "manifest.json",
+        "fingerprint": 127419631
+      }
+    ]
+  },
+  {
+    "id": 3271900,
+    "gameId": 432,
+    "modId": 372026,
+    "isAvailable": true,
+    "displayName": "Create V0.7.1",
+    "fileName": "Create+0.7.1.zip",
+    "releaseType": 1,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "a50ddb3d2181b68f46f5549d9be3152d6cefa2ca",
+        "algo": 1
+      },
+      {
+        "value": "a8e876c4b46f349e51d55f7cc6cc0f75",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2021-04-10T23:57:23.697Z",
+    "fileLength": 1188,
+    "downloadCount": 2015,
+    "downloadUrl": "https://edge.forgecdn.net/files/3271/900/Create%2b0.7.1.zip",
+    "gameVersions": [
+      "1.16.5",
+      "1.16.4"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.16.5",
+        "gameVersionPadded": "0000000001.0000000016.0000000005",
+        "gameVersion": "1.16.5",
+        "gameVersionReleaseDate": "2021-01-15T14:14:48.91Z",
+        "gameVersionTypeId": 70886
+      },
+      {
+        "gameVersionName": "1.16.4",
+        "gameVersionPadded": "0000000001.0000000016.0000000004",
+        "gameVersion": "1.16.4",
+        "gameVersionReleaseDate": "2020-11-02T18:40:51.49Z",
+        "gameVersionTypeId": 70886
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 1546049636,
+    "modules": [
+      {
+        "name": "manifest.json",
+        "fingerprint": 3325283324
+      }
+    ]
+  },
+  {
+    "id": 3221569,
+    "gameId": 432,
+    "modId": 372026,
+    "isAvailable": true,
+    "displayName": "Create V0.6.2",
+    "fileName": "Create+ V0.6.2.zip",
+    "releaseType": 1,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "71ea3632f4b7bd696d72b285836b46183bb8f964",
+        "algo": 1
+      },
+      {
+        "value": "bb7afdd47a9475bf104186485ac2aace",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2021-02-28T12:16:24.017Z",
+    "fileLength": 569,
+    "downloadCount": 15668,
+    "downloadUrl": "https://edge.forgecdn.net/files/3221/569/Create%2b%20V0.6.2.zip",
+    "gameVersions": [
+      "1.16.5",
+      "1.16.4"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.16.5",
+        "gameVersionPadded": "0000000001.0000000016.0000000005",
+        "gameVersion": "1.16.5",
+        "gameVersionReleaseDate": "2021-01-15T14:14:48.91Z",
+        "gameVersionTypeId": 70886
+      },
+      {
+        "gameVersionName": "1.16.4",
+        "gameVersionPadded": "0000000001.0000000016.0000000004",
+        "gameVersion": "1.16.4",
+        "gameVersionReleaseDate": "2020-11-02T18:40:51.49Z",
+        "gameVersionTypeId": 70886
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 3232777,
+    "isServerPack": false,
+    "serverPackFileId": 3232777,
+    "fileFingerprint": 637244620,
+    "modules": [
+      {
+        "name": "manifest.json",
+        "fingerprint": 1235684202
+      }
+    ]
+  },
+  {
+    "id": 3198355,
+    "gameId": 432,
+    "modId": 372026,
+    "isAvailable": true,
+    "displayName": "Create V0.6.0",
+    "fileName": "Create-V0.6.0.zip",
+    "releaseType": 1,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "25ba4f0fc3c151aff26abf85fd79afe668aa81c4",
+        "algo": 1
+      },
+      {
+        "value": "fd2d654ddf52db9f2be611bcf53a83e0",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2021-02-09T19:21:43.233Z",
+    "fileLength": 1182,
+    "downloadCount": 7358,
+    "downloadUrl": "https://edge.forgecdn.net/files/3198/355/Create-V0.6.0.zip",
+    "gameVersions": [
+      "1.16.5",
+      "1.16.4"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.16.5",
+        "gameVersionPadded": "0000000001.0000000016.0000000005",
+        "gameVersion": "1.16.5",
+        "gameVersionReleaseDate": "2021-01-15T14:14:48.91Z",
+        "gameVersionTypeId": 70886
+      },
+      {
+        "gameVersionName": "1.16.4",
+        "gameVersionPadded": "0000000001.0000000016.0000000004",
+        "gameVersion": "1.16.4",
+        "gameVersionReleaseDate": "2020-11-02T18:40:51.49Z",
+        "gameVersionTypeId": 70886
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 3210902,
+    "isServerPack": false,
+    "serverPackFileId": 3232769,
+    "fileFingerprint": 1200304732,
+    "modules": [
+      {
+        "name": "manifest.json",
+        "fingerprint": 4136729971
+      }
+    ]
+  },
+  {
+    "id": 2929168,
+    "gameId": 432,
+    "modId": 372026,
+    "isAvailable": true,
+    "displayName": "Create V0.5.1",
+    "fileName": "Create-0.5.1.zip",
+    "releaseType": 1,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "754bdfc859fe7f3645423fd76be712229a68a87d",
+        "algo": 1
+      },
+      {
+        "value": "9a4ea74414041811681e7a72075e430c",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2020-04-13T19:27:03.93Z",
+    "fileLength": 17619,
+    "downloadCount": 10067,
+    "downloadUrl": "https://edge.forgecdn.net/files/2929/168/Create-0.5.1.zip",
+    "gameVersions": [
+      "1.14.4"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.14.4",
+        "gameVersionPadded": "0000000001.0000000014.0000000004",
+        "gameVersion": "1.14.4",
+        "gameVersionReleaseDate": "2019-07-19T00:00:00Z",
+        "gameVersionTypeId": 64806
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 4180841315,
+    "modules": [
+      {
+        "name": "manifest.json",
+        "fingerprint": 3675900928
+      }
+    ]
+  },
+  {
+    "id": 2923835,
+    "gameId": 432,
+    "modId": 372026,
+    "isAvailable": true,
+    "displayName": "Create V0.4.0",
+    "fileName": "Create-0.4.0.zip",
+    "releaseType": 1,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "e4d5f689afbdfc13ab92d0eda5c6d3becb7f1077",
+        "algo": 1
+      },
+      {
+        "value": "1ca0475a05562a23f32b145f9728088e",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2020-04-07T20:51:57.557Z",
+    "fileLength": 17602,
+    "downloadCount": 1280,
+    "downloadUrl": "https://edge.forgecdn.net/files/2923/835/Create-0.4.0.zip",
+    "gameVersions": [
+      "1.14.4"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.14.4",
+        "gameVersionPadded": "0000000001.0000000014.0000000004",
+        "gameVersion": "1.14.4",
+        "gameVersionReleaseDate": "2019-07-19T00:00:00Z",
+        "gameVersionTypeId": 64806
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 3117596004,
+    "modules": [
+      {
+        "name": "manifest.json",
+        "fingerprint": 3569839585
+      }
+    ]
+  },
+  {
+    "id": 2920310,
+    "gameId": 432,
+    "modId": 372026,
+    "isAvailable": true,
+    "displayName": "Create V0.3.0",
+    "fileName": "Create-0.3.0.zip",
+    "releaseType": 1,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "e98ac8a178bb2c8ea282cf5ad124df63b774e25c",
+        "algo": 1
+      },
+      {
+        "value": "9df1113ca7c1d38f6cfe578f40f86410",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2020-04-03T20:25:47.783Z",
+    "fileLength": 17555,
+    "downloadCount": 379,
+    "downloadUrl": "https://edge.forgecdn.net/files/2920/310/Create-0.3.0.zip",
+    "gameVersions": [
+      "1.14.4"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.14.4",
+        "gameVersionPadded": "0000000001.0000000014.0000000004",
+        "gameVersion": "1.14.4",
+        "gameVersionReleaseDate": "2019-07-19T00:00:00Z",
+        "gameVersionTypeId": 64806
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 3526831280,
+    "modules": [
+      {
+        "name": "manifest.json",
+        "fingerprint": 226754656
+      }
+    ]
+  },
+  {
+    "id": 2916528,
+    "gameId": 432,
+    "modId": 372026,
+    "isAvailable": true,
+    "displayName": "Create v0.2.0",
+    "fileName": "Create-0.2.0.zip",
+    "releaseType": 1,
+    "fileStatus": 4,
+    "hashes": [
+      {
+        "value": "9397d5b4998785aa0fc12534638e440877205470",
+        "algo": 1
+      },
+      {
+        "value": "9eaac336bb2fe07cb707c3440ef26200",
+        "algo": 2
+      }
+    ],
+    "fileDate": "2020-03-30T14:52:31.1Z",
+    "fileLength": 17504,
+    "downloadCount": 385,
+    "downloadUrl": "https://edge.forgecdn.net/files/2916/528/Create-0.2.0.zip",
+    "gameVersions": [
+      "1.14.4"
+    ],
+    "sortableGameVersions": [
+      {
+        "gameVersionName": "1.14.4",
+        "gameVersionPadded": "0000000001.0000000014.0000000004",
+        "gameVersion": "1.14.4",
+        "gameVersionReleaseDate": "2019-07-19T00:00:00Z",
+        "gameVersionTypeId": 64806
+      }
+    ],
+    "dependencies": [],
+    "alternateFileId": 0,
+    "isServerPack": false,
+    "fileFingerprint": 3652291500,
+    "modules": [
+      {
+        "name": "manifest.json",
+        "fingerprint": 3439112174
+      }
+    ]
+  }
+]
