@@ -26,6 +26,25 @@
         <button id="exportMD">🧾 Export Markdown</button>
       </div>
 
+      <!-- NEW FILTERS -->
+      <div id="filterSection" class="hidden filters">
+        <label
+          >Filter Loader:
+          <select id="filterLoader">
+            <option value="">All</option>
+          </select>
+        </label>
+        <label
+          >Filter Version:
+          <select id="filterVersion">
+            <option value="">All</option>
+          </select>
+        </label>
+      </div>
+
+      <!-- COMPATIBILITY SUMMARY (TOP) -->
+      <div id="compatibilitySummaryTop" class="compatibility hidden"></div>
+
       <div class="table-container hidden" id="tableContainer">
         <table id="resultTable">
           <thead>
@@ -37,6 +56,9 @@
           <tbody></tbody>
         </table>
       </div>
+
+      <!-- COMPATIBILITY SUMMARY (BOTTOM) -->
+      <div id="compatibilitySummaryBottom" class="compatibility hidden"></div>
     </div>
 
     <script src="app.js"></script>

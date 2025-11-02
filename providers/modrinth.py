@@ -23,11 +23,11 @@ def safe_request(url, retries=5, delay=1):
     raise RuntimeError(f"Failed to fetch {url} after {retries} retries.")
 
 # ---------- Helper: Cached fetch ----------
-def cached_fetch(slug, name, url):
+def cached_fetch(slug, mod_id, name, url):
     """
     Fetch and cache CurseForge API page data.
     """
-    mod_cache_dir = os.path.join(CACHE_DIR, slug)
+    mod_cache_dir = os.path.join(CACHE_DIR, mod_id)
     os.makedirs(mod_cache_dir, exist_ok=True)
     cache_path = os.path.join(mod_cache_dir, "versions.json")
 
@@ -57,7 +57,7 @@ def get_mod_data(url: str):
 
     # Step 2: Fetch all file pages (with cache)
     versions_url = f"{API_BASE}/project/{slug}/version"
-    data = cached_fetch(slug, mod_name, versions_url)
+    data = cached_fetch(slug, mod_name, versions_url, url)
 
     # Step 3: Extract Minecraft version ↔ mod loader pairs
     version_loader_pairs = set()

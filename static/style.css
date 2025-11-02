@@ -293,3 +293,47 @@ td a:hover {
     transform: translateY(0);
   }
 }
+
+/* === COMPATIBILITY SUMMARY === */
+.compatibility {
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: var(--radius);
+  font-weight: bold;
+  text-align: center;
+}
+.compatibility.good {
+  background: #1f8b4c;
+  color: white;
+}
+.compatibility.warning {
+  background: #f0a500;
+  color: black;
+}
+.compatibility.bad {
+  background: #c0392b;
+  color: white;
+}
+
+/* === FILTERS === */
+.filters {
+  margin: 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+.filters label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-weight: 600;
+}
+.filters select {
+  margin-top: 4px;
+  padding: 4px 8px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border-color);
+  background: var(--input-bg);
+  color: var(--text);
+}

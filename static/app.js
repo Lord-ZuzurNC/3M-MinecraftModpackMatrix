@@ -113,6 +113,118 @@ analyzeBtn.addEventListener("click", async () => {
     alert("An error occurred. Check console for details.");
     loading.classList.add("hidden");
   }
+
+  // Collect all versions/loaders for filtering and comparison
+  const allLoaders = new Set();
+  const allVersions = new Set();
+  const modPairs = [];
+
+  for (const mod of data.filter((m) => !m.error)) {
+    const pairs = mod.versions.map(([version, loader]) => ({
+      version,
+      loader,
+    }));
+    modPairs.push(pairs);
+    pairs.forEach((p) => {
+      if (p.loader) allLoaders.add(p.loader);
+      if (p.version) allVersions.add(p.version);
+    });
+  }
+
+  // === Compute compatibility ===
+  function computeCompatibility(pairsPerMod) {
+    const intersection = pairsPerMod.reduce((acc, pairs) => {
+      const pairStrings = pairs.map((p) => `${p.loader} ${p.version}`);
+      return acc ? acc.filter((x) => pairStrings.includes(x)) : pairStrings;
+    }, null);
+
+    if (intersection && intersection.length > 0) {
+      // ✅ Perfect match
+      const best = pickBest(intersection);
+      return { type: "good", text: `All your mods share: ${best}` };
+    }
+
+    // ❌ No perfect match → check most common
+    const freq = {};
+    pairsPerMod.flat().forEach((p) => {
+      const key = `${p.loader} ${p.version}`;
+      freq[key] = (freq[key] || 0) + 1;
+    });
+
+    const sorted = Object.entries(freq).sort((a, b) => b[1] - a[1]);
+    const [top, second] = sorted;
+
+    if (!top) return { type: "bad", text: "No mods found" };
+
+    if (second && top[1] === second[1]) {
+      // Tie → no clear winner
+      return { type: "bad", text: "No common denominator between your mods" };
+    }
+
+    if (top[1] > 1) {
+      // ⚠️ Partial commonality
+      return { type: "warning", text: `Most of your mods share: ${top[0]}` };
+    }
+
+    // 🚫 None share anything
+    return { type: "bad", text: "No common denominator between your mods" };
+  }
+
+  function pickBest(pairs) {
+    // Prefer higher version numerically if multiple (e.g., 1.20.1 > 1.19)
+    const sorted = pairs.sort((a, b) => {
+      const va = a.match(/\d+(\.\d+)*/)?.[0] || "";
+      const vb = b.match(/\d+(\.\d+)*/)?.[0] || "";
+      return vb.localeCompare(va, undefined, { numeric: true });
+    });
+    return sorted[0];
+  }
+
+  const summary = computeCompatibility(modPairs);
+  const summaryEls = [
+    document.getElementById("compatibilitySummaryTop"),
+    document.getElementById("compatibilitySummaryBottom"),
+  ];
+
+  for (const el of summaryEls) {
+    el.className = `compatibility ${summary.type}`;
+    el.textContent = summary.text;
+    el.classList.remove("hidden");
+  }
+
+  // === Populate filter dropdowns ===
+  populateFilterSelect(document.getElementById("filterLoader"), allLoaders);
+  populateFilterSelect(document.getElementById("filterVersion"), allVersions);
+  document.getElementById("filterSection").classList.remove("hidden");
+
+  function populateFilterSelect(select, values) {
+    select.innerHTML = `<option value="">All</option>`;
+    [...values].sort().forEach((v) => {
+      const opt = document.createElement("option");
+      opt.value = v;
+      opt.textContent = v;
+      select.appendChild(opt);
+    });
+  }
+
+  // === Filtering logic ===
+  function applyFilters() {
+    const loaderVal = document.getElementById("filterLoader").value;
+    const versionVal = document.getElementById("filterVersion").value;
+
+    document.querySelectorAll("#resultTable tbody tr").forEach((row) => {
+      const inner = row.querySelector(".details-content");
+      const visible =
+        (!loaderVal && !versionVal) ||
+        (inner &&
+          inner.textContent.includes(loaderVal) &&
+          inner.textContent.includes(versionVal));
+      row.style.display = visible ? "" : "none";
+    });
+  }
+
+  document.getElementById("filterLoader").onchange = applyFilters;
+  document.getElementById("filterVersion").onchange = applyFilters;
 });
 
 // === EXPORT FUNCTIONS ===
