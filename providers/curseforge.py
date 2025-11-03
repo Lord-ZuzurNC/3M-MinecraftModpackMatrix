@@ -5,6 +5,7 @@ import requests
 from datetime import datetime, timedelta
 from dateutil.parser import parse
 from re import sub
+from providers import cache_path, safe_name
 
 API_BASE = "https://api.curseforge.com/v1"
 GAME_ID = 432  # Minecraft
@@ -43,27 +44,18 @@ def safe_request(url, params=None, retries=5, delay=1):
     raise RuntimeError(f"Failed to fetch {url} after {retries} retries.")
 
 # ---------- Helper: Cached fetch ----------
-def cached_fetch(mod_id, page, url, params):
-    """
-    Fetch and cache CurseForge API page data.
-    """
-    safe_mod_id = sub(r'[^a-zA-Z0-9_-]', '_', mod_id)
-    mod_cache_dir = os.path.join(CACHE_DIR, str(safe_mod_id))
-    os.makedirs(mod_cache_dir, exist_ok=True)
+def cached_fetch(provider, mod_id, slug, page, url, params):
+    cache_file = cache_path(provider, slug, mod_id, page)
 
-    cache_path = os.path.join(mod_cache_dir, f"page-{page}.json")
-
-    # Check for valid cache
-    if os.path.exists(cache_path):
-        mtime = datetime.fromtimestamp(os.path.getmtime(cache_path))
+    if os.path.exists(cache_file):
+        mtime = datetime.fromtimestamp(os.path.getmtime(cache_file))
         if datetime.now() - mtime < CACHE_TTL:
-            with open(cache_path, "r", encoding="utf-8") as f:
+            with open(cache_file, "r", encoding="utf-8") as f:
                 return json.load(f)
 
-    # Fetch and cache new data
     response = safe_request(url, params=params)
     data = response.json()
-    with open(cache_path, "w", encoding="utf-8") as f:
+    with open(cache_file, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)
     return data
 
@@ -104,7 +96,7 @@ def get_mod_data(url: str):
 
         debug(f"Fetching page {page} for mod {mod_id} (index={params['index']})")
         try:
-            data = cached_fetch(mod_id, page, files_url, params)
+            data = cached_fetch("curseforge", mod_id, slug, page, files_url, params)
         except Exception as e:
             debug(f"[WARN] Failed to fetch page {page}: {e}")
             consecutive_misses += 1
@@ -181,7 +173,7 @@ def get_mod_data(url: str):
     return {
         "provider": "curseforge",
         "mod_id": mod_id,
-        "name": mod_name,
+        "name": mod_name + (" [c]" if cached else ""),
         "url": url,
         "versions": sorted_pairs
     }

@@ -32,7 +32,7 @@ document.getElementById("analyzeBtn").addEventListener("click", async () => {
   const input = document.getElementById("urlInput").value.trim();
   if (!input) return alert("Please enter at least one URL.");
 
-  const urls = input
+  const urlinput = input
     .split("\n")
     .map((u) => u.trim())
     .filter(Boolean);
@@ -53,6 +53,21 @@ document.getElementById("analyzeBtn").addEventListener("click", async () => {
   bottomSummary.classList.add("hidden");
   tbody.innerHTML = "";
   rowsForExport = [];
+
+  const urlRegex = /^https?:\/\/(www\.)?(curseforge\.com|modrinth\.com)\/.+/i;
+  const urls = document
+    .getElementById("urls")
+    .value.split(/\n+/)
+    .map((u) => u.trim())
+    .filter(Boolean);
+
+  const validUrls = urls.filter((u) => urlRegex.test(u));
+  const invalidUrls = urls.filter((u) => !urlRegex.test(u));
+
+  if (invalidUrls.length > 0) {
+    alert("Some URLs are invalid:\n" + invalidUrls.join("\n"));
+    return;
+  }
 
   try {
     const res = await fetch("/analyze", {
@@ -267,6 +282,18 @@ document.getElementById("analyzeBtn").addEventListener("click", async () => {
   }
 }); // end analyze handler
 
+document.getElementById("clearCacheBtn").addEventListener("click", async () => {
+  if (!confirm("Do you want to remove all local cache?")) return;
+  const res = await fetch("/clear_cache", { method: "POST" });
+  const msg = await res.text();
+  alert(msg);
+});
+
+function timestamp() {
+  const d = new Date();
+  return d.toISOString().slice(0, 19).replace(/[:T]/g, "-");
+}
+
 // export functions unchanged but use passed rows
 function exportCSV(rows) {
   if (!rows || !rows.length) return alert("No data to export!");
@@ -274,7 +301,8 @@ function exportCSV(rows) {
   const csv = rows
     .map((r) => `"${r.name}","${r.version}","${r.loader}","${r.url}"`)
     .join("\n");
-  downloadFile("mods.csv", header + csv);
+  const filename = `mods-${timestamp()}.csv`;
+  downloadFile("${filename}.csv", header + csv);
 }
 function exportMD(rows) {
   if (!rows || !rows.length) return alert("No data to export!");
@@ -282,7 +310,8 @@ function exportMD(rows) {
   for (const r of rows) {
     md += `| [${r.name}](${r.url}) | ${r.version} | ${r.loader} |\n`;
   }
-  downloadFile("mods.md", md);
+  const filename = `mods-${timestamp()}.md`;
+  downloadFile("{filename}.md", md);
 }
 function downloadFile(filename, content) {
   const blob = new Blob([content], { type: "text/plain" });

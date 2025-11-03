@@ -7,6 +7,7 @@ from datetime import datetime, timedelta
 from dotenv import load_dotenv
 import re
 from re import sub
+from providers import cache_path, safe_name
 
 load_dotenv()
 
@@ -58,17 +59,33 @@ def cache_path_for(slug: str):
     d.mkdir(parents=True, exist_ok=True)
     return d / "versions.json"
 
-def cached_fetch_versions(safe_slug: str, slug: str, url: str):
-    p = cache_path_for(safe_slug)
-    if p.exists():
-        mtime = datetime.fromtimestamp(p.stat().st_mtime)
-        if datetime.now() - mtime < CACHE_TTL:
-            debug(f"Loading cached Modrinth versions for {slug}")
-            return json.loads(p.read_text(encoding="utf-8"))
-    r = safe_request(url)
-    data = r.json()
-    p.write_text(json.dumps(data, indent=2), encoding="utf-8")
-    return data
+def cached_fetch_versions(provider, slug: str, mod_id: str, url: str):
+    all_versions = []
+    offset = 0
+    page = 0
+    while True:
+        page_url = f"{url}?offset={offset}&limit=50"
+        cache_file = cache_path(provider, slug, mod_id, page)
+        if os.path.exists(cache_file):
+            mtime = datetime.fromtimestamp(os.path.getmtime(cache_file))
+            if datetime.now() - mtime < CACHE_TTL:
+                data = json.loads(open(cache_file, encoding="utf-8").read())
+                all_versions += data
+                if len(data) < 50:
+                    break
+                page += 1
+                offset += 50
+                continue
+        r = safe_request(page_url)
+        data = r.json()
+        with open(cache_file, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2)
+        all_versions += data
+        if len(data) < 50:
+            break
+        offset += 50
+        page += 1
+    return all_versions
 
 def get_mod_data(url: str) -> dict:
     slug = slug_from_modrinth_url(url)
@@ -106,7 +123,7 @@ def get_mod_data(url: str) -> dict:
     return {
         "provider": "modrinth",
         "mod_id": mod_id,
-        "name": mod_name,
+        "name": mod_name + (" [c]" if cached else ""),
         "url": url,
         "versions": sorted_pairs
     }

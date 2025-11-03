@@ -31,6 +31,13 @@ body[data-theme="dark"] {
   --table-border: #555;
 }
 
+body a[data-theme="dark"] {
+  color: #8ab4f8; /* bright blue links */
+}
+body a:visited[data-theme="dark"] {
+  color: #9ecbff; /* lighter blue */
+}
+
 /* === GLOBAL STYLES === */
 body {
   font-family: "Segoe UI", sans-serif;
