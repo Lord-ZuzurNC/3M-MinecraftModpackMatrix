@@ -1,7 +1,4 @@
-# This workflow will install Python dependencies, run tests and lint with a single version of Python
-# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
-
-name: 3M Python build
+name: Minecraft Mod Matrix — Python CI
 
 on:
   push:
@@ -19,7 +16,7 @@ jobs:
     strategy:
       matrix:
         python-version: ["3.10", "3.12", "3.14"]
-        os: [ubuntu-latest, windows-latest]
+        os: ["ubuntu-latest", "windows-latest"]
 
     steps:
       - name: Checkout repository
@@ -30,11 +27,20 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
 
-      - name: Install dependencies
+      - name: Install dependencies (Linux)
+        if: matrix.os == 'ubuntu-latest'
         run: |
           python -m pip install --upgrade pip
           pip install flask flask-cors flake8 pytest
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Install dependencies (Windows)
+        if: matrix.os == 'windows-latest'
+        shell: powershell
+        run: |
+          python -m pip install --upgrade pip
+          pip install flask flask-cors flake8 pytest
+          if (Test-Path requirements.txt) { pip install -r requirements.txt }
 
       - name: Lint with flake8
         run: |
@@ -52,10 +58,4 @@ jobs:
       - name: Verify Flask startup (smoke test)
         run: |
           echo "🚀 Testing Flask startup..."
-          python - <<'PYCODE'
-          from web import app
-          client = app.test_client()
-          r = client.get('/')
-          print("✅ Root route returned:", r.status_code)
-          assert r.status_code in (200, 302)
-          PYCODE
+          python -c "from web import app; client = app.test_client(); r = client.get('/'); print('✅ Root route returned:', r.status_code); assert r.status_code in (200, 302)"
