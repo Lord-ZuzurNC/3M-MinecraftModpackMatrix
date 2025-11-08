@@ -1,32 +1,24 @@
-import os
-import time
-import json
-import requests
+import os, re, time, json, requests
 from pathlib import Path
 from datetime import datetime, timedelta
 from dotenv import load_dotenv
-import re
-from re import sub
-from providers import cache_path, safe_name
 
 load_dotenv()
 
 API_BASE = "https://api.modrinth.com/v2"
-CACHE_DIR = Path("cache") / "modrinth"
 CACHE_TTL = timedelta(hours=24)
-CACHE_DIR.mkdir(parents=True, exist_ok=True)
+CACHE_ROOT = Path("cache") / "modrinth"
+CACHE_ROOT.mkdir(parents=True, exist_ok=True)
 
 def debug(msg: str):
     if os.getenv("DEBUG", "false").lower() == "true":
-        print("[DEBUG] ", msg)
+        print("[DEBUG]", msg)
 
 def safe_request(url, retries=5, timeout=10):
     for attempt in range(1, retries + 1):
         try:
-            timeout = int(os.getenv("REQUEST_TIMEOUT", 10))
             r = requests.get(url, timeout=timeout)
             r.raise_for_status()
-            # try parse JSON here; if it fails we'll raise with useful info
             try:
                 _ = r.json()
             except ValueError:
@@ -39,53 +31,61 @@ def safe_request(url, retries=5, timeout=10):
     raise RuntimeError(f"Failed to fetch {url} after {retries} retries.")
 
 def slug_from_modrinth_url(url: str) -> str | None:
-    # Accept many forms: https://modrinth.com/mods/sodium, /project/<id>, etc.
     if not url:
         return None
     url = url.strip().rstrip("/")
-    # If URL contains /project/ or /mod/ or /mods/ or /modpack/
     m = re.search(r"/(project|mod|mods)/([^/?#]+)$", url)
     if m:
         return m.group(2)
-    # fallback: last path segment
     parts = url.split("/")
     if parts:
         return parts[-1]
     return None
 
-def cache_path_for(slug: str):
-    safe_slug = sub(r'[^a-zA-Z0-9_-]', '_', slug)
-    d = CACHE_DIR / safe_slug
-    d.mkdir(parents=True, exist_ok=True)
-    return d / "versions.json"
+from providers import cache_path
 
-def cached_fetch_versions(provider, slug: str, mod_id: str, url: str):
+def cached_fetch_versions(provider, slug: str, mod_id: str, base_url: str):
+    """
+    Fetch Modrinth versions in pages of 50. Cache each page to:
+    cache/{provider}/{slug}_{mod_id}/page-{page}.json
+    Returns the combined list of version objects.
+    """
     all_versions = []
     offset = 0
     page = 0
+    page_size = 50
+
     while True:
-        page_url = f"{url}?offset={offset}&limit=50"
+        page_url = f"{base_url}?offset={offset}&limit={page_size}"
         cache_file = cache_path(provider, slug, mod_id, page)
+
         if os.path.exists(cache_file):
             mtime = datetime.fromtimestamp(os.path.getmtime(cache_file))
             if datetime.now() - mtime < CACHE_TTL:
+                debug(f"Loading cached Modrinth page {page} for {slug}")
                 data = json.loads(open(cache_file, encoding="utf-8").read())
                 all_versions += data
-                if len(data) < 50:
+                if len(data) < page_size:
                     break
                 page += 1
-                offset += 50
+                offset += page_size
                 continue
+
         r = safe_request(page_url)
         data = r.json()
         with open(cache_file, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2)
         all_versions += data
-        if len(data) < 50:
+        if len(data) < page_size:
             break
-        offset += 50
+        offset += page_size
         page += 1
+
     return all_versions
+
+def version_key(v: str):
+    # Extract numeric parts from version strings like '1.20.10'
+    return [int(part) if part.isdigit() else part for part in re.split(r'(\d+)', v)]
 
 def get_mod_data(url: str) -> dict:
     slug = slug_from_modrinth_url(url)
@@ -104,7 +104,7 @@ def get_mod_data(url: str) -> dict:
 
     versions_url = f"{API_BASE}/project/{slug}/version"
     try:
-        versions = cached_fetch_versions(slug, versions_url, url)
+        versions = cached_fetch_versions("modrinth", slug, str(mod_id), versions_url)
     except Exception as e:
         raise RuntimeError(f"Failed to fetch Modrinth versions for '{slug}': {e}")
 
@@ -118,12 +118,12 @@ def get_mod_data(url: str) -> dict:
             for loader in loaders:
                 pairs.add((gv, loader.capitalize()))
 
-    sorted_pairs = sorted(pairs, key=lambda x: (x[0], x[1]))
+    sorted_pairs = sorted(pairs, key=version_key, reverse=True)
 
     return {
         "provider": "modrinth",
-        "mod_id": mod_id,
-        "name": mod_name + (" [c]" if cached else ""),
+        "mod_id": str(mod_id),
+        "name": mod_name,
         "url": url,
         "versions": sorted_pairs
     }
