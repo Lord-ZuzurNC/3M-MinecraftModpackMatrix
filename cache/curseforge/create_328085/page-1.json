@@ -1,0 +1,3313 @@
+{
+  "data": [
+    {
+      "id": 4007544,
+      "gameId": 432,
+      "modId": 328085,
+      "isAvailable": true,
+      "displayName": "Create 1.18.2 v0.5.0e",
+      "fileName": "create-1.18.2-0.5.0.e.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "102bd0f5ae1a10b531fb6169709b4ea7ebca6844",
+          "algo": 1
+        },
+        {
+          "value": "b09699048d4d6021f3b44a37753aad14",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2022-09-25T20:29:01.03Z",
+      "fileLength": 13942567,
+      "downloadCount": 1667522,
+      "downloadUrl": "https://edge.forgecdn.net/files/4007/544/create-1.18.2-0.5.0.e.jar",
+      "gameVersions": [
+        "1.18.2",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.18.2",
+          "gameVersionPadded": "0000000001.0000000018.0000000002",
+          "gameVersion": "1.18.2",
+          "gameVersionReleaseDate": "2022-02-28T14:23:37.723Z",
+          "gameVersionTypeId": 73250
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [
+        {
+          "modId": 238222,
+          "relationType": 2
+        },
+        {
+          "modId": 486392,
+          "relationType": 3
+        }
+      ],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 3537950479,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 3162944505
+        },
+        {
+          "name": "com",
+          "fingerprint": 4258768237
+        },
+        {
+          "name": "assets",
+          "fingerprint": 919740017
+        },
+        {
+          "name": "create.mixins.json",
+          "fingerprint": 1208576470
+        },
+        {
+          "name": "data",
+          "fingerprint": 2586123409
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 2345636260
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2686905091
+        },
+        {
+          "name": "resourcepacks",
+          "fingerprint": 1126129099
+        },
+        {
+          "name": "LICENSE_create-1.18.2",
+          "fingerprint": 1927476733
+        },
+        {
+          "name": "create.refmap.json",
+          "fingerprint": 2262694718
+        }
+      ]
+    },
+    {
+      "id": 3934676,
+      "gameId": 432,
+      "modId": 328085,
+      "isAvailable": true,
+      "displayName": " Create 1.18.2 v0.5.0d",
+      "fileName": "create-1.18.2-0.5.0.d.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "752272ed4a12ea2ecf4a11cca91344727bc47e57",
+          "algo": 1
+        },
+        {
+          "value": "ba5cd88f62934f6e9bb511ef489f0afb",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2022-08-14T20:37:10.38Z",
+      "fileLength": 13903459,
+      "downloadCount": 1554084,
+      "downloadUrl": "https://edge.forgecdn.net/files/3934/676/create-1.18.2-0.5.0.d.jar",
+      "gameVersions": [
+        "1.18.2",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.18.2",
+          "gameVersionPadded": "0000000001.0000000018.0000000002",
+          "gameVersion": "1.18.2",
+          "gameVersionReleaseDate": "2022-02-28T14:23:37.723Z",
+          "gameVersionTypeId": 73250
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [
+        {
+          "modId": 238222,
+          "relationType": 2
+        },
+        {
+          "modId": 486392,
+          "relationType": 3
+        }
+      ],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 2570815536,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 3554189090
+        },
+        {
+          "name": "com",
+          "fingerprint": 2013813209
+        },
+        {
+          "name": "assets",
+          "fingerprint": 3949532751
+        },
+        {
+          "name": "create.mixins.json",
+          "fingerprint": 1208576470
+        },
+        {
+          "name": "data",
+          "fingerprint": 3599391978
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 2345636260
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2686905091
+        },
+        {
+          "name": "resourcepacks",
+          "fingerprint": 1126129099
+        },
+        {
+          "name": "LICENSE_create-1.18.2",
+          "fingerprint": 1927476733
+        },
+        {
+          "name": "create.refmap.json",
+          "fingerprint": 2262694718
+        }
+      ]
+    },
+    {
+      "id": 3872145,
+      "gameId": 432,
+      "modId": 328085,
+      "isAvailable": true,
+      "displayName": " Create 1.18.2 v0.5.0c",
+      "fileName": "create-mc1.18.2_v0.5.0c.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "4b01df584e77401ae0b781a8ee03eede5ab31e84",
+          "algo": 1
+        },
+        {
+          "value": "7c3e3b0f8055396f040770a7393744fa",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2022-07-12T15:49:29.14Z",
+      "fileLength": 14509736,
+      "downloadCount": 1243973,
+      "downloadUrl": "https://edge.forgecdn.net/files/3872/145/create-mc1.18.2_v0.5.0c.jar",
+      "gameVersions": [
+        "1.18.2",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.18.2",
+          "gameVersionPadded": "0000000001.0000000018.0000000002",
+          "gameVersion": "1.18.2",
+          "gameVersionReleaseDate": "2022-02-28T14:23:37.723Z",
+          "gameVersionTypeId": 73250
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [
+        {
+          "modId": 238222,
+          "relationType": 2
+        },
+        {
+          "modId": 486392,
+          "relationType": 3
+        }
+      ],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 3652023177,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 2558943843
+        },
+        {
+          "name": "com",
+          "fingerprint": 1633523922
+        },
+        {
+          "name": ".cache",
+          "fingerprint": 33801624
+        },
+        {
+          "name": "assets",
+          "fingerprint": 2818808479
+        },
+        {
+          "name": "create.mixins.json",
+          "fingerprint": 1208576470
+        },
+        {
+          "name": "data",
+          "fingerprint": 786099269
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3240354883
+        },
+        {
+          "name": "opt_in",
+          "fingerprint": 183533900
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 3944413795
+        },
+        {
+          "name": "create.refmap.json",
+          "fingerprint": 1177844340
+        }
+      ]
+    },
+    {
+      "id": 3871258,
+      "gameId": 432,
+      "modId": 328085,
+      "isAvailable": true,
+      "displayName": " Create 1.18.2 v0.5.0b",
+      "fileName": "create-mc1.18.2_v0.5.0b.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "a29223c76c8201bb6b2a4c4e7068e651824395b8",
+          "algo": 1
+        },
+        {
+          "value": "509577e2b67fa22168178f7695e61ed1",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2022-07-12T01:09:59.133Z",
+      "fileLength": 14509504,
+      "downloadCount": 31032,
+      "downloadUrl": "https://edge.forgecdn.net/files/3871/258/create-mc1.18.2_v0.5.0b.jar",
+      "gameVersions": [
+        "1.18.2",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.18.2",
+          "gameVersionPadded": "0000000001.0000000018.0000000002",
+          "gameVersion": "1.18.2",
+          "gameVersionReleaseDate": "2022-02-28T14:23:37.723Z",
+          "gameVersionTypeId": 73250
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [
+        {
+          "modId": 238222,
+          "relationType": 2
+        },
+        {
+          "modId": 486392,
+          "relationType": 3
+        }
+      ],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 3145941368,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 131548419
+        },
+        {
+          "name": "com",
+          "fingerprint": 3503644288
+        },
+        {
+          "name": ".cache",
+          "fingerprint": 3016029160
+        },
+        {
+          "name": "assets",
+          "fingerprint": 3284154778
+        },
+        {
+          "name": "create.mixins.json",
+          "fingerprint": 1208576470
+        },
+        {
+          "name": "data",
+          "fingerprint": 786099269
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3240354883
+        },
+        {
+          "name": "opt_in",
+          "fingerprint": 183533900
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 3944413795
+        },
+        {
+          "name": "create.refmap.json",
+          "fingerprint": 1177844340
+        }
+      ]
+    },
+    {
+      "id": 3871091,
+      "gameId": 432,
+      "modId": 328085,
+      "isAvailable": true,
+      "displayName": " Create 1.18.2 v0.5.0a",
+      "fileName": "create-mc1.18.2_v0.5.0a.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "899e91f7753cdc03d51a0ab4b2f05be70c7665e4",
+          "algo": 1
+        },
+        {
+          "value": "bc923ec91365f71df59803d096c72274",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2022-07-11T22:19:43.923Z",
+      "fileLength": 14509541,
+      "downloadCount": 13237,
+      "downloadUrl": "https://edge.forgecdn.net/files/3871/91/create-mc1.18.2_v0.5.0a.jar",
+      "gameVersions": [
+        "1.18.2",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.18.2",
+          "gameVersionPadded": "0000000001.0000000018.0000000002",
+          "gameVersion": "1.18.2",
+          "gameVersionReleaseDate": "2022-02-28T14:23:37.723Z",
+          "gameVersionTypeId": 73250
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [
+        {
+          "modId": 238222,
+          "relationType": 2
+        },
+        {
+          "modId": 486392,
+          "relationType": 3
+        }
+      ],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 952426321,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 566556944
+        },
+        {
+          "name": "com",
+          "fingerprint": 1688135882
+        },
+        {
+          "name": ".cache",
+          "fingerprint": 3016029160
+        },
+        {
+          "name": "assets",
+          "fingerprint": 3284154778
+        },
+        {
+          "name": "create.mixins.json",
+          "fingerprint": 1208576470
+        },
+        {
+          "name": "data",
+          "fingerprint": 786099269
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3240354883
+        },
+        {
+          "name": "opt_in",
+          "fingerprint": 183533900
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 3944413795
+        },
+        {
+          "name": "create.refmap.json",
+          "fingerprint": 1177844340
+        }
+      ]
+    },
+    {
+      "id": 3864525,
+      "gameId": 432,
+      "modId": 328085,
+      "isAvailable": true,
+      "displayName": "Create 1.18.2 v0.5.0",
+      "fileName": "create-mc1.18.2_v0.5.0.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "eb4c42d313389d2ea187868841a0393b42ce3d9f",
+          "algo": 1
+        },
+        {
+          "value": "850f1f77be2d3d7e2d2efe8ec1c709a9",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2022-07-08T19:23:27.553Z",
+      "fileLength": 14463619,
+      "downloadCount": 156069,
+      "downloadUrl": "https://edge.forgecdn.net/files/3864/525/create-mc1.18.2_v0.5.0.jar",
+      "gameVersions": [
+        "1.18.2",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.18.2",
+          "gameVersionPadded": "0000000001.0000000018.0000000002",
+          "gameVersion": "1.18.2",
+          "gameVersionReleaseDate": "2022-02-28T14:23:37.723Z",
+          "gameVersionTypeId": 73250
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [
+        {
+          "modId": 238222,
+          "relationType": 2
+        },
+        {
+          "modId": 486392,
+          "relationType": 3
+        }
+      ],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 1207959950,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 1200436401
+        },
+        {
+          "name": "com",
+          "fingerprint": 2760893075
+        },
+        {
+          "name": ".cache",
+          "fingerprint": 1151694191
+        },
+        {
+          "name": "assets",
+          "fingerprint": 405328851
+        },
+        {
+          "name": "create.mixins.json",
+          "fingerprint": 1208576470
+        },
+        {
+          "name": "data",
+          "fingerprint": 3316314324
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3240354883
+        },
+        {
+          "name": "opt_in",
+          "fingerprint": 183533900
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 3944413795
+        },
+        {
+          "name": "create.refmap.json",
+          "fingerprint": 1177844340
+        }
+      ]
+    },
+    {
+      "id": 3737418,
+      "gameId": 432,
+      "modId": 328085,
+      "isAvailable": true,
+      "displayName": "Create 1.18.2 v0.4.1",
+      "fileName": "create-mc1.18.2_v0.4.1.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "47f01160e2650c6d63c0d8cde2f72cee39d313f3",
+          "algo": 1
+        },
+        {
+          "value": "2865bf7c262ac59dd83b2fb5f5bb4574",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2022-04-06T18:59:30.43Z",
+      "fileLength": 12060862,
+      "downloadCount": 1721083,
+      "downloadUrl": "https://edge.forgecdn.net/files/3737/418/create-mc1.18.2_v0.4.1.jar",
+      "gameVersions": [
+        "1.18.2",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.18.2",
+          "gameVersionPadded": "0000000001.0000000018.0000000002",
+          "gameVersion": "1.18.2",
+          "gameVersionReleaseDate": "2022-02-28T14:23:37.723Z",
+          "gameVersionTypeId": 73250
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [
+        {
+          "modId": 238222,
+          "relationType": 2
+        },
+        {
+          "modId": 486392,
+          "relationType": 3
+        }
+      ],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 3759045040,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 3157514528
+        },
+        {
+          "name": "com",
+          "fingerprint": 2186272559
+        },
+        {
+          "name": ".cache",
+          "fingerprint": 980339496
+        },
+        {
+          "name": "assets",
+          "fingerprint": 600623580
+        },
+        {
+          "name": "create.mixins.json",
+          "fingerprint": 139155472
+        },
+        {
+          "name": "data",
+          "fingerprint": 2421108620
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3240354883
+        },
+        {
+          "name": "opt_in",
+          "fingerprint": 3656558771
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 3944413795
+        },
+        {
+          "name": "create.refmap.json",
+          "fingerprint": 102360619
+        }
+      ]
+    },
+    {
+      "id": 3706700,
+      "gameId": 432,
+      "modId": 328085,
+      "isAvailable": true,
+      "displayName": "Create 1.18.1 v0.4f",
+      "fileName": "create-mc1.18.1_v0.4f.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "cf1ff9a94fecb09e027a7cfc298bf24ddd413c22",
+          "algo": 1
+        },
+        {
+          "value": "6b8e696e1a407c038c0f9c1e23941aa2",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2022-03-20T23:49:56.63Z",
+      "fileLength": 11974246,
+      "downloadCount": 337505,
+      "downloadUrl": "https://edge.forgecdn.net/files/3706/700/create-mc1.18.1_v0.4f.jar",
+      "gameVersions": [
+        "1.18.1",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.18.1",
+          "gameVersionPadded": "0000000001.0000000018.0000000001",
+          "gameVersion": "1.18.1",
+          "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
+          "gameVersionTypeId": 73250
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [
+        {
+          "modId": 238222,
+          "relationType": 2
+        },
+        {
+          "modId": 486392,
+          "relationType": 3
+        }
+      ],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 2741530478,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 1257845698
+        },
+        {
+          "name": "com",
+          "fingerprint": 1591291552
+        },
+        {
+          "name": ".cache",
+          "fingerprint": 2007998595
+        },
+        {
+          "name": "assets",
+          "fingerprint": 3891734090
+        },
+        {
+          "name": "create.mixins.json",
+          "fingerprint": 2757637181
+        },
+        {
+          "name": "data",
+          "fingerprint": 2421108620
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3240354883
+        },
+        {
+          "name": "opt_in",
+          "fingerprint": 3656558771
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 649004205
+        },
+        {
+          "name": "create.refmap.json",
+          "fingerprint": 3601032135
+        }
+      ]
+    },
+    {
+      "id": 3687358,
+      "gameId": 432,
+      "modId": 328085,
+      "isAvailable": true,
+      "displayName": "Create 1.18.1 v0.4e",
+      "fileName": "create-mc1.18.1_v0.4e.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "fcc174a274016e7aa2fa94b23f94d5b7c3c5a8ac",
+          "algo": 1
+        },
+        {
+          "value": "0b3f310448214f9aaccf0f47a17efd0a",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2022-03-13T00:33:29.61Z",
+      "fileLength": 11974663,
+      "downloadCount": 44535,
+      "downloadUrl": "https://edge.forgecdn.net/files/3687/358/create-mc1.18.1_v0.4e.jar",
+      "gameVersions": [
+        "1.18.1",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.18.1",
+          "gameVersionPadded": "0000000001.0000000018.0000000001",
+          "gameVersion": "1.18.1",
+          "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
+          "gameVersionTypeId": 73250
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [
+        {
+          "modId": 486392,
+          "relationType": 3
+        },
+        {
+          "modId": 238222,
+          "relationType": 2
+        }
+      ],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 1435418922,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 2259251993
+        },
+        {
+          "name": "com",
+          "fingerprint": 1294384794
+        },
+        {
+          "name": ".cache",
+          "fingerprint": 2007998595
+        },
+        {
+          "name": "assets",
+          "fingerprint": 3891734090
+        },
+        {
+          "name": "create.mixins.json",
+          "fingerprint": 2757637181
+        },
+        {
+          "name": "data",
+          "fingerprint": 2421108620
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3240354883
+        },
+        {
+          "name": "opt_in",
+          "fingerprint": 3656558771
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 649004205
+        },
+        {
+          "name": "create.refmap.json",
+          "fingerprint": 3601032135
+        }
+      ]
+    },
+    {
+      "id": 3623348,
+      "gameId": 432,
+      "modId": 328085,
+      "isAvailable": true,
+      "displayName": "Create 1.18.1 v0.4d",
+      "fileName": "create-mc1.18.1_v0.4d.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "b299c0fb19a4f702466e3821d7e904a81651dc00",
+          "algo": 1
+        },
+        {
+          "value": "d1ab6393221bbb94b78c3f9dad359ccf",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2022-01-25T17:54:59.34Z",
+      "fileLength": 11953184,
+      "downloadCount": 630645,
+      "downloadUrl": "https://edge.forgecdn.net/files/3623/348/create-mc1.18.1_v0.4d.jar",
+      "gameVersions": [
+        "1.18.1",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.18.1",
+          "gameVersionPadded": "0000000001.0000000018.0000000001",
+          "gameVersion": "1.18.1",
+          "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
+          "gameVersionTypeId": 73250
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [
+        {
+          "modId": 238222,
+          "relationType": 2
+        },
+        {
+          "modId": 486392,
+          "relationType": 3
+        }
+      ],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 3284564165,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 3203242411
+        },
+        {
+          "name": "com",
+          "fingerprint": 3445432385
+        },
+        {
+          "name": ".cache",
+          "fingerprint": 47183592
+        },
+        {
+          "name": "assets",
+          "fingerprint": 15146568
+        },
+        {
+          "name": "create.mixins.json",
+          "fingerprint": 2804711531
+        },
+        {
+          "name": "data",
+          "fingerprint": 3363850199
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3240354883
+        },
+        {
+          "name": "opt_in",
+          "fingerprint": 3656558771
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 649004205
+        },
+        {
+          "name": "create.refmap.json",
+          "fingerprint": 4171282739
+        }
+      ]
+    },
+    {
+      "id": 3600402,
+      "gameId": 432,
+      "modId": 328085,
+      "isAvailable": true,
+      "displayName": "Create 1.18.1 v0.4c",
+      "fileName": "create-mc1.18.1_v0.4c.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "fbd98acda24bae81e320933a57c913ba6dadc8ca",
+          "algo": 1
+        },
+        {
+          "value": "e97cf947a2b34c0c2b9e16e18d08c376",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2022-01-09T22:26:09.287Z",
+      "fileLength": 11940928,
+      "downloadCount": 283369,
+      "downloadUrl": "https://edge.forgecdn.net/files/3600/402/create-mc1.18.1_v0.4c.jar",
+      "gameVersions": [
+        "1.18.1",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.18.1",
+          "gameVersionPadded": "0000000001.0000000018.0000000001",
+          "gameVersion": "1.18.1",
+          "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
+          "gameVersionTypeId": 73250
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [
+        {
+          "modId": 238222,
+          "relationType": 2
+        },
+        {
+          "modId": 486392,
+          "relationType": 3
+        }
+      ],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 412228842,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 4021898909
+        },
+        {
+          "name": "com",
+          "fingerprint": 1295526435
+        },
+        {
+          "name": ".cache",
+          "fingerprint": 1262184133
+        },
+        {
+          "name": "assets",
+          "fingerprint": 1834316045
+        },
+        {
+          "name": "create.mixins.json",
+          "fingerprint": 2804711531
+        },
+        {
+          "name": "data",
+          "fingerprint": 3849092780
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3240354883
+        },
+        {
+          "name": "opt_in",
+          "fingerprint": 3656558771
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 649004205
+        },
+        {
+          "name": "create.refmap.json",
+          "fingerprint": 4171282739
+        }
+      ]
+    },
+    {
+      "id": 3583784,
+      "gameId": 432,
+      "modId": 328085,
+      "isAvailable": true,
+      "displayName": "Create 1.18.1 v0.4b",
+      "fileName": "create-mc1.18.1_v0.4b.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "c6a2705cace871dd61899fa2c0154f5bb2cadbad",
+          "algo": 1
+        },
+        {
+          "value": "8c770db21019ee602a484b0690e0afee",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2021-12-28T23:09:13.493Z",
+      "fileLength": 11844445,
+      "downloadCount": 238707,
+      "downloadUrl": "https://edge.forgecdn.net/files/3583/784/create-mc1.18.1_v0.4b.jar",
+      "gameVersions": [
+        "1.18.1",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.18.1",
+          "gameVersionPadded": "0000000001.0000000018.0000000001",
+          "gameVersion": "1.18.1",
+          "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
+          "gameVersionTypeId": 73250
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [
+        {
+          "modId": 486392,
+          "relationType": 3
+        },
+        {
+          "modId": 238222,
+          "relationType": 2
+        }
+      ],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 3776959067,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 2777461282
+        },
+        {
+          "name": "com",
+          "fingerprint": 3421312353
+        },
+        {
+          "name": ".cache",
+          "fingerprint": 2258027955
+        },
+        {
+          "name": "assets",
+          "fingerprint": 3023304723
+        },
+        {
+          "name": "create.mixins.json",
+          "fingerprint": 2804711531
+        },
+        {
+          "name": "data",
+          "fingerprint": 2063737819
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3240354883
+        },
+        {
+          "name": "opt_in",
+          "fingerprint": 3656558771
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 649004205
+        },
+        {
+          "name": "create.refmap.json",
+          "fingerprint": 4171282739
+        }
+      ]
+    },
+    {
+      "id": 3564692,
+      "gameId": 432,
+      "modId": 328085,
+      "isAvailable": true,
+      "displayName": "Create 1.18.1 v0.4a",
+      "fileName": "create-mc1.18.1_v0.4a.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "07c0f89c50b958da20d4bc80a0ce44e31589f4db",
+          "algo": 1
+        },
+        {
+          "value": "6431a1d566bf84dba524708e9ec9a401",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2021-12-13T07:15:54.893Z",
+      "fileLength": 11846515,
+      "downloadCount": 253359,
+      "downloadUrl": "https://edge.forgecdn.net/files/3564/692/create-mc1.18.1_v0.4a.jar",
+      "gameVersions": [
+        "1.18.1",
+        "Forge",
+        "1.18"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.18.1",
+          "gameVersionPadded": "0000000001.0000000018.0000000001",
+          "gameVersion": "1.18.1",
+          "gameVersionReleaseDate": "2021-12-10T10:37:38.06Z",
+          "gameVersionTypeId": 73250
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "1.18",
+          "gameVersionPadded": "0000000001.0000000018",
+          "gameVersion": "1.18",
+          "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
+          "gameVersionTypeId": 73250
+        }
+      ],
+      "dependencies": [
+        {
+          "modId": 238222,
+          "relationType": 2
+        },
+        {
+          "modId": 486392,
+          "relationType": 3
+        }
+      ],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 664601526,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 1996885964
+        },
+        {
+          "name": "com",
+          "fingerprint": 1981938908
+        },
+        {
+          "name": ".cache",
+          "fingerprint": 812786694
+        },
+        {
+          "name": "assets",
+          "fingerprint": 3134300857
+        },
+        {
+          "name": "create.mixins.json",
+          "fingerprint": 2804711531
+        },
+        {
+          "name": "data",
+          "fingerprint": 2333601267
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3240354883
+        },
+        {
+          "name": "opt_in",
+          "fingerprint": 3656558771
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 649004205
+        },
+        {
+          "name": "create.refmap.json",
+          "fingerprint": 4171282739
+        }
+      ]
+    },
+    {
+      "id": 3556823,
+      "gameId": 432,
+      "modId": 328085,
+      "isAvailable": true,
+      "displayName": "Create 1.18 v0.4",
+      "fileName": "create-mc1.18_v0.4.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "7cb151831d48740022f534d91a0f1ec4d91189d1",
+          "algo": 1
+        },
+        {
+          "value": "ecd86971316544eda7a4bc9281e39754",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2021-12-10T01:39:59.843Z",
+      "fileLength": 11847093,
+      "downloadCount": 60653,
+      "downloadUrl": "https://edge.forgecdn.net/files/3556/823/create-mc1.18_v0.4.jar",
+      "gameVersions": [
+        "Forge",
+        "1.18"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "1.18",
+          "gameVersionPadded": "0000000001.0000000018",
+          "gameVersion": "1.18",
+          "gameVersionReleaseDate": "2021-11-30T16:23:01.427Z",
+          "gameVersionTypeId": 73250
+        }
+      ],
+      "dependencies": [
+        {
+          "modId": 238222,
+          "relationType": 2
+        },
+        {
+          "modId": 486392,
+          "relationType": 3
+        }
+      ],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 586503665,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 840714730
+        },
+        {
+          "name": "com",
+          "fingerprint": 405203883
+        },
+        {
+          "name": ".cache",
+          "fingerprint": 812786694
+        },
+        {
+          "name": "assets",
+          "fingerprint": 2575929661
+        },
+        {
+          "name": "create.mixins.json",
+          "fingerprint": 2804711531
+        },
+        {
+          "name": "data",
+          "fingerprint": 2333601267
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 3240354883
+        },
+        {
+          "name": "opt_in",
+          "fingerprint": 3656558771
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 649004205
+        },
+        {
+          "name": "create.refmap.json",
+          "fingerprint": 4171282739
+        }
+      ]
+    },
+    {
+      "id": 3536025,
+      "gameId": 432,
+      "modId": 328085,
+      "isAvailable": true,
+      "displayName": "Create 1.16.5 v0.3.2g",
+      "fileName": "create-mc1.16.5_v0.3.2g.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "5b32b0310d037deed14200e3b748bd02d46d9471",
+          "algo": 1
+        },
+        {
+          "value": "84ec13d5bccfa71a09783ecb6e089b20",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2021-11-24T15:48:20.773Z",
+      "fileLength": 11564279,
+      "downloadCount": 19887936,
+      "downloadUrl": "https://edge.forgecdn.net/files/3536/25/create-mc1.16.5_v0.3.2g.jar",
+      "gameVersions": [
+        "1.16.5",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.16.5",
+          "gameVersionPadded": "0000000001.0000000016.0000000005",
+          "gameVersion": "1.16.5",
+          "gameVersionReleaseDate": "2021-01-15T14:14:48.91Z",
+          "gameVersionTypeId": 70886
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [
+        {
+          "modId": 238222,
+          "relationType": 2
+        },
+        {
+          "modId": 486392,
+          "relationType": 3
+        }
+      ],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 887959796,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 959739055
+        },
+        {
+          "name": "com",
+          "fingerprint": 1254532572
+        },
+        {
+          "name": ".cache",
+          "fingerprint": 1088907197
+        },
+        {
+          "name": "assets",
+          "fingerprint": 2669333601
+        },
+        {
+          "name": "create.mixins.json",
+          "fingerprint": 941123429
+        },
+        {
+          "name": "data",
+          "fingerprint": 2886654998
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 2004783834
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 1782673937
+        },
+        {
+          "name": "create.refmap.json",
+          "fingerprint": 1798590828
+        }
+      ]
+    },
+    {
+      "id": 3499718,
+      "gameId": 432,
+      "modId": 328085,
+      "isAvailable": true,
+      "displayName": "Create 1.16.5 v0.3.2f",
+      "fileName": "create-mc1.16.5_v0.3.2f.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "2d373917d5f75918ce96c8dea93a6fd9e950e62b",
+          "algo": 1
+        },
+        {
+          "value": "673b590eec5f534d66275697b020abed",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2021-10-23T01:57:53.057Z",
+      "fileLength": 11495277,
+      "downloadCount": 1433936,
+      "downloadUrl": "https://edge.forgecdn.net/files/3499/718/create-mc1.16.5_v0.3.2f.jar",
+      "gameVersions": [
+        "1.16.5",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.16.5",
+          "gameVersionPadded": "0000000001.0000000016.0000000005",
+          "gameVersion": "1.16.5",
+          "gameVersionReleaseDate": "2021-01-15T14:14:48.91Z",
+          "gameVersionTypeId": 70886
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [
+        {
+          "modId": 486392,
+          "relationType": 3
+        },
+        {
+          "modId": 238222,
+          "relationType": 2
+        }
+      ],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 2050102413,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 2525191301
+        },
+        {
+          "name": "com",
+          "fingerprint": 413189307
+        },
+        {
+          "name": ".cache",
+          "fingerprint": 1204948565
+        },
+        {
+          "name": "assets",
+          "fingerprint": 3915099975
+        },
+        {
+          "name": "create.mixins.json",
+          "fingerprint": 941123429
+        },
+        {
+          "name": "data",
+          "fingerprint": 2155804724
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 2004783834
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 1782673937
+        },
+        {
+          "name": "create.refmap.json",
+          "fingerprint": 1798590828
+        }
+      ]
+    },
+    {
+      "id": 3499664,
+      "gameId": 432,
+      "modId": 328085,
+      "isAvailable": true,
+      "displayName": "Create 1.16.5 v0.3.2e",
+      "fileName": "create-mc1.16.5_v0.3.2e.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "ecd95ac7b74486baf69a0993815daa8c155893c4",
+          "algo": 1
+        },
+        {
+          "value": "6f66e28a2699cbe72d4b6091aaea8abe",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2021-10-23T00:03:12.697Z",
+      "fileLength": 11496168,
+      "downloadCount": 13664,
+      "downloadUrl": "https://edge.forgecdn.net/files/3499/664/create-mc1.16.5_v0.3.2e.jar",
+      "gameVersions": [
+        "1.16.5",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.16.5",
+          "gameVersionPadded": "0000000001.0000000016.0000000005",
+          "gameVersion": "1.16.5",
+          "gameVersionReleaseDate": "2021-01-15T14:14:48.91Z",
+          "gameVersionTypeId": 70886
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [
+        {
+          "modId": 486392,
+          "relationType": 3
+        },
+        {
+          "modId": 238222,
+          "relationType": 2
+        }
+      ],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 3068111391,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 3333402618
+        },
+        {
+          "name": "com",
+          "fingerprint": 945743746
+        },
+        {
+          "name": ".cache",
+          "fingerprint": 899668461
+        },
+        {
+          "name": "assets",
+          "fingerprint": 3915099975
+        },
+        {
+          "name": "create.mixins.json",
+          "fingerprint": 941123429
+        },
+        {
+          "name": "data",
+          "fingerprint": 1342712399
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 2004783834
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 1782673937
+        },
+        {
+          "name": "create.refmap.json",
+          "fingerprint": 1798590828
+        }
+      ]
+    },
+    {
+      "id": 3419412,
+      "gameId": 432,
+      "modId": 328085,
+      "isAvailable": true,
+      "displayName": " Create 1.16.5 v0.3.2d",
+      "fileName": "create-mc1.16.5_v0.3.2d.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "5a3a3b670544607f4ac4f7a04da5c82daf047f3c",
+          "algo": 1
+        },
+        {
+          "value": "6c5bf19352691b6bd7296c920115fb4d",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2021-08-08T18:50:11.737Z",
+      "fileLength": 11337001,
+      "downloadCount": 2509266,
+      "downloadUrl": "https://edge.forgecdn.net/files/3419/412/create-mc1.16.5_v0.3.2d.jar",
+      "gameVersions": [
+        "1.16.5",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.16.5",
+          "gameVersionPadded": "0000000001.0000000016.0000000005",
+          "gameVersion": "1.16.5",
+          "gameVersionReleaseDate": "2021-01-15T14:14:48.91Z",
+          "gameVersionTypeId": 70886
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [
+        {
+          "modId": 238222,
+          "relationType": 2
+        },
+        {
+          "modId": 486392,
+          "relationType": 3
+        }
+      ],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 262284899,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 188467572
+        },
+        {
+          "name": "com",
+          "fingerprint": 680092021
+        },
+        {
+          "name": ".cache",
+          "fingerprint": 2786113706
+        },
+        {
+          "name": "assets",
+          "fingerprint": 907648433
+        },
+        {
+          "name": "create.mixins.json",
+          "fingerprint": 3505967421
+        },
+        {
+          "name": "data",
+          "fingerprint": 3604133244
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 2004783834
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 1782673937
+        },
+        {
+          "name": "create.refmap.json",
+          "fingerprint": 1151107717
+        }
+      ]
+    },
+    {
+      "id": 3406857,
+      "gameId": 432,
+      "modId": 328085,
+      "isAvailable": true,
+      "displayName": "Create 1.16.5 v0.3.2c",
+      "fileName": "create-mc1.16.5_v0.3.2c.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "3f200c8c6d244c0466000f3a308479ae259556b8",
+          "algo": 1
+        },
+        {
+          "value": "e544ebc6f6705415680df91d7c2655c4",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2021-07-30T21:39:35.427Z",
+      "fileLength": 11311952,
+      "downloadCount": 298760,
+      "downloadUrl": "https://edge.forgecdn.net/files/3406/857/create-mc1.16.5_v0.3.2c.jar",
+      "gameVersions": [
+        "1.16.5",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.16.5",
+          "gameVersionPadded": "0000000001.0000000016.0000000005",
+          "gameVersion": "1.16.5",
+          "gameVersionReleaseDate": "2021-01-15T14:14:48.91Z",
+          "gameVersionTypeId": 70886
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [
+        {
+          "modId": 486392,
+          "relationType": 3
+        },
+        {
+          "modId": 238222,
+          "relationType": 2
+        }
+      ],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 1809305292,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 852991243
+        },
+        {
+          "name": "com",
+          "fingerprint": 1717085111
+        },
+        {
+          "name": ".cache",
+          "fingerprint": 2786113706
+        },
+        {
+          "name": "assets",
+          "fingerprint": 907648433
+        },
+        {
+          "name": "create.mixins.json",
+          "fingerprint": 3505967421
+        },
+        {
+          "name": "data",
+          "fingerprint": 1732561703
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 2004783834
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 1782673937
+        },
+        {
+          "name": "create.refmap.json",
+          "fingerprint": 1151107717
+        }
+      ]
+    },
+    {
+      "id": 3386319,
+      "gameId": 432,
+      "modId": 328085,
+      "isAvailable": true,
+      "displayName": "Create 1.16.5 v0.3.2b",
+      "fileName": "create-mc1.16.5_v0.3.2b.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "59f9c0f23e4e70852ee728c03b25e0ca68d00d80",
+          "algo": 1
+        },
+        {
+          "value": "ab3846e270fdb6807ad289b333bf1fcc",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2021-07-12T18:28:22.113Z",
+      "fileLength": 11281073,
+      "downloadCount": 672729,
+      "downloadUrl": "https://edge.forgecdn.net/files/3386/319/create-mc1.16.5_v0.3.2b.jar",
+      "gameVersions": [
+        "1.16.5",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.16.5",
+          "gameVersionPadded": "0000000001.0000000016.0000000005",
+          "gameVersion": "1.16.5",
+          "gameVersionReleaseDate": "2021-01-15T14:14:48.91Z",
+          "gameVersionTypeId": 70886
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [
+        {
+          "modId": 238222,
+          "relationType": 2
+        },
+        {
+          "modId": 486392,
+          "relationType": 3
+        }
+      ],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 3859372213,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 413033374
+        },
+        {
+          "name": "com",
+          "fingerprint": 3583413446
+        },
+        {
+          "name": ".cache",
+          "fingerprint": 2647527584
+        },
+        {
+          "name": "assets",
+          "fingerprint": 3152013176
+        },
+        {
+          "name": "create.mixins.json",
+          "fingerprint": 3505967421
+        },
+        {
+          "name": "data",
+          "fingerprint": 4066247939
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 2004783834
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 1782673937
+        },
+        {
+          "name": "ponder",
+          "fingerprint": 2583723955
+        },
+        {
+          "name": "create.refmap.json",
+          "fingerprint": 1546660621
+        }
+      ]
+    },
+    {
+      "id": 3384222,
+      "gameId": 432,
+      "modId": 328085,
+      "isAvailable": true,
+      "displayName": "Create 1.16.5 v0.3.2a",
+      "fileName": "create-mc1.16.5_v0.3.2a.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "a44733872d5dd66ce94376ff39d2e01280af06a8",
+          "algo": 1
+        },
+        {
+          "value": "a90abdef646e8d4f20f453fd46db80d4",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2021-07-10T23:37:23.73Z",
+      "fileLength": 11274370,
+      "downloadCount": 44902,
+      "downloadUrl": "https://edge.forgecdn.net/files/3384/222/create-mc1.16.5_v0.3.2a.jar",
+      "gameVersions": [
+        "1.16.5",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.16.5",
+          "gameVersionPadded": "0000000001.0000000016.0000000005",
+          "gameVersion": "1.16.5",
+          "gameVersionReleaseDate": "2021-01-15T14:14:48.91Z",
+          "gameVersionTypeId": 70886
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [
+        {
+          "modId": 238222,
+          "relationType": 2
+        },
+        {
+          "modId": 486392,
+          "relationType": 3
+        }
+      ],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 2306541201,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 1169734409
+        },
+        {
+          "name": "com",
+          "fingerprint": 4061536805
+        },
+        {
+          "name": ".cache",
+          "fingerprint": 2640076685
+        },
+        {
+          "name": "assets",
+          "fingerprint": 466972432
+        },
+        {
+          "name": "create.mixins.json",
+          "fingerprint": 3505967421
+        },
+        {
+          "name": "data",
+          "fingerprint": 2241282249
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 2004783834
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 1782673937
+        },
+        {
+          "name": "ponder",
+          "fingerprint": 2583723955
+        },
+        {
+          "name": "create.refmap.json",
+          "fingerprint": 1546660621
+        }
+      ]
+    },
+    {
+      "id": 3384090,
+      "gameId": 432,
+      "modId": 328085,
+      "isAvailable": true,
+      "displayName": "Create 1.16.5 v0.3.2",
+      "fileName": "create-mc1.16.5_v0.3.2.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "54da64cd0518f5a012a48c3196ae5f2a11f76f3f",
+          "algo": 1
+        },
+        {
+          "value": "ca1de6e8a7c20fe189488f7e33ad9d12",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2021-07-10T21:30:45.127Z",
+      "fileLength": 11310617,
+      "downloadCount": 20947,
+      "downloadUrl": "https://edge.forgecdn.net/files/3384/90/create-mc1.16.5_v0.3.2.jar",
+      "gameVersions": [
+        "1.16.5",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.16.5",
+          "gameVersionPadded": "0000000001.0000000016.0000000005",
+          "gameVersion": "1.16.5",
+          "gameVersionReleaseDate": "2021-01-15T14:14:48.91Z",
+          "gameVersionTypeId": 70886
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [
+        {
+          "modId": 486392,
+          "relationType": 3
+        },
+        {
+          "modId": 238222,
+          "relationType": 2
+        }
+      ],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 3925918658,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 2311706914
+        },
+        {
+          "name": "com",
+          "fingerprint": 2167521788
+        },
+        {
+          "name": ".cache",
+          "fingerprint": 2640076685
+        },
+        {
+          "name": "assets",
+          "fingerprint": 2075929682
+        },
+        {
+          "name": "create.mixins.json",
+          "fingerprint": 3505967421
+        },
+        {
+          "name": "data",
+          "fingerprint": 2241282249
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 2004783834
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 1782673937
+        },
+        {
+          "name": "ponder",
+          "fingerprint": 2583723955
+        },
+        {
+          "name": "create.refmap.json",
+          "fingerprint": 1191091694
+        }
+      ]
+    },
+    {
+      "id": 3278516,
+      "gameId": 432,
+      "modId": 328085,
+      "isAvailable": true,
+      "displayName": "Create 1.16.4+ v0.3.1c",
+      "fileName": "create-mc1.16.5_v0.3.1c.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "6998fbcd69dfba8e3ed1dd2e010da7b3ae79000f",
+          "algo": 1
+        },
+        {
+          "value": "85407f6f67fd4ff7167b73b7e14a7f1c",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2021-04-16T00:08:45.587Z",
+      "fileLength": 8048106,
+      "downloadCount": 3127274,
+      "downloadUrl": "https://edge.forgecdn.net/files/3278/516/create-mc1.16.5_v0.3.1c.jar",
+      "gameVersions": [
+        "1.16.5",
+        "Forge",
+        "1.16.4"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.16.5",
+          "gameVersionPadded": "0000000001.0000000016.0000000005",
+          "gameVersion": "1.16.5",
+          "gameVersionReleaseDate": "2021-01-15T14:14:48.91Z",
+          "gameVersionTypeId": 70886
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "1.16.4",
+          "gameVersionPadded": "0000000001.0000000016.0000000004",
+          "gameVersion": "1.16.4",
+          "gameVersionReleaseDate": "2020-11-02T18:40:51.49Z",
+          "gameVersionTypeId": 70886
+        }
+      ],
+      "dependencies": [
+        {
+          "modId": 238222,
+          "relationType": 2
+        }
+      ],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 3995063884,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 1340620238
+        },
+        {
+          "name": "com",
+          "fingerprint": 3132979346
+        },
+        {
+          "name": "data",
+          "fingerprint": 1367581366
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 736296177
+        },
+        {
+          "name": "create.mixins.json",
+          "fingerprint": 2022316616
+        },
+        {
+          "name": "ponder",
+          "fingerprint": 2941190930
+        },
+        {
+          "name": ".cache",
+          "fingerprint": 4060451628
+        },
+        {
+          "name": "assets",
+          "fingerprint": 437043591
+        },
+        {
+          "name": "create.refmap.json",
+          "fingerprint": 1973292562
+        }
+      ]
+    },
+    {
+      "id": 3271972,
+      "gameId": 432,
+      "modId": 328085,
+      "isAvailable": true,
+      "displayName": "Create 1.16.4+ v0.3.1b",
+      "fileName": "create-mc1.16.5_v0.3.1b.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "6aad5ecc906624697a1285fc2e5247aae5ff29b6",
+          "algo": 1
+        },
+        {
+          "value": "313674a779070c2b60c08b0e3ebaadd2",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2021-04-11T01:50:47.337Z",
+      "fileLength": 8066898,
+      "downloadCount": 362661,
+      "downloadUrl": "https://edge.forgecdn.net/files/3271/972/create-mc1.16.5_v0.3.1b.jar",
+      "gameVersions": [
+        "1.16.5",
+        "Forge",
+        "1.16.4"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.16.5",
+          "gameVersionPadded": "0000000001.0000000016.0000000005",
+          "gameVersion": "1.16.5",
+          "gameVersionReleaseDate": "2021-01-15T14:14:48.91Z",
+          "gameVersionTypeId": 70886
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "1.16.4",
+          "gameVersionPadded": "0000000001.0000000016.0000000004",
+          "gameVersion": "1.16.4",
+          "gameVersionReleaseDate": "2020-11-02T18:40:51.49Z",
+          "gameVersionTypeId": 70886
+        }
+      ],
+      "dependencies": [
+        {
+          "modId": 238222,
+          "relationType": 2
+        }
+      ],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 607576548,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 35459576
+        },
+        {
+          "name": "com",
+          "fingerprint": 1305280199
+        },
+        {
+          "name": "data",
+          "fingerprint": 1367581366
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 736296177
+        },
+        {
+          "name": "create.mixins.json",
+          "fingerprint": 2022316616
+        },
+        {
+          "name": "ponder",
+          "fingerprint": 2941190930
+        },
+        {
+          "name": ".cache",
+          "fingerprint": 1750147285
+        },
+        {
+          "name": "assets",
+          "fingerprint": 106093291
+        },
+        {
+          "name": "create.refmap.json",
+          "fingerprint": 1973292562
+        }
+      ]
+    },
+    {
+      "id": 3261455,
+      "gameId": 432,
+      "modId": 328085,
+      "isAvailable": true,
+      "displayName": "Create 1.16.4+ v0.3.1a",
+      "fileName": "create-mc1.16.5_v0.3.1a.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "bbc0f4d4a4c5657449d09553ce9163b45c7fe627",
+          "algo": 1
+        },
+        {
+          "value": "ecea10ba16384d7e554af069d2b26d3d",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2021-04-04T00:01:44.26Z",
+      "fileLength": 8046172,
+      "downloadCount": 323279,
+      "downloadUrl": "https://edge.forgecdn.net/files/3261/455/create-mc1.16.5_v0.3.1a.jar",
+      "gameVersions": [
+        "1.16.5",
+        "Forge",
+        "1.16.4"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.16.5",
+          "gameVersionPadded": "0000000001.0000000016.0000000005",
+          "gameVersion": "1.16.5",
+          "gameVersionReleaseDate": "2021-01-15T14:14:48.91Z",
+          "gameVersionTypeId": 70886
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "1.16.4",
+          "gameVersionPadded": "0000000001.0000000016.0000000004",
+          "gameVersion": "1.16.4",
+          "gameVersionReleaseDate": "2020-11-02T18:40:51.49Z",
+          "gameVersionTypeId": 70886
+        }
+      ],
+      "dependencies": [
+        {
+          "modId": 238222,
+          "relationType": 2
+        }
+      ],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 1349012909,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 1269123108
+        },
+        {
+          "name": "com",
+          "fingerprint": 2804022921
+        },
+        {
+          "name": "data",
+          "fingerprint": 3648462164
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 736296177
+        },
+        {
+          "name": "create.mixins.json",
+          "fingerprint": 3093768143
+        },
+        {
+          "name": "ponder",
+          "fingerprint": 2941190930
+        },
+        {
+          "name": ".cache",
+          "fingerprint": 987063357
+        },
+        {
+          "name": "assets",
+          "fingerprint": 2154024562
+        },
+        {
+          "name": "create.refmap.json",
+          "fingerprint": 2848652379
+        }
+      ]
+    },
+    {
+      "id": 3261454,
+      "gameId": 432,
+      "modId": 328085,
+      "isAvailable": true,
+      "displayName": "Create 1.15.2 v0.3.1a",
+      "fileName": "create-mc1.15.2_v0.3.1a.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "2585cc5eb41302e17bc187f164f5cebea3cdccc4",
+          "algo": 1
+        },
+        {
+          "value": "cc666f601e15d07044773a6ac443fc0e",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2021-04-04T00:01:42.43Z",
+      "fileLength": 7949222,
+      "downloadCount": 1419616,
+      "downloadUrl": "https://edge.forgecdn.net/files/3261/454/create-mc1.15.2_v0.3.1a.jar",
+      "gameVersions": [
+        "1.15.2",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.15.2",
+          "gameVersionPadded": "0000000001.0000000015.0000000002",
+          "gameVersion": "1.15.2",
+          "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
+          "gameVersionTypeId": 68722
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [
+        {
+          "modId": 238222,
+          "relationType": 2
+        }
+      ],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 1319672048,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 2351070796
+        },
+        {
+          "name": "com",
+          "fingerprint": 3701446400
+        },
+        {
+          "name": "data",
+          "fingerprint": 2499265429
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 68304512
+        },
+        {
+          "name": "create.mixins.json",
+          "fingerprint": 3093768143
+        },
+        {
+          "name": "ponder",
+          "fingerprint": 2941190930
+        },
+        {
+          "name": ".cache",
+          "fingerprint": 1441128688
+        },
+        {
+          "name": "assets",
+          "fingerprint": 3904645653
+        },
+        {
+          "name": "create.refmap.json",
+          "fingerprint": 183345878
+        }
+      ]
+    },
+    {
+      "id": 3260165,
+      "gameId": 432,
+      "modId": 328085,
+      "isAvailable": true,
+      "displayName": "Create 1.16.4+ v0.3.1",
+      "fileName": "create-mc1.16.5_v0.3.1.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "f76d33cb4fa2eaf8161b4bbfc9cf4736c2b69863",
+          "algo": 1
+        },
+        {
+          "value": "216942d1d8689ea962d48db312441f89",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2021-04-02T21:22:27.9Z",
+      "fileLength": 8042934,
+      "downloadCount": 92381,
+      "downloadUrl": "https://edge.forgecdn.net/files/3260/165/create-mc1.16.5_v0.3.1.jar",
+      "gameVersions": [
+        "1.16.5",
+        "Forge",
+        "1.16.4"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.16.5",
+          "gameVersionPadded": "0000000001.0000000016.0000000005",
+          "gameVersion": "1.16.5",
+          "gameVersionReleaseDate": "2021-01-15T14:14:48.91Z",
+          "gameVersionTypeId": 70886
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "1.16.4",
+          "gameVersionPadded": "0000000001.0000000016.0000000004",
+          "gameVersion": "1.16.4",
+          "gameVersionReleaseDate": "2020-11-02T18:40:51.49Z",
+          "gameVersionTypeId": 70886
+        }
+      ],
+      "dependencies": [
+        {
+          "modId": 238222,
+          "relationType": 2
+        }
+      ],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 447755100,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 3086175464
+        },
+        {
+          "name": "com",
+          "fingerprint": 3029159038
+        },
+        {
+          "name": "data",
+          "fingerprint": 1827060364
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 736296177
+        },
+        {
+          "name": "create.mixins.json",
+          "fingerprint": 3245553519
+        },
+        {
+          "name": "ponder",
+          "fingerprint": 2941190930
+        },
+        {
+          "name": ".cache",
+          "fingerprint": 642959265
+        },
+        {
+          "name": "assets",
+          "fingerprint": 2437552703
+        },
+        {
+          "name": "create.refmap.json",
+          "fingerprint": 3655896312
+        }
+      ]
+    },
+    {
+      "id": 3260164,
+      "gameId": 432,
+      "modId": 328085,
+      "isAvailable": true,
+      "displayName": "Create 1.15.2 v0.3.1",
+      "fileName": "create-mc1.15.2_v0.3.1.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "1596b6f340092fa2ffa37db2331c1708a9be8f0c",
+          "algo": 1
+        },
+        {
+          "value": "ddf82932a24367d2251b1bf12f1a8c40",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2021-04-02T21:22:13.207Z",
+      "fileLength": 7944976,
+      "downloadCount": 4276,
+      "downloadUrl": "https://edge.forgecdn.net/files/3260/164/create-mc1.15.2_v0.3.1.jar",
+      "gameVersions": [
+        "1.15.2",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.15.2",
+          "gameVersionPadded": "0000000001.0000000015.0000000002",
+          "gameVersion": "1.15.2",
+          "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
+          "gameVersionTypeId": 68722
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [
+        {
+          "modId": 238222,
+          "relationType": 2
+        }
+      ],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 830514147,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 1481607167
+        },
+        {
+          "name": "com",
+          "fingerprint": 3818526639
+        },
+        {
+          "name": "data",
+          "fingerprint": 2987082666
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 68304512
+        },
+        {
+          "name": "create.mixins.json",
+          "fingerprint": 3245553519
+        },
+        {
+          "name": "ponder",
+          "fingerprint": 2941190930
+        },
+        {
+          "name": ".cache",
+          "fingerprint": 1598342205
+        },
+        {
+          "name": "assets",
+          "fingerprint": 1997932793
+        },
+        {
+          "name": "create.refmap.json",
+          "fingerprint": 1229157072
+        }
+      ]
+    },
+    {
+      "id": 3167531,
+      "gameId": 432,
+      "modId": 328085,
+      "isAvailable": true,
+      "displayName": "Create 1.16.3+ v0.3e ",
+      "fileName": "create-mc1.16.3_v0.3e.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "1157acbeaf25a95945515c401c3537a168cc4f93",
+          "algo": 1
+        },
+        {
+          "value": "4ce81a21f5759acd646b6e29d38ba1d3",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2021-01-13T18:00:15.273Z",
+      "fileLength": 6543172,
+      "downloadCount": 2996807,
+      "downloadUrl": "https://edge.forgecdn.net/files/3167/531/create-mc1.16.3_v0.3e.jar",
+      "gameVersions": [
+        "1.16.3",
+        "1.16.5",
+        "Forge",
+        "1.16.4"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.16.3",
+          "gameVersionPadded": "0000000001.0000000016.0000000003",
+          "gameVersion": "1.16.3",
+          "gameVersionReleaseDate": "2020-09-10T14:44:20.443Z",
+          "gameVersionTypeId": 70886
+        },
+        {
+          "gameVersionName": "1.16.5",
+          "gameVersionPadded": "0000000001.0000000016.0000000005",
+          "gameVersion": "1.16.5",
+          "gameVersionReleaseDate": "2021-01-15T14:14:48.91Z",
+          "gameVersionTypeId": 70886
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "1.16.4",
+          "gameVersionPadded": "0000000001.0000000016.0000000004",
+          "gameVersion": "1.16.4",
+          "gameVersionReleaseDate": "2020-11-02T18:40:51.49Z",
+          "gameVersionTypeId": 70886
+        }
+      ],
+      "dependencies": [
+        {
+          "modId": 238222,
+          "relationType": 2
+        }
+      ],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 1401294687,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 117646961
+        },
+        {
+          "name": "com",
+          "fingerprint": 1182194373
+        },
+        {
+          "name": ".cache",
+          "fingerprint": 4280657044
+        },
+        {
+          "name": "assets",
+          "fingerprint": 1388136560
+        },
+        {
+          "name": "data",
+          "fingerprint": 2555706622
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 68304512
+        }
+      ]
+    },
+    {
+      "id": 3167528,
+      "gameId": 432,
+      "modId": 328085,
+      "isAvailable": true,
+      "displayName": "Create 1.15.2 v0.3e",
+      "fileName": "create-mc1.15.2_v0.3e.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "0f9107336c73ce099df2690280059a870177bfb7",
+          "algo": 1
+        },
+        {
+          "value": "0c2e7fbaf62b19c9a498a2e5fb210eec",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2021-01-13T17:58:01.177Z",
+      "fileLength": 6459162,
+      "downloadCount": 232727,
+      "downloadUrl": "https://edge.forgecdn.net/files/3167/528/create-mc1.15.2_v0.3e.jar",
+      "gameVersions": [
+        "1.15.2",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.15.2",
+          "gameVersionPadded": "0000000001.0000000015.0000000002",
+          "gameVersion": "1.15.2",
+          "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
+          "gameVersionTypeId": 68722
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [
+        {
+          "modId": 238222,
+          "relationType": 2
+        }
+      ],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 3071369802,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 1436712282
+        },
+        {
+          "name": "com",
+          "fingerprint": 672005848
+        },
+        {
+          "name": ".cache",
+          "fingerprint": 1781500491
+        },
+        {
+          "name": "assets",
+          "fingerprint": 448753859
+        },
+        {
+          "name": "data",
+          "fingerprint": 4260630461
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 68304512
+        }
+      ]
+    },
+    {
+      "id": 3158185,
+      "gameId": 432,
+      "modId": 328085,
+      "isAvailable": true,
+      "displayName": "Create 1.16.3+ v0.3c",
+      "fileName": "create-mc1.16.3_v0.3c.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "343afc7ea63c4fa98e5a9263072d7f9e169a0c84",
+          "algo": 1
+        },
+        {
+          "value": "254264eb10c50a5cd32f8dea59e2b0f5",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2021-01-04T13:42:29.03Z",
+      "fileLength": 6519305,
+      "downloadCount": 366727,
+      "downloadUrl": "https://edge.forgecdn.net/files/3158/185/create-mc1.16.3_v0.3c.jar",
+      "gameVersions": [
+        "1.16.3",
+        "Forge",
+        "1.16.4"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.16.3",
+          "gameVersionPadded": "0000000001.0000000016.0000000003",
+          "gameVersion": "1.16.3",
+          "gameVersionReleaseDate": "2020-09-10T14:44:20.443Z",
+          "gameVersionTypeId": 70886
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "1.16.4",
+          "gameVersionPadded": "0000000001.0000000016.0000000004",
+          "gameVersion": "1.16.4",
+          "gameVersionReleaseDate": "2020-11-02T18:40:51.49Z",
+          "gameVersionTypeId": 70886
+        }
+      ],
+      "dependencies": [
+        {
+          "modId": 238222,
+          "relationType": 2
+        }
+      ],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 516884127,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 3232219134
+        },
+        {
+          "name": "com",
+          "fingerprint": 3697566721
+        },
+        {
+          "name": ".cache",
+          "fingerprint": 2783363318
+        },
+        {
+          "name": "assets",
+          "fingerprint": 956656264
+        },
+        {
+          "name": "data",
+          "fingerprint": 2555706622
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 68304512
+        }
+      ]
+    },
+    {
+      "id": 3158179,
+      "gameId": 432,
+      "modId": 328085,
+      "isAvailable": true,
+      "displayName": "Create 1.15.2 v0.3c",
+      "fileName": "create-mc1.15.2_v0.3c.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "ae6ad5be847970d7d5d7626402e8cf89d455e0fd",
+          "algo": 1
+        },
+        {
+          "value": "030a4d571a21ccf4e00cf39688782e65",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2021-01-04T13:36:29.323Z",
+      "fileLength": 6430878,
+      "downloadCount": 10535,
+      "downloadUrl": "https://edge.forgecdn.net/files/3158/179/create-mc1.15.2_v0.3c.jar",
+      "gameVersions": [
+        "1.15.2",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.15.2",
+          "gameVersionPadded": "0000000001.0000000015.0000000002",
+          "gameVersion": "1.15.2",
+          "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
+          "gameVersionTypeId": 68722
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [
+        {
+          "modId": 238222,
+          "relationType": 2
+        }
+      ],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 887109398,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 1275013445
+        },
+        {
+          "name": "com",
+          "fingerprint": 2801050969
+        },
+        {
+          "name": ".cache",
+          "fingerprint": 3491694620
+        },
+        {
+          "name": "assets",
+          "fingerprint": 1338384963
+        },
+        {
+          "name": "data",
+          "fingerprint": 4260630461
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 68304512
+        }
+      ]
+    },
+    {
+      "id": 3066060,
+      "gameId": 432,
+      "modId": 328085,
+      "isAvailable": true,
+      "displayName": "Create 1.15.2 v0.2.4e",
+      "fileName": "create-mc1.15.2_v0.2.4e.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "ab10c4348ca60b9f4d3ac3b65902c3da453dbf15",
+          "algo": 1
+        },
+        {
+          "value": "7458e43dd03e15ebeabb782a78abb56e",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2020-09-26T09:37:43.483Z",
+      "fileLength": 4331746,
+      "downloadCount": 414647,
+      "downloadUrl": "https://edge.forgecdn.net/files/3066/60/create-mc1.15.2_v0.2.4e.jar",
+      "gameVersions": [
+        "1.15.2",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.15.2",
+          "gameVersionPadded": "0000000001.0000000015.0000000002",
+          "gameVersion": "1.15.2",
+          "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
+          "gameVersionTypeId": 68722
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [
+        {
+          "modId": 238222,
+          "relationType": 2
+        }
+      ],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 4250948751,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 530066869
+        },
+        {
+          "name": "com",
+          "fingerprint": 4075087884
+        },
+        {
+          "name": ".cache",
+          "fingerprint": 2491768245
+        },
+        {
+          "name": "assets",
+          "fingerprint": 442872516
+        },
+        {
+          "name": "data",
+          "fingerprint": 1098885220
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 68304512
+        }
+      ]
+    },
+    {
+      "id": 2952509,
+      "gameId": 432,
+      "modId": 328085,
+      "isAvailable": true,
+      "displayName": "Create 1.14.4 v0.2.3",
+      "fileName": "create-mc1.14.4_v0.2.3.jar",
+      "releaseType": 2,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "121b79ea0bc9482481c35d03f8cd5d586a3b7fa7",
+          "algo": 1
+        },
+        {
+          "value": "ce635084d001e958eb3a1f718de4c650",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2020-05-09T17:25:03.4Z",
+      "fileLength": 3222187,
+      "downloadCount": 224626,
+      "downloadUrl": "https://edge.forgecdn.net/files/2952/509/create-mc1.14.4_v0.2.3.jar",
+      "gameVersions": [
+        "1.14.4",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.14.4",
+          "gameVersionPadded": "0000000001.0000000014.0000000004",
+          "gameVersion": "1.14.4",
+          "gameVersionReleaseDate": "2019-07-19T00:00:00Z",
+          "gameVersionTypeId": 64806
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 661178798,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 135930547
+        },
+        {
+          "name": "com",
+          "fingerprint": 1834158954
+        },
+        {
+          "name": "assets",
+          "fingerprint": 661302420
+        },
+        {
+          "name": "data",
+          "fingerprint": 2941703188
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2571950672
+        }
+      ]
+    },
+    {
+      "id": 2814006,
+      "gameId": 432,
+      "modId": 328085,
+      "isAvailable": true,
+      "displayName": "Create 1.14.4 v0.1.1a",
+      "fileName": "create-mc1.14.4_v0.1.1a.jar",
+      "releaseType": 2,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "47ed40be33b39329ec8e38c2a484851203f49e5d",
+          "algo": 1
+        },
+        {
+          "value": "5e62483ce74388589882a37e35b630d6",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2019-10-21T22:35:52.897Z",
+      "fileLength": 1297416,
+      "downloadCount": 476407,
+      "downloadUrl": "https://edge.forgecdn.net/files/2814/6/create-mc1.14.4_v0.1.1a.jar",
+      "gameVersions": [
+        "1.14.4",
+        "Forge"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "1.14.4",
+          "gameVersionPadded": "0000000001.0000000014.0000000004",
+          "gameVersion": "1.14.4",
+          "gameVersionReleaseDate": "2019-07-19T00:00:00Z",
+          "gameVersionTypeId": 64806
+        },
+        {
+          "gameVersionName": "Forge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        }
+      ],
+      "dependencies": [],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 3666728845,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 3715204016
+        },
+        {
+          "name": "com",
+          "fingerprint": 221993782
+        },
+        {
+          "name": "assets",
+          "fingerprint": 3988940818
+        },
+        {
+          "name": "data",
+          "fingerprint": 4002520152
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 2571950672
+        }
+      ]
+    }
+  ],
+  "pagination": {
+    "index": 50,
+    "pageSize": 50,
+    "resultCount": 35,
+    "totalCount": 85
+  }
+}

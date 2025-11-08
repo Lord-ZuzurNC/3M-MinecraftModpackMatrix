@@ -1,129 +1,102 @@
-import os, re, time, json, requests
-from pathlib import Path
-from datetime import datetime, timedelta
-from dotenv import load_dotenv
-
-load_dotenv()
+import os
+import time
+import json
+import re
+import requests
+from providers import cache_path, is_cache_expired
 
 API_BASE = "https://api.modrinth.com/v2"
-CACHE_TTL = timedelta(hours=24)
-CACHE_ROOT = Path("cache") / "modrinth"
-CACHE_ROOT.mkdir(parents=True, exist_ok=True)
+CACHE_TTL_HOURS = 24
 
-def debug(msg: str):
-    if os.getenv("DEBUG", "false").lower() == "true":
-        print("[DEBUG]", msg)
-
-def safe_request(url, retries=5, timeout=10):
-    for attempt in range(1, retries + 1):
+def safe_request(url: str, retries: int = 5, delay: int = 1, timeout: int = 10):
+    for attempt in range(retries):
         try:
             r = requests.get(url, timeout=timeout)
             r.raise_for_status()
-            try:
-                _ = r.json()
-            except ValueError:
-                debug(f"Non-JSON response for {url}: {r.text[:200]!r}")
-                raise RuntimeError(f"Non-JSON response from Modrinth API for {url}")
             return r
-        except requests.RequestException as e:
-            debug(f"Request failed: {e}. Retrying ({attempt}/{retries})...")
-            time.sleep(1 * attempt)
-    raise RuntimeError(f"Failed to fetch {url} after {retries} retries.")
+        except requests.RequestException:
+            time.sleep(delay)
+    raise RuntimeError(f"Failed to fetch {url} after {retries} retries")
 
-def slug_from_modrinth_url(url: str) -> str | None:
-    if not url:
+
+def slug_from_url(url: str) -> str | None:
+    if not url or not isinstance(url, str):
         return None
     url = url.strip().rstrip("/")
     m = re.search(r"/(project|mod|mods)/([^/?#]+)$", url)
     if m:
         return m.group(2)
     parts = url.split("/")
-    if parts:
-        return parts[-1]
-    return None
+    return parts[-1] if parts else None
 
-from providers import cache_path
 
-def cached_fetch_versions(provider, slug: str, mod_id: str, base_url: str):
-    """
-    Fetch Modrinth versions in pages of 50. Cache each page to:
-    cache/{provider}/{slug}_{mod_id}/page-{page}.json
-    Returns the combined list of version objects.
-    """
-    all_versions = []
-    offset = 0
-    page = 0
-    page_size = 50
+def cached_fetch(provider, slug, mod_id, page, url):
+    cache_file = cache_path(provider, slug, mod_id, page)
+    if os.path.exists(cache_file) and not is_cache_expired(cache_file, CACHE_TTL_HOURS):
+        with open(cache_file, "r", encoding="utf-8") as f:
+            return json.load(f)
 
-    while True:
-        page_url = f"{base_url}?offset={offset}&limit={page_size}"
-        cache_file = cache_path(provider, slug, mod_id, page)
+    data = safe_request(url).json()
+    with open(cache_file, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2)
+    return data
 
-        if os.path.exists(cache_file):
-            mtime = datetime.fromtimestamp(os.path.getmtime(cache_file))
-            if datetime.now() - mtime < CACHE_TTL:
-                debug(f"Loading cached Modrinth page {page} for {slug}")
-                data = json.loads(open(cache_file, encoding="utf-8").read())
-                all_versions += data
-                if len(data) < page_size:
-                    break
-                page += 1
-                offset += page_size
-                continue
-
-        r = safe_request(page_url)
-        data = r.json()
-        with open(cache_file, "w", encoding="utf-8") as f:
-            json.dump(data, f, indent=2)
-        all_versions += data
-        if len(data) < page_size:
-            break
-        offset += page_size
-        page += 1
-
-    return all_versions
 
 def version_key(v: str):
-    # Extract numeric parts from version strings like '1.20.10'
-    return [int(part) if part.isdigit() else part for part in re.split(r'(\d+)', v)]
+    parts = []
+    for seg in str(v).split("."):
+        try:
+            parts.append(int(seg))
+        except Exception:
+            parts.append(seg)
+    return parts
+
 
 def get_mod_data(url: str) -> dict:
-    slug = slug_from_modrinth_url(url)
+    slug = slug_from_url(url)
     if not slug:
-        raise ValueError(f"Could not extract Modrinth slug from URL: {url}")
+        raise ValueError(f"Invalid Modrinth URL: {url}")
 
     project_url = f"{API_BASE}/project/{slug}"
-    debug(f"Fetching Modrinth project: {project_url}")
-    try:
-        proj = safe_request(project_url).json()
-    except Exception as e:
-        raise RuntimeError(f"Failed to fetch Modrinth project for slug '{slug}': {e}")
-
+    proj = safe_request(project_url).json()
     mod_name = proj.get("title") or proj.get("name") or slug
-    mod_id = proj.get("id")
+    mod_id = str(proj.get("id"))
 
-    versions_url = f"{API_BASE}/project/{slug}/version"
-    try:
-        versions = cached_fetch_versions("modrinth", slug, str(mod_id), versions_url)
-    except Exception as e:
-        raise RuntimeError(f"Failed to fetch Modrinth versions for '{slug}': {e}")
+    # Pagination (even though Modrinth usually returns all at once)
+    all_versions = []
+    page = 0
+    page_size = 100
+
+    while True:
+        versions_url = f"{API_BASE}/project/{slug}/version?offset={page*page_size}&limit={page_size}"
+        data = cached_fetch("modrinth", slug, mod_id, page, versions_url)
+        if isinstance(data, dict) and data.get("data"):
+            items = data["data"]
+        else:
+            items = data
+        if not items:
+            break
+        all_versions.extend(items)
+        if len(items) < page_size:
+            break
+        page += 1
 
     pairs = set()
-    for v in versions:
-        game_versions = v.get("game_versions", [])
-        loaders = v.get("loaders", [])
+    for v in all_versions:
+        game_versions = v.get("game_versions", []) if isinstance(v, dict) else []
+        loaders = v.get("loaders", []) if isinstance(v, dict) else []
         for gv in game_versions:
-            if not gv.startswith("1."):
+            if not str(gv).startswith("1."):
                 continue
             for loader in loaders:
-                pairs.add((gv, loader.capitalize()))
+                pairs.add((gv, str(loader).capitalize()))
 
-    sorted_pairs = sorted(pairs, key=version_key, reverse=True)
+    sorted_pairs = sorted(pairs, key=lambda x: (version_key(x[0]), x[1]), reverse=True)
 
     return {
         "provider": "modrinth",
-        "mod_id": str(mod_id),
+        "mod_id": mod_id,
         "name": mod_name,
         "url": url,
-        "versions": sorted_pairs
+        "versions": sorted_pairs,
     }

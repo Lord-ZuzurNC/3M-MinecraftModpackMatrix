@@ -1,0 +1,1215 @@
+[
+  {
+    "game_versions": [
+      "1.19.2"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "id": "Mw8aFpWF",
+    "project_id": "GchcoXML",
+    "author_id": "OGBzw79h",
+    "featured": false,
+    "name": "Oculus mc1.19.2-1.6.9a",
+    "version_number": "1.19.2-1.6.9a",
+    "changelog": "### **Fixed renderer of MekaSuit from Mekanism**",
+    "changelog_url": null,
+    "date_published": "2024-12-24T23:47:00.856809Z",
+    "downloads": 441363,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "hashes": {
+          "sha512": "b59fad480777d0d4d9f51f9eb0d148a9a0776c76069b1e6211371c266ab3ac516d8f2c4e0bb223bce73e73c983072c700a241bde82be2cffcb9252b1db598c8a",
+          "sha1": "be4e14cb03ba5c931f8b73323ee8893ff5a2dd4b"
+        },
+        "url": "https://cdn.modrinth.com/data/GchcoXML/versions/Mw8aFpWF/oculus-mc1.19.2-1.6.9a.jar",
+        "filename": "oculus-mc1.19.2-1.6.9a.jar",
+        "primary": true,
+        "size": 3503720,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "4ZqxOvjD",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
+  {
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge",
+      "neoforge"
+    ],
+    "id": "iQ1SwGc3",
+    "project_id": "GchcoXML",
+    "author_id": "OGBzw79h",
+    "featured": false,
+    "name": "Oculus mc1.20.1-1.8.0",
+    "version_number": "1.20.1-1.8.0",
+    "changelog": "### **Fixed compatibility with Distant Horizons 2.2+**\n### **Fixed renderer of MekaSuit from Mekanism**",
+    "changelog_url": null,
+    "date_published": "2024-12-24T23:33:42.216148Z",
+    "downloads": 8060865,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "hashes": {
+          "sha512": "1bb4ac77400d6684347988ed298a692c2cb15cf7923693607eb8739b171a20fef7412259e9e157111d9ce21779badab386029956f7d2283a9e611722a373e9d5",
+          "sha1": "984f774e71790deaec674c7587bd24e0711871b2"
+        },
+        "url": "https://cdn.modrinth.com/data/GchcoXML/versions/iQ1SwGc3/oculus-mc1.20.1-1.8.0.jar",
+        "filename": "oculus-mc1.20.1-1.8.0.jar",
+        "primary": true,
+        "size": 2851119,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "sk9rgfiA",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
+  {
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge",
+      "neoforge"
+    ],
+    "id": "vVuYfukI",
+    "project_id": "GchcoXML",
+    "author_id": "OGBzw79h",
+    "featured": false,
+    "name": "Oculus mc1.20.1-1.7.0",
+    "version_number": "1.20.1-1.7.0",
+    "changelog": "### Upstream to Iris 1.7.0 (Main feature is Distant Horizon 2.0.4+ support, _which is not released yet_)",
+    "changelog_url": null,
+    "date_published": "2024-04-28T21:22:46.942307Z",
+    "downloads": 2352303,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "hashes": {
+          "sha512": "8f7e56e65a12c7cfa4719c69e1de552dc8651ab202ff9bf78ff180c4bf81a82f3e569641046b1915b6f9e60f54451ae4b8b0d9a688a0c966473b91de9cefb923",
+          "sha1": "27410903d3af950378776106b76503cfebe7ea3a"
+        },
+        "url": "https://cdn.modrinth.com/data/GchcoXML/versions/vVuYfukI/oculus-mc1.20.1-1.7.0.jar",
+        "filename": "oculus-mc1.20.1-1.7.0.jar",
+        "primary": true,
+        "size": 2831148,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "sk9rgfiA",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
+  {
+    "game_versions": [
+      "1.16.5"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "id": "SPCLqJn1",
+    "project_id": "GchcoXML",
+    "author_id": "OGBzw79h",
+    "featured": false,
+    "name": "Oculus mc1.16.5-1.4.8",
+    "version_number": "1.16.5-1.4.8",
+    "changelog": "### Fixed main 1.16.5 issue with glowing entities/tiles and etc.",
+    "changelog_url": null,
+    "date_published": "2024-03-19T08:51:44.797484Z",
+    "downloads": 477588,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "hashes": {
+          "sha1": "96b32eb012090c537b498fa002dfaa166329833f",
+          "sha512": "4374c4134fd4a7c089683ad643792e8fc84b24fd4a0869efe065705d75f6bade74be028442802aff7431f63b69fd9684969cea053c57c8d9fa1696dc4e2ef722"
+        },
+        "url": "https://cdn.modrinth.com/data/GchcoXML/versions/SPCLqJn1/oculus-mc1.16.5-1.4.8.jar",
+        "filename": "oculus-mc1.16.5-1.4.8.jar",
+        "primary": true,
+        "size": 3133901,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "4ZqxOvjD",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
+  {
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge",
+      "neoforge"
+    ],
+    "id": "Bj8M79wL",
+    "project_id": "GchcoXML",
+    "author_id": "OGBzw79h",
+    "featured": false,
+    "name": "Oculus mc1.20.1-1.6.15a",
+    "version_number": "1.20.1-1.6.15a",
+    "changelog": "- Support for latest Embeddium 0.3.3",
+    "changelog_url": null,
+    "date_published": "2024-02-14T22:47:47.477404Z",
+    "downloads": 642331,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "hashes": {
+          "sha512": "bf5d1dd0d113f497b97d49dc75ba83ecb91d436bfedb8f337cc6e69a78a05841ac3b31bef7c508cdf2d0e66f787c2e647e37ff99c7a491f786bf72d66028f6fe",
+          "sha1": "478a222cd6390353ba080b07fcac2b6301fbe3a2"
+        },
+        "url": "https://cdn.modrinth.com/data/GchcoXML/versions/Bj8M79wL/oculus-mc1.20.1-1.6.15a.jar",
+        "filename": "oculus-mc1.20.1-1.6.15a.jar",
+        "primary": true,
+        "size": 2806358,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "sk9rgfiA",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
+  {
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge",
+      "neoforge"
+    ],
+    "id": "KexKV6k0",
+    "project_id": "GchcoXML",
+    "author_id": "OGBzw79h",
+    "featured": false,
+    "name": "Oculus mc1.20.1-1.6.15",
+    "version_number": "1.20.1-1.16.5",
+    "changelog": "- Support for latest Embeddium 0.3.1\n- Better support for Forge's RenderTypes (thanks to embeddedt)\n- Upstream to Iris 1.6.15 (Various fixes, thanks to dima_dencep)",
+    "changelog_url": null,
+    "date_published": "2024-02-04T14:14:23.289865Z",
+    "downloads": 41362,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "hashes": {
+          "sha1": "6575bf1885a9910e00b244b63ba059090e48be96",
+          "sha512": "655ed5428998fd2776b66f6a4aa82c9a64af14e57b53269374f7d3ff7d41b85446bdc0dd7c9ba9496ba37731d63d3e00f5b503ee9d9de8b94cb0d51908f34741"
+        },
+        "url": "https://cdn.modrinth.com/data/GchcoXML/versions/KexKV6k0/oculus-mc1.20.1-1.6.15.jar",
+        "filename": "oculus-mc1.20.1-1.6.15.jar",
+        "primary": true,
+        "size": 2806574,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "sk9rgfiA",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
+  {
+    "game_versions": [
+      "1.16.5"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "id": "ZFTuwymb",
+    "project_id": "GchcoXML",
+    "author_id": "OGBzw79h",
+    "featured": false,
+    "name": "Oculus mc1.16.5-1.4.7",
+    "version_number": "1.16.5-1.4.7",
+    "changelog": "- Ported optimized mipmap generation\n- Ported Color Space feature from new Iris\n- \"Correct\" EpicFight fix\n- More uniform to support some new shaders features\n- More correct work with particle\n- Fixed work with new Embeddium\n- Some other bugfixes",
+    "changelog_url": null,
+    "date_published": "2023-12-26T00:36:10.543041Z",
+    "downloads": 14222,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "hashes": {
+          "sha1": "b6b44734cb837bd85443b6a7a86ce6193dea3cac",
+          "sha512": "d6de0daed37c6a9545c599ce5d5255c19b4648aceed0875485debd55e8281467c504d2f584dc1bc53b20d30ff4d1b9e50c89fec95b9a738379251bee2d8f5f2c"
+        },
+        "url": "https://cdn.modrinth.com/data/GchcoXML/versions/ZFTuwymb/oculus-mc1.16.5-1.4.7.jar",
+        "filename": "oculus-mc1.16.5-1.4.7.jar",
+        "primary": true,
+        "size": 3854643,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "4ZqxOvjD",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
+  {
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge",
+      "neoforge"
+    ],
+    "id": "yUsIHXQX",
+    "project_id": "GchcoXML",
+    "author_id": "OGBzw79h",
+    "featured": false,
+    "name": "Oculus mc1.20.1-1.6.13",
+    "version_number": "1.20.1-1.16.3",
+    "changelog": "#### The majority of the work on this update was carried out by dima_dencep, embeddedt, and of course, the Iris team\n\n- Full parity with Iris 1.6.13 (Distant Horizons compat, performance changes, bugfixes and etc.)\n- Now depends on Embeddium\n- FINALLY 500000%%% fixed particle issue (i promise)\n- Fixed Pixelmon issue\n- More Forge parities in rendering\n- Some crashfixes related to package vendoring\n\nand etc.",
+    "changelog_url": null,
+    "date_published": "2023-12-12T19:16:03.505283Z",
+    "downloads": 169786,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "hashes": {
+          "sha512": "839b6b8b97b959ab636d378c80515d649c359f6095a8942a610113e53533274d196f6deb5d083da2c29e8b69921aceec49f0913fe37ff31a7f2df0a7d12d6d3c",
+          "sha1": "196539d0e5dc057b81edbaa8d0e396c6cd8a2db8"
+        },
+        "url": "https://cdn.modrinth.com/data/GchcoXML/versions/yUsIHXQX/oculus-mc1.20.1-1.6.13.jar",
+        "filename": "oculus-mc1.20.1-1.6.13.jar",
+        "primary": true,
+        "size": 2798867,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "sk9rgfiA",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
+  {
+    "game_versions": [
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge",
+      "neoforge"
+    ],
+    "id": "6xfXhsvf",
+    "project_id": "GchcoXML",
+    "author_id": "OGBzw79h",
+    "featured": false,
+    "name": "Oculus mc1.20.1-1.6.9",
+    "version_number": "1.20.1-1.6.9",
+    "changelog": "- Fully compatible with Rubidium 0.7.1\n- Clouds fixes\n- Particle issue fixed\n- Parity with Iris 1.6.9",
+    "changelog_url": null,
+    "date_published": "2023-09-24T20:48:10.403605Z",
+    "downloads": 283010,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "hashes": {
+          "sha512": "e01fa2ec91ae1136b41a1cfd9c705f04550b747e7a8051d85121c8b26250cf178a2b9f7952e77edfb326b66c255f4ec9702d055fb2b5f2c7197168fc188fd698",
+          "sha1": "406ad9995cd1ab803e0001f80a85498105b4d488"
+        },
+        "url": "https://cdn.modrinth.com/data/GchcoXML/versions/6xfXhsvf/oculus-mc1.20.1-1.6.9.jar",
+        "filename": "oculus-mc1.20.1-1.6.9.jar",
+        "primary": true,
+        "size": 2814481,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "4ZqxOvjD",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
+  {
+    "game_versions": [
+      "1.19.2"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "id": "4lE9D01D",
+    "project_id": "GchcoXML",
+    "author_id": "OGBzw79h",
+    "featured": false,
+    "name": "Oculus mc1.19.2-1.6.9",
+    "version_number": "1.19.2-1.6.9",
+    "changelog": "- Resolved particle rendering issue (while item pickup)\n- Some Cloud/Rain fixes\n- Fluid overlay fixes\n- All the changes from Iris' 1.6.5-1.6.9",
+    "changelog_url": null,
+    "date_published": "2023-09-22T12:17:52.653576Z",
+    "downloads": 2055230,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "hashes": {
+          "sha512": "3be023d842ffd977d9f1e8743196d35e24cc46f47171200d70dfc2e570424952090927004b99c62aea9b8bcde344617425e09706ed9d747f031b600993285bc7",
+          "sha1": "f628699bc411eecc341845fce5c95f71c2588d0d"
+        },
+        "url": "https://cdn.modrinth.com/data/GchcoXML/versions/4lE9D01D/oculus-mc1.19.2-1.6.9.jar",
+        "filename": "oculus-mc1.19.2-1.6.9.jar",
+        "primary": true,
+        "size": 3499284,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "4ZqxOvjD",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
+  {
+    "game_versions": [
+      "1.16.5"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "id": "Uz28Wi1p",
+    "project_id": "GchcoXML",
+    "author_id": "OGBzw79h",
+    "featured": false,
+    "name": "Oculus mc1.16.5-1.4.6",
+    "version_number": "1.16.5-1.4.6",
+    "changelog": "- Correctly fixed shaders on AMD\n- Fixed compatibility with EpicFight\n- Fixed compatibility with Pixelmon (including vertex issue)\n- Removed NotEnoughCrashes screen\n- Fixed entity translucency\n- Some resource leaks fixes\n- Fixed some GUI bugs\n- More Forge parities in rendering\n- Use Forge API instead of raw Minecraft for keybinds and resource loading\n- Rebranded lang files to Oculus\n- Code cleanups\n- Add forgotten logo in mods.toml\n- Removed incorrect LICENSE file\n\n## Rubidium should be updated to 0.2.13!",
+    "changelog_url": null,
+    "date_published": "2023-09-08T12:55:24.229213Z",
+    "downloads": 28683,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "hashes": {
+          "sha512": "c178f137eeb5e41b616315647d1b79dad9ff9cedde29573c7c85bc4220824817ef59268af1fe6cd9ddb3a584c17a9f17ed1ab1fad679ab89d42619a7ad6803cd",
+          "sha1": "0ce1cda9fb549783d98f0d822e3e929e4a78c77c"
+        },
+        "url": "https://cdn.modrinth.com/data/GchcoXML/versions/Uz28Wi1p/oculus-mc1.16.5-1.4.6.jar",
+        "filename": "oculus-mc1.16.5-1.4.6.jar",
+        "primary": true,
+        "size": 3935492,
+        "file_type": null
+      }
+    ],
+    "dependencies": []
+  },
+  {
+    "game_versions": [
+      "1.18.2"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "id": "UynWw2df",
+    "project_id": "GchcoXML",
+    "author_id": "OGBzw79h",
+    "featured": false,
+    "name": "Oculus mc1.18.2-1.6.4",
+    "version_number": "1.18.2-1.6.4",
+    "changelog": "### Includes all Iris changes from 1.6 -> 1.6.4\n\n\n### Forge specific fixes:\n- Parity with Forge in block lighting\n- Added compatibility with Reforgium\n- Deleted NotEnoughCrashes warning screen (left only notice in crash-report)\n- Restored block lighting on 1.19.2 (SEUS PTGI and etc.)\n- Parity with Iris in jar naming",
+    "changelog_url": null,
+    "date_published": "2023-06-10T19:03:13.617759Z",
+    "downloads": 438648,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "hashes": {
+          "sha1": "9bafc5d3069d533c49a19b6f5bdb53637a1d47c2",
+          "sha512": "c7ef7ec2f5976a2781ea39019e2a037a1be1f478c64855401303352ca6cd41eb372ce1ee738a769ec3d2cc1d92e8e50e2065112cc20e02cd2164486b6cef1e9d"
+        },
+        "url": "https://cdn.modrinth.com/data/GchcoXML/versions/UynWw2df/oculus-mc1.18.2-1.6.4.jar",
+        "filename": "oculus-mc1.18.2-1.6.4.jar",
+        "primary": true,
+        "size": 3503276,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "4ZqxOvjD",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
+  {
+    "game_versions": [
+      "1.20",
+      "1.20.1"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "id": "HxUtDCCe",
+    "project_id": "GchcoXML",
+    "author_id": "OGBzw79h",
+    "featured": false,
+    "name": "Oculus mc1.20-1.6.4",
+    "version_number": "1.20-1.6.4",
+    "changelog": "### Includes all Iris changes from 1.6 -> 1.6.4\n\n\n### Forge specific fixes:\n- Parity with Forge in block lighting\n- Added compatibility with Reforgium\n- Deleted NotEnoughCrashes warning screen (left only notice in crash-report)\n- Restored block lighting on 1.19.2 (SEUS PTGI and etc.)\n- Parity with Iris in jar naming",
+    "changelog_url": null,
+    "date_published": "2023-06-10T19:00:03.861487Z",
+    "downloads": 159749,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "hashes": {
+          "sha512": "3afca1b461248f2b87fe9fc534660488e5bd7dc9d24d1e2d1a46eabdb28c5dcbae9906d4392ee678f7c6f6e4dcb2b694a6ea7765b57e0a3abd4122674a5152cd",
+          "sha1": "33cecf7bcb17a4cbcb23aed1993771e73f1f9307"
+        },
+        "url": "https://cdn.modrinth.com/data/GchcoXML/versions/HxUtDCCe/oculus-mc1.20-1.6.4.jar",
+        "filename": "oculus-mc1.20-1.6.4.jar",
+        "primary": true,
+        "size": 2849391,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": "iLEHOlRR",
+        "project_id": "4ZqxOvjD",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
+  {
+    "game_versions": [
+      "1.19.2"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "id": "Af4brqYV",
+    "project_id": "GchcoXML",
+    "author_id": "OGBzw79h",
+    "featured": false,
+    "name": "Oculus mc1.19.2-1.6.4",
+    "version_number": "1.19.2-1.6.4",
+    "changelog": "### Includes all Iris changes from 1.6 -> 1.6.4\n\n\n### Forge specific fixes:\n- Parity with Forge in block lighting\n- Added compatibility with Reforgium\n- Deleted NotEnoughCrashes warning screen (left only notice in crash-report)\n- Restored block lighting on 1.19.2 (SEUS PTGI and etc.)\n- Parity with Iris in jar naming",
+    "changelog_url": null,
+    "date_published": "2023-06-10T18:55:59.232905Z",
+    "downloads": 31748,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "hashes": {
+          "sha1": "27e99e924d5fd845b73d6c969c7c65ad3122019c",
+          "sha512": "5c3d9852c16de7fe6ff22ed12b7b610ff2167dfdc8f17fea0d5b6c972ce6a9bd9eaf0272aeb219075344080d9bc8053f200836a9cda2a254dc40d0cb8bb6b75d"
+        },
+        "url": "https://cdn.modrinth.com/data/GchcoXML/versions/Af4brqYV/oculus-mc1.19.2-1.6.4.jar",
+        "filename": "oculus-mc1.19.2-1.6.4.jar",
+        "primary": true,
+        "size": 3445162,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "4ZqxOvjD",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
+  {
+    "game_versions": [
+      "1.18.2"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "id": "mGoSRprD",
+    "project_id": "GchcoXML",
+    "author_id": "OGBzw79h",
+    "featured": false,
+    "name": "Oculus mc1.18.2-1.5.2",
+    "version_number": "1.18.2-1.5.2",
+    "changelog": "Provided\u00a0full support\u00a0for the majority of Optifine shaders, some bug and crashfixes",
+    "changelog_url": null,
+    "date_published": "2023-03-22T16:53:47.937726Z",
+    "downloads": 9032,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "hashes": {
+          "sha1": "31faf299654b6618acd21008b1e3df7324ec9323",
+          "sha512": "a70014c79529d1273a5fe502cca32e61cfdb3bd1ebbf6894b8871d9e5ae5dffaa9843727a1d3087be27563a30084eed3a2ae8db9e83a4b0a82d38e8d22d5517c"
+        },
+        "url": "https://cdn.modrinth.com/data/GchcoXML/versions/mGoSRprD/oculus-1.5.2.jar",
+        "filename": "oculus-1.5.2.jar",
+        "primary": true,
+        "size": 3423952,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": "9DCa1IzX",
+        "project_id": "4ZqxOvjD",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
+  {
+    "game_versions": [
+      "1.19.4"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "id": "KyxZ315g",
+    "project_id": "GchcoXML",
+    "author_id": "OGBzw79h",
+    "featured": false,
+    "name": "Oculus mc1.19.4-1.5.2",
+    "version_number": "1.19.4-1.5.2",
+    "changelog": "Updated to 1.19.4\n\nAdded PBR support\n\nAdded\u00a0many OptiFine parity features\n\nMany performance improvements and bugfixes",
+    "changelog_url": null,
+    "date_published": "2023-03-22T07:55:42.719446Z",
+    "downloads": 69603,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "hashes": {
+          "sha1": "404cb53c7f3757662421b319a1a3efeaa29540f4",
+          "sha512": "08927e963235a64a96fdaffcb8e0e9c9f21b9f338ceb0dc8dc6e0d46bb477f3c73b8b0aba2b647e4e6d1af7314c95ed49f904a416db66e6b84bad8703ebdf0fe"
+        },
+        "url": "https://cdn.modrinth.com/data/GchcoXML/versions/KyxZ315g/oculus-1.5.2.jar",
+        "filename": "oculus-1.5.2.jar",
+        "primary": true,
+        "size": 2748251,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "4ZqxOvjD",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
+  {
+    "game_versions": [
+      "1.18.2"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "id": "zuJ1306r",
+    "project_id": "GchcoXML",
+    "author_id": "OGBzw79h",
+    "featured": false,
+    "name": "Oculus mc1.18.2-1.4.3a",
+    "version_number": "1.18.2-1.4.3a",
+    "changelog": "### Fixed incompatibility with Weather 2!\n\n**Some minor fixes (M1 and etc.)**",
+    "changelog_url": null,
+    "date_published": "2023-01-20T11:30:24.361397Z",
+    "downloads": 4236,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "hashes": {
+          "sha1": "e364b12657d637674c1d2c1f973077d7f29fd4f2",
+          "sha512": "f40cdacc00a680d453c59fa9a8c8084c80e38db1e6fd3b6715269a499754dbf5e5a1c1125d966ef6c564f239f18ae0e35a70e68c0fd4066be2510dace97841e1"
+        },
+        "url": "https://cdn.modrinth.com/data/GchcoXML/versions/zuJ1306r/oculus-1.4.3a.jar",
+        "filename": "oculus-1.4.3a.jar",
+        "primary": true,
+        "size": 3287696,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": "v1Byy3O4",
+        "project_id": "4ZqxOvjD",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
+  {
+    "game_versions": [
+      "1.16.5"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "id": "uNDmEO4n",
+    "project_id": "GchcoXML",
+    "author_id": "OGBzw79h",
+    "featured": false,
+    "name": "Oculus mc1.16.5-1.4.5",
+    "version_number": "1.16.5-1.4.5",
+    "changelog": "Fixed AMD incompatibility\n\nFixing some depth of field and font issues as well as slightly improving mod compatibility.",
+    "changelog_url": null,
+    "date_published": "2023-01-04T21:18:11.833437Z",
+    "downloads": 14880,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "hashes": {
+          "sha1": "c5410c49fc90146c535314da0525f0393e286cab",
+          "sha512": "c0de72f8be1cba76b84d5bbdf86b4529bc85248dd1b8dfaddb7484ca135102d8fc4843039dee08d9d3f788537fe6bbe19749ee154b1551c15b9eb573527f477d"
+        },
+        "url": "https://cdn.modrinth.com/data/GchcoXML/versions/uNDmEO4n/oculus-1.4.5.jar",
+        "filename": "oculus-1.4.5.jar",
+        "primary": true,
+        "size": 3848984,
+        "file_type": null
+      }
+    ],
+    "dependencies": []
+  },
+  {
+    "game_versions": [
+      "1.19.2"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "id": "nApEYsZi",
+    "project_id": "GchcoXML",
+    "author_id": "OGBzw79h",
+    "featured": false,
+    "name": "Oculus mc1.19.2-1.2.8a",
+    "version_number": "1.19.2-1.2.8a",
+    "changelog": "Fixed incompatibility with Forge 43.1.58+ (thanks to yunori2011)",
+    "changelog_url": null,
+    "date_published": "2023-01-04T18:37:04.692314Z",
+    "downloads": 24501,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "hashes": {
+          "sha1": "7ee015f8833af272bfa7aaf3e27b16a57117bd23",
+          "sha512": "9adb4f1cc7ac29717666eb26c2ed10ee253a9cc4b0eed7dce07ef8e8dfdb9e40809691c675b16920408d4454f53cd6110b49b3a8cebded35cb18403279cb865c"
+        },
+        "url": "https://cdn.modrinth.com/data/GchcoXML/versions/nApEYsZi/oculus-mc1.19.2-1.2.8a.jar",
+        "filename": "oculus-mc1.19.2-1.2.8a.jar",
+        "primary": true,
+        "size": 1886544,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": "6YKudvQ5",
+        "project_id": "4ZqxOvjD",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
+  {
+    "game_versions": [
+      "1.19.2"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "id": "A6aEs4bJ",
+    "project_id": "GchcoXML",
+    "author_id": "OGBzw79h",
+    "featured": false,
+    "name": "Oculus mc1.19.2-1.2.8",
+    "version_number": "1.19.2-1.2.8",
+    "changelog": "Added many Optifine parity improvements\n\nFixed ender beam effect in the End not animating with Complementary\n\nBug fixes and mod compatibility improvements\n\nAdded minVersion property\n\nMany UI fixes\n\nPerformance improvements\n\nFixed NPE crash\n\nIgnore for server",
+    "changelog_url": null,
+    "date_published": "2022-12-11T22:28:19.635219Z",
+    "downloads": 2263,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "hashes": {
+          "sha1": "4fb3b244377af13817fcd80b3292a9e056f5cc31",
+          "sha512": "e0994cbf8d5db225a9278febdb2322cfb9b106149c67c5a07856b07fa03646e80f8a5b1696ae703d1cbbb5f022ebd6339162144b49930c5c1d1d95efc8bc1664"
+        },
+        "url": "https://cdn.modrinth.com/data/GchcoXML/versions/A6aEs4bJ/oculus-mc1.19.2-1.2.8.jar",
+        "filename": "oculus-mc1.19.2-1.2.8.jar",
+        "primary": true,
+        "size": 1886605,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": "6YKudvQ5",
+        "project_id": "4ZqxOvjD",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
+  {
+    "game_versions": [
+      "1.18.2"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "id": "YM91QDuZ",
+    "project_id": "GchcoXML",
+    "author_id": "OGBzw79h",
+    "featured": false,
+    "name": "Oculus mc1.18.2-1.4.3",
+    "version_number": "1.18.2-1.4.3",
+    "changelog": "Implemented PBR\n\nFixed annoying crashes\n\nFixes old hand lighting on SEUS Renewed and similar packs.\n\nAdding many OptiFine parity features as well as new features for shader developers\n\nA few bug fixes and DSA support for performance improvements\n\nOther performance and compatibility improvements",
+    "changelog_url": null,
+    "date_published": "2022-11-24T17:46:15.104294Z",
+    "downloads": 1936,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "hashes": {
+          "sha1": "7c99adf2ff65372c83d361af72b03b72c981a633",
+          "sha512": "2dbf5efde0123c7a4aff72672711d6aa8b5328674ad3a9034dff2e4998a3886d71a7859b4c1515e150134750b5a5078d8e5099b0a90fbe827b8193b61c612d56"
+        },
+        "url": "https://cdn.modrinth.com/data/GchcoXML/versions/YM91QDuZ/oculus-1.4.3.jar",
+        "filename": "oculus-1.4.3.jar",
+        "primary": true,
+        "size": 3225709,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": "9DCa1IzX",
+        "project_id": "4ZqxOvjD",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
+  {
+    "game_versions": [
+      "1.16.5"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "id": "9KaQ8Nei",
+    "project_id": "GchcoXML",
+    "author_id": "OGBzw79h",
+    "featured": false,
+    "name": "Oculus mc1.16.5-1.4.3",
+    "version_number": "1.16.5-1.4.3",
+    "changelog": "Implemented PBR\n\nFixes old hand lighting on SEUS Renewed and similar packs.\n\nAdding many OptiFine parity features as well as new features for shader developers\n\nA few bug fixes and DSA support for performance improvements\n\nOther performance and compatibility improvements",
+    "changelog_url": null,
+    "date_published": "2022-11-23T11:03:20.049413Z",
+    "downloads": 1633,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "hashes": {
+          "sha512": "c461cf5704693a699dec2d578abf713f5e9700e889b5496588e8f2a8f3b6c192fc70e88b72851d6db01d3c06e1ea68d99f3e39ce7cbba387feaf4d6769f8576a",
+          "sha1": "8f891bf657de856c1e5a9d3771ea2e4aa2cc5a3f"
+        },
+        "url": "https://cdn.modrinth.com/data/GchcoXML/versions/9KaQ8Nei/oculus-1.4.3.jar",
+        "filename": "oculus-1.4.3.jar",
+        "primary": true,
+        "size": 3848294,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": "vkRZleVy",
+        "project_id": "4ZqxOvjD",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
+  {
+    "game_versions": [
+      "1.16.5"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "id": "zxDW8JVW",
+    "project_id": "GchcoXML",
+    "author_id": "OGBzw79h",
+    "featured": false,
+    "name": "Oculus mc1.16.5-1.2.6",
+    "version_number": "1.16.5-1.2.6",
+    "changelog": "Added many Optifine parity improvements\n\nFixed ender beam effect in the End not animating with Complementary\n\nBug fixes and mod compatibility improvements\n\nProbably fixed compatibility with Create",
+    "changelog_url": null,
+    "date_published": "2022-08-24T09:37:42.027389Z",
+    "downloads": 4742,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "hashes": {
+          "sha1": "ed32af97076dcc84e9cb8881f6c3fc038d1716fe",
+          "sha512": "d88c7a92e3b250f09b6060de7cd3413849e91efd7d24fa6754b63080db58250946e20395b5e509d8884d2e21b48a59f97f012864c3a4ef006c30be715ac88254"
+        },
+        "url": "https://cdn.modrinth.com/data/GchcoXML/versions/zxDW8JVW/oculus-1.2.6.jar",
+        "filename": "oculus-1.2.6.jar",
+        "primary": true,
+        "size": 1801916,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": "vkRZleVy",
+        "project_id": "4ZqxOvjD",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
+  {
+    "game_versions": [
+      "1.19",
+      "1.19.1",
+      "1.19.2"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "id": "rR8ZrdCw",
+    "project_id": "GchcoXML",
+    "author_id": "OGBzw79h",
+    "featured": false,
+    "name": "Oculus mc1.19-1.2.5a",
+    "version_number": "1.19-1.2.5a",
+    "changelog": "Updated to Forge .64",
+    "changelog_url": null,
+    "date_published": "2022-08-11T13:03:14.355223Z",
+    "downloads": 29325,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "hashes": {
+          "sha512": "cdba35b699c72381ec55985e0a8ba1d868c5088324707d18ed39279d2fa763fda0387e3286053fa120464f7ee9b2c11148d4ae76e9d3163aa195d0e033e31d2b",
+          "sha1": "5bb93041a33c523c43adbde15d1b5b1a6d7d3e6b"
+        },
+        "url": "https://cdn.modrinth.com/data/GchcoXML/versions/1.19-1.2.5a/oculus-mc1.19-1.2.5a.jar",
+        "filename": "oculus-mc1.19-1.2.5a.jar",
+        "primary": true,
+        "size": 1863196,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": "6YKudvQ5",
+        "project_id": "4ZqxOvjD",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
+  {
+    "game_versions": [
+      "1.16.5"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "id": "ZjN0wxRC",
+    "project_id": "GchcoXML",
+    "author_id": "OGBzw79h",
+    "featured": false,
+    "name": " Oculus mc1.16.5-1.2.5a",
+    "version_number": "1.16.5-1.2.5a",
+    "changelog": "Now works with Rubidium 0.2.8\n\nDisabled testing thing (Forgot to disable)",
+    "changelog_url": null,
+    "date_published": "2022-08-11T13:02:22.862305Z",
+    "downloads": 551,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "hashes": {
+          "sha512": "35b07c730da2951d31301e7860af557f82e24e5e3ac76a755645e9fd452ceac72458780a742cc4db8fce4ff72162e4a0137eab2eb802d510ea6aaba90463a493",
+          "sha1": "5ff3d844b8f89d0f7700db9eca31a755d438f0d7"
+        },
+        "url": "https://cdn.modrinth.com/data/GchcoXML/versions/1.16.5-1.2.5a/oculus-1.2.5a.jar",
+        "filename": "oculus-1.2.5a.jar",
+        "primary": true,
+        "size": 1778653,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": "vkRZleVy",
+        "project_id": "4ZqxOvjD",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
+  {
+    "game_versions": [
+      "1.18.2"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "id": "E7vz516D",
+    "project_id": "GchcoXML",
+    "author_id": "OGBzw79h",
+    "featured": false,
+    "name": " Oculus mc1.18.2-1.2.5a",
+    "version_number": "1.18.2-1.2.5a",
+    "changelog": "Fixed some crashes related to Tesselating/Vertex things",
+    "changelog_url": null,
+    "date_published": "2022-08-11T13:01:04.313828Z",
+    "downloads": 1991,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "hashes": {
+          "sha512": "f983d4f33affe641581f2f91a9982e2e073c510eed26ab172dc6efc1c847863bef5bf87402119975fe1dceb707bf3a056614dddf2de7121e822a6f0c71725d6b",
+          "sha1": "45d362192f30c7fcffbf1f1ebaf93293dc84d296"
+        },
+        "url": "https://cdn.modrinth.com/data/GchcoXML/versions/1.18.2-1.2.5a/oculus-mc1.18.2-1.2.5a.jar",
+        "filename": "oculus-mc1.18.2-1.2.5a.jar",
+        "primary": true,
+        "size": 1777902,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": "9DCa1IzX",
+        "project_id": "4ZqxOvjD",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
+  {
+    "game_versions": [
+      "1.16.5"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "id": "sl4bJ9He",
+    "project_id": "GchcoXML",
+    "author_id": "OGBzw79h",
+    "featured": false,
+    "name": " Oculus mc1.16.5-1.2.5",
+    "version_number": "1.16.5-1.2.5",
+    "changelog": "",
+    "changelog_url": null,
+    "date_published": "2022-07-19T13:21:29.448696Z",
+    "downloads": 1324,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "hashes": {
+          "sha1": "99f12b17f6e0d95f90e68d3635fb79c5a4eab29c",
+          "sha512": "155c73ee4e171c7e71b391fc19eeddc03fd73966f2d1a5a592b65eec5d524c2f936c8cd54ed0b76474fea57a9d8e4a1001d37eff805d3a15dbed675a1f4542f4"
+        },
+        "url": "https://cdn.modrinth.com/data/GchcoXML/versions/1.16.5-1.2.5/oculus-1.2.5.jar",
+        "filename": "oculus-1.2.5.jar",
+        "primary": true,
+        "size": 1778670,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": "vkRZleVy",
+        "project_id": "4ZqxOvjD",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
+  {
+    "game_versions": [
+      "1.18.2"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "id": "rhj7Nexq",
+    "project_id": "GchcoXML",
+    "author_id": "OGBzw79h",
+    "featured": false,
+    "name": "Oculus mc1.18.2-1.2.5",
+    "version_number": "1.18.2-1.2.5",
+    "changelog": "",
+    "changelog_url": null,
+    "date_published": "2022-07-19T13:12:32.573230Z",
+    "downloads": 1626,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "hashes": {
+          "sha512": "710e0b34d19e069710e5b96ad6c58638ec7c16007663c4d3fcdb620ef63d1c7d56849f3eaa29608b127437854fef4eca4d5ead9114e0db9bf432a7791cf91f39",
+          "sha1": "79d2918f713f789df0c890bfe3c6124f10d7f407"
+        },
+        "url": "https://cdn.modrinth.com/data/GchcoXML/versions/1.18.2-1.2.5/oculus-mc1.18.2-1.2.5.jar",
+        "filename": "oculus-mc1.18.2-1.2.5.jar",
+        "primary": true,
+        "size": 1777704,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": "9DCa1IzX",
+        "project_id": "4ZqxOvjD",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
+  {
+    "game_versions": [
+      "1.19"
+    ],
+    "loaders": [
+      "forge"
+    ],
+    "id": "Ti8TJ58B",
+    "project_id": "GchcoXML",
+    "author_id": "OGBzw79h",
+    "featured": false,
+    "name": " Oculus mc1.19-1.2.5",
+    "version_number": "1.2.5",
+    "changelog": "",
+    "changelog_url": null,
+    "date_published": "2022-07-02T10:02:12.934414Z",
+    "downloads": 571,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "hashes": {
+          "sha512": "169963ddd3dffab251e2d7ff69dfd701eb01d474ca43fdf6b32a81fb6adfae9a05dea9919f8004b313a39757c5553bc660b6f29052cbda0d13888f832a9f0297",
+          "sha1": "f223393f847cadc4f48faa1244222438ad8b357e"
+        },
+        "url": "https://cdn.modrinth.com/data/GchcoXML/versions/1.2.5/oculus-mc1.19-1.2.5.jar",
+        "filename": "oculus-mc1.19-1.2.5.jar",
+        "primary": true,
+        "size": 1878486,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": "w6asrex4",
+        "project_id": "4ZqxOvjD",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  }
+]

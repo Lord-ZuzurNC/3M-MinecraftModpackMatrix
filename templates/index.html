@@ -4,66 +4,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Minecraft Mod Matrix</title>
-    <link
-      rel="stylesheet"
-      href="{{ url_for('static', filename='style.css') }}"
-    />
+    <link rel="stylesheet" href="/static/styles.css" />
   </head>
   <body>
-    <button id="themeToggle" title="Toggle theme">🌙</button>
-
-    <div class="app fade-in">
+    <header>
       <h1>Minecraft Mod Matrix</h1>
-      <p>Paste one or more CurseForge/Modrinth URLs (one per line):</p>
+      <button id="theme-toggle">🌗</button>
+    </header>
 
-      <textarea
-        id="urlInput"
-        placeholder="Example: https://www.curseforge.com/minecraft/mc-mods/jei"
-      ></textarea>
-      <button id="analyzeBtn">Analyze</button>
+    <main>
+      <section id="input-section">
+        <textarea
+          id="mod-urls"
+          placeholder="Enter mod URLs, one per line..."
+        ></textarea>
+        <div class="actions">
+          <button id="analyze-btn">Analyze</button>
+          <button id="export-md">Export MD</button>
+          <button id="export-csv">Export CSV</button>
+          <button id="clear-cache">🧹 Clear Cache</button>
+        </div>
+      </section>
 
-      <div id="loading" class="hidden">⏳ Fetching data...</div>
-
-      <div class="export-buttons hidden" id="exportButtons">
-        <button id="exportCSV">📄 Export CSV</button>
-        <button id="exportMD">🧾 Export Markdown</button>
-      </div>
-
-      <!-- NEW FILTERS -->
-      <div id="filterSection" class="hidden filters">
+      <section id="filters">
         <label
-          >Filter Loader:
-          <select id="filterLoader">
-            <option value="">All</option>
-          </select>
-        </label>
+          >Version:
+          <select id="filter-version"></select
+        ></label>
         <label
-          >Filter Version:
-          <select id="filterVersion">
-            <option value="">All</option>
-          </select>
-        </label>
-      </div>
+          >Loader:
+          <select id="filter-loader"></select
+        ></label>
+        <button id="apply-filters">Apply Filters</button>
+      </section>
 
-      <!-- COMPATIBILITY SUMMARY (TOP) -->
-      <div id="compatibilitySummaryTop" class="compatibility hidden"></div>
+      <section id="results"></section>
+    </main>
 
-      <div class="table-container hidden" id="tableContainer">
-        <table id="resultTable">
-          <thead>
-            <tr>
-              <th>Mod Name</th>
-              <th>Versions / Loaders</th>
-            </tr>
-          </thead>
-          <tbody></tbody>
-        </table>
-      </div>
+    <footer>
+      <p>Minecraft Mod Matrix - 2025</p>
+    </footer>
 
-      <!-- COMPATIBILITY SUMMARY (BOTTOM) -->
-      <div id="compatibilitySummaryBottom" class="compatibility hidden"></div>
-    </div>
-
-    <script src="{{ url_for('static', filename='app.js') }}" defer></script>
+    <script src="/static/app.js"></script>
   </body>
 </html>

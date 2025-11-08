@@ -1,0 +1,402 @@
+{
+  "data": [
+    {
+      "id": 7038061,
+      "gameId": 432,
+      "modId": 1349698,
+      "isAvailable": true,
+      "displayName": "IronSmelters-neoforge-1.21.1-21.1.0.3.jar",
+      "fileName": "IronSmelters-neoforge-1.21.1-21.1.0.3.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "cbb547448c4c5e2ca9898787b83b462bdd74739b",
+          "algo": 1
+        },
+        {
+          "value": "1b39ab1f02a3f7fdc268307aa60c01a8",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2025-09-27T09:16:52.14Z",
+      "fileLength": 331098,
+      "downloadCount": 20,
+      "fileSizeOnDisk": 992967,
+      "downloadUrl": "https://edge.forgecdn.net/files/7038/61/IronSmelters-neoforge-1.21.1-21.1.0.3.jar",
+      "gameVersions": [
+        "NeoForge",
+        "1.21.1"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "NeoForge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "1.21.1",
+          "gameVersionPadded": "0000000001.0000000021.0000000001",
+          "gameVersion": "1.21.1",
+          "gameVersionReleaseDate": "2024-08-08T15:17:53.787Z",
+          "gameVersionTypeId": 77784
+        }
+      ],
+      "dependencies": [
+        {
+          "modId": 1023259,
+          "relationType": 3
+        }
+      ],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 3492064275,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 2041601665
+        },
+        {
+          "name": "com",
+          "fingerprint": 2817028584
+        },
+        {
+          "name": "data",
+          "fingerprint": 3627655752
+        },
+        {
+          "name": ".cache",
+          "fingerprint": 575265666
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 3375455554
+        },
+        {
+          "name": "assets",
+          "fingerprint": 4033670966
+        },
+        {
+          "name": "ironsmelters.neoforge.mixins.json",
+          "fingerprint": 2278723226
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 577026321
+        },
+        {
+          "name": "ironsmelters.mixins.json",
+          "fingerprint": 2669499662
+        }
+      ]
+    },
+    {
+      "id": 7038060,
+      "gameId": 432,
+      "modId": 1349698,
+      "isAvailable": true,
+      "displayName": "IronSmelters-fabric-1.21.1-21.1.0.3.jar",
+      "fileName": "IronSmelters-fabric-1.21.1-21.1.0.3.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "30e6e0afa2a4a3efbc5dc0c3bc51ea0498af8d6b",
+          "algo": 1
+        },
+        {
+          "value": "cfecb188ada5b125dd6443b1e92090f0",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2025-09-27T09:16:49.893Z",
+      "fileLength": 321563,
+      "downloadCount": 0,
+      "fileSizeOnDisk": 950061,
+      "downloadUrl": "https://edge.forgecdn.net/files/7038/60/IronSmelters-fabric-1.21.1-21.1.0.3.jar",
+      "gameVersions": [
+        "Fabric",
+        "1.21.1"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "Fabric",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-09-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "1.21.1",
+          "gameVersionPadded": "0000000001.0000000021.0000000001",
+          "gameVersion": "1.21.1",
+          "gameVersionReleaseDate": "2024-08-08T15:17:53.787Z",
+          "gameVersionTypeId": 77784
+        }
+      ],
+      "dependencies": [
+        {
+          "modId": 1023259,
+          "relationType": 3
+        },
+        {
+          "modId": 306612,
+          "relationType": 3
+        }
+      ],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 3503731958,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 4141647073
+        },
+        {
+          "name": ".cache",
+          "fingerprint": 575265666
+        },
+        {
+          "name": "assets",
+          "fingerprint": 4033670966
+        },
+        {
+          "name": "com",
+          "fingerprint": 2647662796
+        },
+        {
+          "name": "data",
+          "fingerprint": 3627655752
+        },
+        {
+          "name": "fabric.mod.json",
+          "fingerprint": 1292398754
+        },
+        {
+          "name": "ironsmelters.fabric.mixins.json",
+          "fingerprint": 1851628315
+        },
+        {
+          "name": "ironsmelters.mixins.json",
+          "fingerprint": 2669499662
+        },
+        {
+          "name": "ironsmelters.refmap.json",
+          "fingerprint": 2380563700
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 577026321
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 3375455554
+        }
+      ]
+    },
+    {
+      "id": 7038057,
+      "gameId": 432,
+      "modId": 1349698,
+      "isAvailable": true,
+      "displayName": "IronSmelters-neoforge-1.21.1-21.1.0.2.jar",
+      "fileName": "IronSmelters-neoforge-1.21.1-21.1.0.2.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "d761357a7548cf64e26a5fce9164759eeeee3f7f",
+          "algo": 1
+        },
+        {
+          "value": "51d74b7907f34ca79d7820851a04c3bd",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2025-09-27T09:14:46.09Z",
+      "fileLength": 331097,
+      "downloadCount": 0,
+      "fileSizeOnDisk": 992967,
+      "downloadUrl": "https://edge.forgecdn.net/files/7038/57/IronSmelters-neoforge-1.21.1-21.1.0.2.jar",
+      "gameVersions": [
+        "NeoForge",
+        "1.21.1"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "NeoForge",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "1.21.1",
+          "gameVersionPadded": "0000000001.0000000021.0000000001",
+          "gameVersion": "1.21.1",
+          "gameVersionReleaseDate": "2024-08-08T15:17:53.787Z",
+          "gameVersionTypeId": 77784
+        }
+      ],
+      "dependencies": [
+        {
+          "modId": 1023259,
+          "relationType": 3
+        }
+      ],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 927420812,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 1565133628
+        },
+        {
+          "name": "com",
+          "fingerprint": 2817028584
+        },
+        {
+          "name": "data",
+          "fingerprint": 3627655752
+        },
+        {
+          "name": ".cache",
+          "fingerprint": 575265666
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 3375455554
+        },
+        {
+          "name": "assets",
+          "fingerprint": 4033670966
+        },
+        {
+          "name": "ironsmelters.neoforge.mixins.json",
+          "fingerprint": 2278723226
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 577026321
+        },
+        {
+          "name": "ironsmelters.mixins.json",
+          "fingerprint": 2669499662
+        }
+      ]
+    },
+    {
+      "id": 7038056,
+      "gameId": 432,
+      "modId": 1349698,
+      "isAvailable": true,
+      "displayName": "IronSmelters-fabric-1.21.1-21.1.0.2.jar",
+      "fileName": "IronSmelters-fabric-1.21.1-21.1.0.2.jar",
+      "releaseType": 1,
+      "fileStatus": 4,
+      "hashes": [
+        {
+          "value": "9b9f0f043b30f92defe0f05cbcb0092c7a6ce830",
+          "algo": 1
+        },
+        {
+          "value": "d950b0b1d863a384cbe9cf8b45a937e7",
+          "algo": 2
+        }
+      ],
+      "fileDate": "2025-09-27T09:14:43.82Z",
+      "fileLength": 321563,
+      "downloadCount": 0,
+      "fileSizeOnDisk": 950061,
+      "downloadUrl": "https://edge.forgecdn.net/files/7038/56/IronSmelters-fabric-1.21.1-21.1.0.2.jar",
+      "gameVersions": [
+        "Fabric",
+        "1.21.1"
+      ],
+      "sortableGameVersions": [
+        {
+          "gameVersionName": "Fabric",
+          "gameVersionPadded": "0",
+          "gameVersion": "",
+          "gameVersionReleaseDate": "2022-09-01T00:00:00Z",
+          "gameVersionTypeId": 68441
+        },
+        {
+          "gameVersionName": "1.21.1",
+          "gameVersionPadded": "0000000001.0000000021.0000000001",
+          "gameVersion": "1.21.1",
+          "gameVersionReleaseDate": "2024-08-08T15:17:53.787Z",
+          "gameVersionTypeId": 77784
+        }
+      ],
+      "dependencies": [
+        {
+          "modId": 306612,
+          "relationType": 3
+        },
+        {
+          "modId": 1023259,
+          "relationType": 3
+        }
+      ],
+      "alternateFileId": 0,
+      "isServerPack": false,
+      "fileFingerprint": 3976701441,
+      "modules": [
+        {
+          "name": "META-INF",
+          "fingerprint": 336467920
+        },
+        {
+          "name": ".cache",
+          "fingerprint": 575265666
+        },
+        {
+          "name": "assets",
+          "fingerprint": 4033670966
+        },
+        {
+          "name": "com",
+          "fingerprint": 2647662796
+        },
+        {
+          "name": "data",
+          "fingerprint": 3627655752
+        },
+        {
+          "name": "fabric.mod.json",
+          "fingerprint": 752552122
+        },
+        {
+          "name": "ironsmelters.fabric.mixins.json",
+          "fingerprint": 1851628315
+        },
+        {
+          "name": "ironsmelters.mixins.json",
+          "fingerprint": 2669499662
+        },
+        {
+          "name": "ironsmelters.refmap.json",
+          "fingerprint": 2380563700
+        },
+        {
+          "name": "logo.png",
+          "fingerprint": 577026321
+        },
+        {
+          "name": "pack.mcmeta",
+          "fingerprint": 3375455554
+        }
+      ]
+    }
+  ],
+  "pagination": {
+    "index": 0,
+    "pageSize": 50,
+    "resultCount": 4,
+    "totalCount": 4
+  }
+}
