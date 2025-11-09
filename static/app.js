@@ -47,73 +47,6 @@ function postJSON(url, data) {
   }).then((res) => res.json());
 }
 
-/* 
-// ---- Filters ----
-function applyFilters(results) {
-  const version = document.getElementById("filter-version").value;
-  const loader = document.getElementById("filter-loader").value;
-
-  // If both filters are "All" (empty string), return original results
-  if (!version && !loader) return results;
-
-  return results.map((mod) => {
-    if (!mod.versions) return mod;
-    const filtered = mod.versions.filter(([v, l]) => {
-      const lv = normalizeLoader(l);
-      return (!version || v === version) && (!loader || lv === loader);
-    });
-    return { ...mod, versions: filtered };
-  });
-}
-
-function populateFilters(results) {
-  const versionSelect = document.getElementById("filter-version");
-  const loaderSelect = document.getElementById("filter-loader");
-
-  // Store current selections
-  const selectedVersion = versionSelect.value;
-  const selectedLoader = loaderSelect.value;
-
-  const versions = new Set();
-  const loaders = new Set();
-
-  results.forEach((mod) => {
-    if (!mod.versions) return;
-    mod.versions.forEach(([v, l]) => {
-      versions.add(v);
-      loaders.add(normalizeLoader(l));
-    });
-  });
-
-  versionSelect.innerHTML =
-    '<option value="">All</option>' +
-    [...versions]
-      .sort()
-      .map((v) => `<option value="${v}">${v}</option>`)
-      .join("");
-
-  loaderSelect.innerHTML =
-    '<option value="">All</option>' +
-    [...loaders]
-      .sort()
-      .map((l) => `<option value="${l}">${l}</option>`)
-      .join("");
-
-  // Restore previous selections if still valid
-  if ([...versions].includes(selectedVersion)) {
-    versionSelect.value = selectedVersion;
-  } else {
-    versionSelect.value = "";
-  }
-
-  if ([...loaders].includes(selectedLoader)) {
-    loaderSelect.value = selectedLoader;
-  } else {
-    loaderSelect.value = "";
-  }
-}
-*/
-
 // ---- Compatibility ----
 function computeCompatibility(mods) {
   if (!mods.length) return { type: "bad", text: "No mods provided" };
@@ -217,6 +150,20 @@ themeToggle.onchange = () => {
   updateTableLogos();
   updateOverlayTheme();
 };
+
+// Deduplicate mods by provider + slug
+function dedupeMods(results) {
+  const seen = new Set();
+  const deduped = [];
+  results.forEach((mod) => {
+    const key = `${mod.provider}|${mod.slug || mod.id}`;
+    if (!seen.has(key)) {
+      seen.add(key);
+      deduped.push(mod);
+    }
+  });
+  return deduped;
+}
 
 // Rendering the table result:
 function renderTable(results) {
@@ -373,7 +320,8 @@ document.getElementById("analyze-btn").onclick = async () => {
 
   showLoading();
   try {
-    lastResults = await postJSON("/analyze", { urls });
+    let results = await postJSON("/analyze", { urls });
+    lastResults = dedupeMods(results);
     renderTable(lastResults);
   } finally {
     hideLoading();
