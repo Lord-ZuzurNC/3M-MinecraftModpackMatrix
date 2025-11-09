@@ -26,8 +26,8 @@ def slug_from_url(url: str) -> str | None:
     return parts[-1] if parts else None
 
 
-def cached_fetch(provider, slug, mod_id, page, url):
-    cache_file = cache_path(provider, slug, mod_id, page)
+def cached_fetch(provider, slug, id, page, url):
+    cache_file = cache_path(provider, slug, id, page)
     if os.path.exists(cache_file) and not is_cache_expired(cache_file, CACHE_TTL_HOURS):
         with open(cache_file, "r", encoding="utf-8") as f:
             return json.load(f)
@@ -60,7 +60,7 @@ def get_mod_data(url: str) -> dict:
     project_url = f"{API_BASE}/project/{slug}"
     proj = safe_request(project_url).json()
     mod_name = proj.get("title") or proj.get("name") or slug
-    mod_id = str(proj.get("id"))
+    id = str(proj.get("id"))
 
     # Pagination (even though Modrinth usually returns all at once)
     all_versions = []
@@ -69,7 +69,7 @@ def get_mod_data(url: str) -> dict:
 
     while True:
         versions_url = f"{API_BASE}/project/{slug}/version?offset={page*page_size}&limit={page_size}"
-        data = cached_fetch("modrinth", slug, mod_id, page, versions_url)
+        data = cached_fetch("modrinth", slug, id, page, versions_url)
         if isinstance(data, dict) and data.get("data"):
             items = data["data"]
         else:
@@ -94,9 +94,10 @@ def get_mod_data(url: str) -> dict:
     sorted_pairs = sorted(pairs, key=lambda x: version_key(x[0]), reverse=True)
 
     return {
-        "provider": "modrinth",
-        "mod_id": mod_id,
         "name": mod_name,
-        "url": url,
+        "id": id,
+        "slug": slug,
+        "provider": "modrinth",
         "versions": sorted_pairs,
+        "url": url,
     }

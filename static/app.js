@@ -1,16 +1,31 @@
-// ---- Theme ----
+// Theme
+const themeToggle = document.getElementById("theme-toggle");
+
 function applyTheme(theme) {
   document.body.classList.toggle("dark", theme === "dark");
   localStorage.setItem("theme", theme);
 }
 
+function updateTableLogos() {
+  const isDark = document.body.classList.contains("dark");
+  document.querySelectorAll(".provider-logo").forEach((img) => {
+    if (img.alt === "CurseForge") {
+      img.src = isDark ? "/static/cf_dark.svg" : "/static/cf.svg";
+    } else if (img.alt === "Modrinth") {
+      img.src = isDark ? "/static/mr_dark.svg" : "/static/mr.svg";
+    }
+  });
+}
+
 // Initialize theme
 const savedTheme = localStorage.getItem("theme") || "light";
 applyTheme(savedTheme);
+themeToggle.checked = savedTheme === "dark";
 
-document.getElementById("theme-toggle").onclick = () => {
-  const newTheme = document.body.classList.contains("dark") ? "light" : "dark";
+themeToggle.onchange = () => {
+  const newTheme = themeToggle.checked ? "dark" : "light";
   applyTheme(newTheme);
+  updateTableLogos(); // update logos instantly
 };
 
 // ---- Helpers ----
@@ -32,10 +47,14 @@ function postJSON(url, data) {
   }).then((res) => res.json());
 }
 
+/* 
 // ---- Filters ----
 function applyFilters(results) {
   const version = document.getElementById("filter-version").value;
   const loader = document.getElementById("filter-loader").value;
+
+  // If both filters are "All" (empty string), return original results
+  if (!version && !loader) return results;
 
   return results.map((mod) => {
     if (!mod.versions) return mod;
@@ -50,6 +69,11 @@ function applyFilters(results) {
 function populateFilters(results) {
   const versionSelect = document.getElementById("filter-version");
   const loaderSelect = document.getElementById("filter-loader");
+
+  // Store current selections
+  const selectedVersion = versionSelect.value;
+  const selectedLoader = loaderSelect.value;
+
   const versions = new Set();
   const loaders = new Set();
 
@@ -74,7 +98,21 @@ function populateFilters(results) {
       .sort()
       .map((l) => `<option value="${l}">${l}</option>`)
       .join("");
+
+  // Restore previous selections if still valid
+  if ([...versions].includes(selectedVersion)) {
+    versionSelect.value = selectedVersion;
+  } else {
+    versionSelect.value = "";
+  }
+
+  if ([...loaders].includes(selectedLoader)) {
+    loaderSelect.value = selectedLoader;
+  } else {
+    loaderSelect.value = "";
+  }
 }
+*/
 
 // ---- Compatibility ----
 function computeCompatibility(mods) {
@@ -143,22 +181,118 @@ function renderCompatibilityBanner(container, compatibility) {
   container.appendChild(div);
 }
 
-// Example usage inside renderTable:
+// Loading overlay
+const loadingOverlay = document.getElementById("loading-overlay");
+let loadingInterval;
+
+function showLoading() {
+  const isDark = document.body.classList.contains("dark");
+  loadingOverlay.classList.toggle("light", !isDark);
+  loadingOverlay.style.display = "flex";
+
+  const loadingText = loadingOverlay.querySelector(".loading-text");
+  let dots = 0;
+  loadingInterval = setInterval(() => {
+    dots = (dots + 1) % 4; // 0 → 1 → 2 → 3 → 0
+    loadingText.textContent = "Fetching mods" + ".".repeat(dots);
+  }, 500);
+}
+
+function hideLoading() {
+  loadingOverlay.style.display = "none";
+  clearInterval(loadingInterval);
+  loadingInterval = null;
+}
+
+// Update overlay theme when user toggles theme
+function updateOverlayTheme() {
+  const isDark = document.body.classList.contains("dark");
+  loadingOverlay.classList.toggle("light", !isDark);
+}
+
+// Call this whenever theme changes
+themeToggle.onchange = () => {
+  const newTheme = themeToggle.checked ? "dark" : "light";
+  applyTheme(newTheme);
+  updateTableLogos();
+  updateOverlayTheme();
+};
+
+// Rendering the table result:
 function renderTable(results) {
   const container = document.getElementById("results");
   container.innerHTML = "";
 
-  const filteredResults = applyFilters(results);
+  const versionSelect = document.getElementById("filter-version");
+  const loaderSelect = document.getElementById("filter-loader");
 
-  // Top compatibility
+  const selectedVersion = versionSelect.value;
+  const selectedLoader = loaderSelect.value;
+
+  // ---- Filter versions AND remove mods with no matching versions ----
+  let filteredResults = results
+    .map((mod) => {
+      if (!mod.versions) return { ...mod, versions: [] };
+
+      const filteredVersions = mod.versions.filter(([v, l]) => {
+        const lv = normalizeLoader(l);
+        return (
+          (!selectedVersion || v === selectedVersion) &&
+          (!selectedLoader || lv === selectedLoader)
+        );
+      });
+
+      return { ...mod, versions: filteredVersions };
+    })
+    .filter((mod) => mod.versions && mod.versions.length > 0); // remove mods with no versions
+
+  // ---- Compute available filter options based on filtered results ----
+  const availableVersions = new Set();
+  const availableLoaders = new Set();
+  filteredResults.forEach((mod) => {
+    mod.versions.forEach(([v, l]) => {
+      availableVersions.add(v);
+      availableLoaders.add(normalizeLoader(l));
+    });
+  });
+
+  // ---- Populate dropdowns ----
+  versionSelect.innerHTML =
+    '<option value="">All</option>' +
+    [...availableVersions]
+      .sort()
+      .map(
+        (v) =>
+          `<option value="${v}" ${
+            v === selectedVersion ? "selected" : ""
+          }>${v}</option>`
+      )
+      .join("");
+
+  loaderSelect.innerHTML =
+    '<option value="">All</option>' +
+    [...availableLoaders]
+      .sort()
+      .map(
+        (l) =>
+          `<option value="${l}" ${
+            l === selectedLoader ? "selected" : ""
+          }>${l}</option>`
+      )
+      .join("");
+
+  // ---- Compatibility top ----
   const compTop = computeCompatibility(filteredResults);
   renderCompatibilityBanner(container, compTop);
 
+  // ---- Build table ----
   const table = document.createElement("table");
   const header = document.createElement("tr");
   header.innerHTML =
     '<th class="col-source">Source</th><th class="col-name">Mod Name</th><th>Versions / Loaders</th>';
   table.appendChild(header);
+
+  const isDark = document.body.classList.contains("dark");
 
   filteredResults.forEach((mod) => {
     const row = document.createElement("tr");
@@ -166,23 +300,22 @@ function renderTable(results) {
     // Source
     const providerCell = document.createElement("td");
     providerCell.className = "col-source";
+    let img = document.createElement("img");
+    img.className = "provider-logo";
+
     if (mod.provider === "curseforge") {
-      const img = document.createElement("img");
-      img.src = "/static/cf.svg";
+      img.src = isDark ? "/static/cf_dark.svg" : "/static/cf.svg";
       img.alt = "CurseForge";
       img.title = "CurseForge";
-      img.className = "provider-logo";
-      providerCell.appendChild(img);
     } else if (mod.provider === "modrinth") {
-      const img = document.createElement("img");
-      img.src = "/static/mr.svg";
+      img.src = isDark ? "/static/mr_dark.svg" : "/static/mr.svg";
       img.alt = "Modrinth";
       img.title = "Modrinth";
-      img.className = "provider-logo";
-      providerCell.appendChild(img);
     } else {
       providerCell.textContent = "?";
+      img = null;
     }
+    if (img) providerCell.appendChild(img);
 
     // Mod name
     const nameCell = document.createElement("td");
@@ -199,26 +332,22 @@ function renderTable(results) {
 
     // Versions / Loaders
     const versionsCell = document.createElement("td");
-    if (mod.error) {
-      versionsCell.textContent = mod.error;
-    } else {
-      const toggleBtn = document.createElement("button");
-      toggleBtn.textContent = "Show/Hide";
-      const list = document.createElement("ul");
-      list.style.display = "none";
-      const seen = new Set();
-      (mod.versions || []).forEach(([v, l]) => {
-        const key = `${v}-${normalizeLoader(l)}`;
-        if (seen.has(key)) return;
-        seen.add(key);
-        const li = document.createElement("li");
-        li.textContent = `${v} → ${normalizeLoader(l)}`;
-        list.appendChild(li);
-      });
-      toggleBtn.onclick = () =>
-        (list.style.display = list.style.display === "none" ? "block" : "none");
-      versionsCell.append(toggleBtn, list);
-    }
+    const toggleBtn = document.createElement("button");
+    toggleBtn.textContent = "Show/Hide";
+    const list = document.createElement("ul");
+    list.style.display = "none";
+    const seen = new Set();
+    (mod.versions || []).forEach(([v, l]) => {
+      const key = `${v}-${normalizeLoader(l)}`;
+      if (seen.has(key)) return;
+      seen.add(key);
+      const li = document.createElement("li");
+      li.textContent = `${v} → ${normalizeLoader(l)}`;
+      list.appendChild(li);
+    });
+    toggleBtn.onclick = () =>
+      (list.style.display = list.style.display === "none" ? "block" : "none");
+    versionsCell.append(toggleBtn, list);
 
     row.append(providerCell, nameCell, versionsCell);
     table.appendChild(row);
@@ -226,12 +355,9 @@ function renderTable(results) {
 
   container.appendChild(table);
 
-  // Bottom compatibility
+  // ---- Compatibility bottom ----
   const compBottom = computeCompatibility(filteredResults);
   renderCompatibilityBanner(container, compBottom);
-
-  // Populate filter dropdowns
-  populateFilters(results);
 }
 
 // ---- Main ----
@@ -245,8 +371,13 @@ document.getElementById("analyze-btn").onclick = async () => {
     .filter((u) => u);
   if (!urls.length) return alert("Please enter at least one URL");
 
-  lastResults = await postJSON("/analyze", { urls });
-  renderTable(lastResults);
+  showLoading();
+  try {
+    lastResults = await postJSON("/analyze", { urls });
+    renderTable(lastResults);
+  } finally {
+    hideLoading();
+  }
 };
 
 // Clear cache (silent)

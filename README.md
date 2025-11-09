@@ -1,4 +1,4 @@
-> This software has been entirely developped using ChatGPT and many research on internet forums. This may have some unusual ways of coding. If you spot anything, do not hesitate to read through this README, [CONTRIBUTING](CONTRIBUTING.md), [SECURITY](SECURITY.md) and create an issue to make it more human and secure.
+> This software has been entirely developped using ChatGPT and many research on internet forums. This may have some unusual ways of coding. If you spot anything, do not hesitate to read through this README, [CONTRIBUTING](https://github.com/Lord-ZuzurNC/3M-MinecraftModpackMatrix?tab=contributing-ov-file), [SECURITY](https://github.com/Lord-ZuzurNC/3M-MinecraftModpackMatrix?tab=security-ov-file) and create an issue to make it more human and secure.
 
 # Minecraft Mod Matrix
 
@@ -6,7 +6,7 @@
 
 ---
 
-[![Python](https://img.shields.io/badge/Python-3.10–3.12-blue?logo=python)](https://www.python.org/) [![Flask](https://img.shields.io/badge/Backend-Flask-000?logo=flask)](https://flask.palletsprojects.com/) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![GitHub Workflow Status](https://github.com/Lord-ZuzurNC/3M-MinecraftModpackMatrix/actions/workflows/python-app.yml/badge.svg?event=push)](https://github.com/Lord-ZuzurNC/3M-MinecraftModpackMatrix/actions)
+[![Python](https://img.shields.io/badge/Python-3.10–3.12-blue?logo=python)](https://www.python.org/) [![Flask](https://img.shields.io/badge/Backend-Flask-000?logo=flask)](https://flask.palletsprojects.com/) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/Lord-ZuzurNC/3M-MinecraftModpackMatrix?tab=MIT-1-ov-file) [![GitHub Workflow Status](https://github.com/Lord-ZuzurNC/3M-MinecraftModpackMatrix/actions/workflows/python-app.yml/badge.svg?event=push)](https://github.com/Lord-ZuzurNC/3M-MinecraftModpackMatrix/actions)
 
 ---
 
@@ -146,11 +146,11 @@ Just paste their URLs, click Analyze, and Minecraft Mod Matrix will instantly sh
 Pull requests are welcome!<br>
 Whether it’s new providers, UI polish, or better filtering logic — open an issue or PR to help improve Minecraft Mod Matrix.
 
-Please read the (very short) [contributing guideline](CONTRIBUTING.md).
+Please read the (very short) [contributing guideline](https://github.com/Lord-ZuzurNC/3M-MinecraftModpackMatrix?tab=contributing-ov-file).
 
 ---
 
 ## 📜 License
 
-Released under the [MIT License](LICENSE)<br>
+Released under the [MIT License](https://github.com/Lord-ZuzurNC/3M-MinecraftModpackMatrix?tab=MIT-1-ov-file)<br>
 © 2025 – Lord_ZuzurNC

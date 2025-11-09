@@ -38,7 +38,8 @@ def fetch_mod_info(url: str) -> dict:
         return {
             "name": mod_info.get("name"),
             "provider": mod_info.get("provider"),
-            "mod_id": mod_info.get("mod_id"),
+            "id": mod_info.get("id"),
+            "slug": mod_info.get("slug"),
             "versions": mod_info.get("versions", []),
             "url": mod_info.get("url") or url,
         }
