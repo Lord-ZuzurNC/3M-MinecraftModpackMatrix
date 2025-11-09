@@ -4,14 +4,11 @@
 
 ---
 
-[![Python](https://img.shields.io/badge/Python-3.10–3.12-blue?logo=python)](https://www.python.org/)  
-[![Flask](https://img.shields.io/badge/Backend-Flask-000?logo=flask)](https://flask.palletsprojects.com/)  
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
-[![GitHub Workflow Status](https://github.com/Lord-ZuzurNC/3M-MinecraftModpackMatrix/actions/workflows/python-app.yml/badge.svg?event=push)](https://github.com/Lord-ZuzurNC/3M-MinecraftModpackMatrix/actions)
+[![Python](https://img.shields.io/badge/Python-3.10–3.12-blue?logo=python)](https://www.python.org/) [![Flask](https://img.shields.io/badge/Backend-Flask-000?logo=flask)](https://flask.palletsprojects.com/) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![GitHub Workflow Status](https://github.com/Lord-ZuzurNC/3M-MinecraftModpackMatrix/actions/workflows/python-app.yml/badge.svg?event=push)](https://github.com/Lord-ZuzurNC/3M-MinecraftModpackMatrix/actions)
 
 ---
 
-### 💡 Overview
+## 💡 Overview
 
 Tired of checking **every single mod page** to see if they all support the same Minecraft version or loader?<br>
 **Minecraft Mod Matrix (3M)** automates that for you.
@@ -25,7 +22,7 @@ Paste your Modrinth and CurseForge URLs, click **Analyze**, and get a beautiful 
 
 ---
 
-### 🧩 Features
+## 🧩 Features
 
 | Feature                     | Description                                                                      |
 | --------------------------- | -------------------------------------------------------------------------------- |
@@ -38,73 +35,80 @@ Paste your Modrinth and CurseForge URLs, click **Analyze**, and get a beautiful 
 
 ---
 
-### 🧰 Installation & Setup
+## 🧰 Installation & Setup
 
-#### Requirements
+### Requirements
 
 - **Python 3.10 → 3.12** (tested)
 - **Flask** + **Flask-CORS**
 - (OPTIONAL) **CurseForge API key** (if you use cursforge mods)
 
-#### 1️⃣ Clone the Repository
+### 1️⃣ Clone the Repository
 
 ```bash
 git clone https://github.com/Lord_ZuzurNC/3M-MinecraftModpackMatrix.git
 cd 3M-MinecraftModpackMatrix
 ```
 
-#### 2️⃣ Configure Environment Variables
+### 2️⃣ Configure Environment Variables
 
 Create a .env file in the project root:
 
-```
+```bash
 CF_API_KEY=your_curseforge_api_key_here
 ```
 
 > You need to get the Cusrforge API from their [Studio](https://console.curseforge.com/) > API keys.<br>
 > If you skip the API key, Modrinth mods will still analyze fine.
 
-#### 3️⃣ Install Dependencies
+### 3️⃣ Install Dependencies
 
 ```bash
 python -m venv venv
 source venv/bin/activate   # (Windows: venv\Scripts\activate)
+python -m pip install --upgrade pip
 pip install -r requirements.txt
+```
+
+### 4️⃣ Launch the Web App
+
+```bash
+python web.py
 ```
 
 Then visit 👉 http://localhost:5000
 
 ---
 
-#### 🖱️ Usage Guide
+## 🖱️ Usage Guide
 
 1. Paste your Modrinth or CurseForge URLs (one per line).
-2. Click Analyze to fetch mod info.
+2. Click **Analyze** to fetch mod info.
 3. The table will show each mod’s:
    - Source icon ![Modrinth logo](https://github.com/Lord-ZuzurNC/3M-MinecraftModpackMatrix/blob/main/static/mr.svg) Modrinth / ![Curseforge logo](https://github.com/Lord-ZuzurNC/3M-MinecraftModpackMatrix/blob/main/static/cf.svg) CurseForge
    - Clickable mod name
    - Toggleable version/loader list
-4. Filter results using the dropdowns at the top.
-5. Click Export MD or Export CSV to save the data.
+4. Filter results to narrow results.
+5. Click **Export MD** or **Export CSV** to save the data.
 
-💡 If you notice incomplete data or errors, click Clear Cache to refresh.
+💡 If you notice incomplete data or errors, click **Clear Cache** to refresh.
 
 ---
 
-#### 📷 Screenshot
+## 📷 Screenshot
 
 ![Screenshot of the app](https://github.com/Lord-ZuzurNC/3M-MinecraftModpackMatrix/blob/main/docs/screenshot_themes.png)
 
 ---
 
-#### 🧾 Example Use Case
+## 🧾 Example Use Case
 
 You’re building a modpack for Minecraft 1.20.1 and want to make sure all mods support NeoForge.<br>
 Just paste their URLs, click Analyze, and Minecraft Mod Matrix will instantly show which ones align — no manual checking needed.
 
 ---
 
-#### ⚙️ Tech Stack
+## ⚙️ Tech Stack
 
 - Backend: Flask + Flask-CORS
 - Frontend: Vanilla JS, HTML5, CSS3
@@ -113,7 +117,7 @@ Just paste their URLs, click Analyze, and Minecraft Mod Matrix will instantly sh
 
 ---
 
-#### 🧹 Troubleshooting
+## 🧹 Troubleshooting
 
 | Problem             | Solution                                                    |
 | ------------------- | ----------------------------------------------------------- |
@@ -123,14 +127,28 @@ Just paste their URLs, click Analyze, and Minecraft Mod Matrix will instantly sh
 
 ---
 
-#### ❤️ Contributing (WIP)
+## 🚀 Planned Upgrades
+
+| Planned Feature       | Description                                                                       |
+| --------------------- | --------------------------------------------------------------------------------- |
+| 🌐 Hosted Instance    | Deploying a public version of the app for users who don’t want to run it locally. |
+| 🐳 Docker Support     | Containerized version for quick self-hosting and one-command deployment.          |
+| 🔗 Dependency Checker | Detects mod inter-dependencies and highlights potential conflicts.                |
+| 🧾 Enhanced Exports   | Better exports for MC launchers — suggestions welcome!                            |
+| ➕ Add more Loaders   | Adding more loaders (currently Forge, NeoForge, Fabric and Quilt)                 |
+
+---
+
+## ❤️ Contributing
 
 Pull requests are welcome!<br>
 Whether it’s new providers, UI polish, or better filtering logic — open an issue or PR to help improve Minecraft Mod Matrix.
 
+Please read the (very short) [contributing guideline](https://github.com/Lord-ZuzurNC/3M-MinecraftModpackMatrix/edit/main/CONTRIBUTING.md).
+
 ---
 
-#### 📜 License
+## 📜 License
 
 Released under the [MIT License](https://github.com/Lord-ZuzurNC/3M-MinecraftModpackMatrix/blob/main/LICENSE)<br>
 © 2025 – Lord_ZuzurNC
