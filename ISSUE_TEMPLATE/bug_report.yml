@@ -1,0 +1,21 @@
+name: 🐞 Bug report
+description: Report a bug to help improve Minecraft Mod Matrix
+labels: [bug]
+body:
+  - type: textarea
+    attributes:
+      label: Description
+      description: What went wrong?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+  - type: input
+    attributes:
+      label: Python version
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: OS
