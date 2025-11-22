@@ -18,6 +18,3 @@ backup/
 
 # VS Code Workspace
 *.code-workspace
-
-# OpenCode
-.opencode/
