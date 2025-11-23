@@ -2,8 +2,7 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+Use this section to tell people about which versions of your project are currently being supported with security updates.
 
 | Python | Supported           |
 | ------ | ------------------- |
@@ -11,14 +10,12 @@ currently being supported with security updates.
 | 3.10   | :white_check_mark:  |
 | 3.11   | :white_check_mark:  |
 | 3.12   | :white_check_mark:  |
-| 3.13   | :x: (not tested)    |
-| 3.14   | :x: (not tested)    |
 
-Only stable Flask 3.1.0+ are supported.
+Only stable Flask 3.1.2+ are supported.
 
-Only stable Flask CORS 6.0.0+ are supported.
+Only stable Flask CORS 6.0.1+ are supported.
 
-Do only install pip packages that are explicitely described in the [requirement.txt](requirements.txt).
+Do only install pip packages that are explicitly described in the [requirements.txt](requirements.txt).
 
 ## Reporting a Vulnerability
 
