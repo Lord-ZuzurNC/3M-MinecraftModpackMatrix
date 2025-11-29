@@ -1,60 +1,50 @@
-# 3M-MinecracftModpackMatrix Constitution
+# [PROJECT_NAME] Constitution
 <!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
 
 ## Core Principles
 
-### I. Clean Code
+### [PRINCIPLE_1_NAME]
 <!-- Example: I. Library-First -->
-Code must be clean, readable, and maintainable; Follow PEP 8 guidelines; Use meaningful variable and function names.
+[PRINCIPLE_1_DESCRIPTION]
 <!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
 
-### II. Simple UX
+### [PRINCIPLE_2_NAME]
 <!-- Example: II. CLI Interface -->
-User interfaces must be simple, intuitive, and easy to navigate; Follow accessibility guidelines; Ensure a consistent user experience across all platforms.
+[PRINCIPLE_2_DESCRIPTION]
 <!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
 
-### III. Responsive Design
+### [PRINCIPLE_3_NAME]
 <!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-Designs must be responsive and adapt to different screen sizes and devices; Use media queries and flexible layouts; Ensure optimal performance on all platforms.
+[PRINCIPLE_3_DESCRIPTION]
 <!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
 
-### IV. Minimal Dependencies
+### [PRINCIPLE_4_NAME]
 <!-- Example: IV. Integration Testing -->
-Use minimal free and open-source dependencies; Avoid proprietary software; Ensure all dependencies are well-maintained and secure.
+[PRINCIPLE_4_DESCRIPTION]
 <!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
 
-### V. Testing and Security
+### [PRINCIPLE_5_NAME]
 <!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-Use flake8 for linting and pytest for testing; Ensure all code is thoroughly tested; Follow security best practices to protect against vulnerabilities.
+[PRINCIPLE_5_DESCRIPTION]
 <!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
 
-## Additional Constraints
+## [SECTION_2_NAME]
 <!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
 
-- The project must use Python 3.10
-- Use Flask and Flask-CORS for backend development
-- Use JavaScript for frontend development
-- Use Next.js for server-side rendering and static site generation
-- Use Tailwind CSS for styling
-- Dependencies must be listed in the package.json file
+[SECTION_2_CONTENT]
 <!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
 
-## Development Workflow
+## [SECTION_3_NAME]
 <!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
 
-- Follow the Git workflow for version control
-- Use pull requests for code reviews and collaboration
-- Ensure all changes are tested before merging
-- Maintain a clean and organized codebase
+[SECTION_3_CONTENT]
 <!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
 
 ## Governance
 <!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-- Amendments require documentation, approval, and a migration plan
-- Constitution supersedes all other practices
-- Use AGENTS.md for runtime development guidance
+[GOVERNANCE_RULES]
 <!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
 
-**Version**: 1.0.0 | **Ratified**: 2025-11-28 | **Last Amended**: 2025-11-28
+**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
 <!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
