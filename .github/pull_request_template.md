@@ -1,6 +1,6 @@
-# 🧩 Pull Request – Minecraft Mod Matrix
+# 🧩 Pull Request – Whaaaam
 
-Thanks for contributing to **3M - Minecraft Mod Matrix**!  
+Thanks for contributing to **Whaaaam**!  
 Please take a minute to fill out the checklist below so we can review your changes smoothly.
 
 ---

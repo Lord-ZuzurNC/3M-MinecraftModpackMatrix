@@ -12,6 +12,7 @@ __pycache__/
 # OS files
 .DS_Store
 Thumbs.db
+*.kate-swp
 
 # Backup
 backup/
@@ -20,5 +21,8 @@ backup/
 # VS Code Workspace
 *.code-workspace
 
-# Roo Code
-.roo/
+# OpenCode
+.opencode/
+
+# Spec Kit
+.specify/
